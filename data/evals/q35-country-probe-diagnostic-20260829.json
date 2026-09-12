@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "decision": "country_probe_and_frozen_protection_authorized",
+  "post_hoc": true,
+  "authorized_by": "devin",
+  "authorized_date": "2026-08-29",
+  "questions": [
+    "Does recovery survive when output-token exemptions are frozen to the clean base model?",
+    "Is the unspoken country linearly decodable under the active lesion from cities never used to train the probe?"
+  ],
+  "checkpoint": {
+    "base_path": "Qwen/Qwen3.5-4B",
+    "primary_path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-01-j-full-s160-primary/checkpoint-terminal",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "primary_manifest": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-01-j-full-s160-primary/checkpoint-manifest.json",
+      "sha256": "6490044433cc3f84559a4faf0ae266024debda1ab895c112760af4a4aff1bd90"
+    }
+  },
+  "lenses": {
+    "published": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000/source/qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+      "sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e",
+      "prompts": 1000
+    },
+    "base_fresh": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/base_fresh/stages/0500/lens.pt",
+      "sha256": "89c6549824c9745c37c2180174baac6de78f93ac0f11a4a322526a20499aedc3",
+      "prompts": 500
+    },
+    "primary_fresh": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/primary_fresh/stages/0500/lens.pt",
+      "sha256": "04473709e7ce947b0a84fde7cae67a3aa7ad64ca525d8fc0300f0d72a3ad3c0a",
+      "prompts": 500
+    }
+  },
+  "cohorts": {
+    "task_source": {
+      "path": "/opt/experiment/data/closedbook/closedbook-geo-s20260825.jsonl",
+      "sha256": "be15a088b4cab6cb9ec7f21664d025c28ead3dd836f2c362b673affe00370084"
+    },
+    "heldout_receipt": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-01-j-full-s160-primary/predictions.jsonl",
+      "sha256": "d289bede4e7d5db2a4961f0cc03e5e81d98988b5ca72d2fe609b893f36b5c373",
+      "rows": 129
+    },
+    "probe": {
+      "path": "/opt/experiment/data/closedbook/country-probe-s20260829.jsonl",
+      "sha256": "36f41d0b607ca48f9ba59b20d6494a02e01f0c9c768eccec0dca0f6c7a20cc97",
+      "manifest_sha256": "6a641f6efaf1530c9826c7d033df90fbb651993e1976950046a34d6bb2c78541",
+      "rows": 612,
+      "countries": 51,
+      "cities_per_country": 4,
+      "relations_per_city": 3
+    }
+  },
+  "intervention": {
+    "selection_source": "online_current",
+    "projection": "sequential_fp32",
+    "layers": [16, 18, 19, 20, 21, 22],
+    "k": 10,
+    "exclude_output_top_k": 10,
+    "strength": 1.0,
+    "frozen_protection": "base model clean top-10 at the same prompt position; recovered model clean logits are not allowed to alter exemptions"
+  },
+  "probe": {
+    "target": "unspoken country ISO class",
+    "layers": [8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 31],
+    "states": [
+      "base_clean",
+      "base_lesion",
+      "primary_clean",
+      "primary_current_protection",
+      "primary_frozen_base_protection"
+    ],
+    "activation": "final prompt position, post-block output, post-lesion where applicable",
+    "classifier": "multiclass linear ridge probe with intercept",
+    "ridge_alpha": 0.001,
+    "preprocessing": "training-fold feature standardization followed by row L2 normalization",
+    "outer_split": "four-fold leave-one-city-fold-out; each test city is absent from probe training",
+    "chance_accuracy": 0.0196078431372549
+  },
+  "evaluation": {
+    "training": false,
+    "model_parameters_updated": false,
+    "output_protection_rows": 129,
+    "output_conditions": [
+      "primary own-fresh lens with current recovered protection",
+      "primary own-fresh lens with frozen-base protection",
+      "published training lens with current recovered protection",
+      "published training lens with frozen-base protection"
+    ]
+  },
+  "interpretation": {
+    "frozen_protection_survives": "If frozen-base protection retains most recovery under both the published and own-fresh lenses, promoting the intermediate into the recovered model's protected top-10 is not a primary explanation.",
+    "frozen_protection_collapses": "If current protection is strong but frozen-base protection collapses, output-protection evasion materially explains recovery.",
+    "linear_probe_high": "High city-disjoint linear accuracy under the frozen-protection lesion means country information remains available in other linear residual directions; this is monitor-class-specific representational relocation, not evidence for a qualitatively nonlinear code.",
+    "linear_probe_low": "Low linear accuracy does not by itself prove nonlinear encoding; a separately capacity-controlled nonlinear probe would be required.",
+    "claim_boundary": "This diagnostic distinguishes two concrete escape mechanisms but does not identify a unique compensating circuit or prove absence of every verbalizable representation."
+  }
+}

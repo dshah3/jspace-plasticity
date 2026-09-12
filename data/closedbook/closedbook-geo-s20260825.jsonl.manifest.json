@@ -1,0 +1,49 @@
+{
+  "entity_splits": {
+    "screen": 26,
+    "train": 56,
+    "val": 26
+  },
+  "evaluation_only_splits": [
+    "screen",
+    "val"
+  ],
+  "exclusion_sha256": {
+    "anthropic-lens-eval-multihop.json": "50b7e4c9255291c0ca2a8e94615be9f44531fa57bb1a844e4f9616056d987416",
+    "anthropic-probe-swap.json": "a0edd27ca23f7b4d0fbe90448c2ddcc7457a3d812121bf024ed12a032ff86796",
+    "geography-confirmation.json": "84452211a8e50e10f2b2d427aa6fa47df271956e90b356bd63e498b215488731",
+    "geography-multitoken-confirmation.json": "697f8b89ad0050e3072fb242f4d8c143bf28d2932c8564c76c0bb42ad7fc813e"
+  },
+  "observed_split_entities": {
+    "screen": 26,
+    "train": 56,
+    "val": 26
+  },
+  "path": "data/closedbook/closedbook-geo-s20260825.jsonl",
+  "protocol": "closed_book_raw_greedy_next_token_no_cot",
+  "relations": [
+    "capital",
+    "currency",
+    "region"
+  ],
+  "rows": 1296,
+  "schema_version": 1,
+  "selection_model_independent": true,
+  "selection_seed": 20260825,
+  "sha256": "be15a088b4cab6cb9ec7f21664d025c28ead3dd836f2c362b673affe00370084",
+  "source_sha256": {
+    "cities15000.zip": "d5c5cdab8f5bc46cf13a93a64a92d0cdfe48235fe82fac208be8bbbf550e5185",
+    "countryInfo.txt": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512"
+  },
+  "split_rows": {
+    "screen": 312,
+    "train": 672,
+    "val": 312
+  },
+  "templates_per_relation": {
+    "capital": 4,
+    "currency": 4,
+    "region": 4
+  },
+  "train_split": "train"
+}

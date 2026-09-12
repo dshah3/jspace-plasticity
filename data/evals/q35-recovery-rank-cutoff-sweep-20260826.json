@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "decision": "fresh_lens_rank_cutoff_diagnostic_authorized",
+  "post_hoc": true,
+  "authorized_by": "devin",
+  "authorized_date": "2026-08-26",
+  "question": "Did recovery merely move useful J-space content immediately below the top-10 lesion cutoff?",
+  "source_result": {
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-recovery-anti-evasion-n500-r1/summary.json",
+    "sha256": "83f914cf07a9b08a9009fe96d04c45f0016823a8ff4e2ebca1b591b0d694f90a",
+    "verdict": "recovery_survives_model_specific_fresh_lens"
+  },
+  "evaluation_evidence": {
+    "triage_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-expansion-triage-dp6-r1",
+    "triage_summary_sha256": "165e4860c56ed29024a814c7238da09f714f59d099f85ff27307d8f4ae9d733c",
+    "eligible_train_rows_sha256": "614436a3ceada26210b193b03b9d3d7b79817ee1999ad7b04fcea7dc209e99f1",
+    "synthetic_data_path": "/opt/experiment/data/closedbook/closedbook-geo-s20260825.jsonl",
+    "synthetic_data_sha256": "be15a088b4cab6cb9ec7f21664d025c28ead3dd836f2c362b673affe00370084",
+    "anthropic_data_path": "/opt/experiment/data/evals/anthropic-probe-swap.json",
+    "anthropic_data_sha256": "a0edd27ca23f7b4d0fbe90448c2ddcc7457a3d812121bf024ed12a032ff86796",
+    "anthropic_eligibility_path": "/opt/experiment/data/evals/q35-probe-swap-rehab-folds-s20260825.json",
+    "anthropic_eligibility_sha256": "764cda3d5e301f78693b79391e57b6bbf5fc4041bb18df34ab44077e40362e20"
+  },
+  "models": {
+    "base": {
+      "path": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+    },
+    "primary": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-01-j-full-s160-primary/checkpoint-terminal",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "manifest_path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-01-j-full-s160-primary/checkpoint-manifest.json",
+      "manifest_sha256": "6490044433cc3f84559a4faf0ae266024debda1ab895c112760af4a4aff1bd90"
+    },
+    "high_dose": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-02-j-full-s320-high/checkpoint-terminal",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "manifest_path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-synthetic-recovery-dp8-r1/arms/arm-02-j-full-s320-high/checkpoint-manifest.json",
+      "manifest_sha256": "1213f1f7ce84dbf6cd2210f757b62da181a1b71767ee615ae320909c6d7dadfc"
+    }
+  },
+  "fresh_lenses": {
+    "root": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1",
+    "stage_prompts": 500,
+    "base_fresh": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/base_fresh/stages/0500/lens.pt",
+      "sha256": "89c6549824c9745c37c2180174baac6de78f93ac0f11a4a322526a20499aedc3"
+    },
+    "primary_fresh": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/primary_fresh/stages/0500/lens.pt",
+      "sha256": "04473709e7ce947b0a84fde7cae67a3aa7ad64ca525d8fc0300f0d72a3ad3c0a"
+    },
+    "high_fresh": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/high_fresh/stages/0500/lens.pt",
+      "sha256": "4a904be64b9a53581ea24d7682092a7f8b9a0d578d5f7f4c88013b2cd84a96b9"
+    }
+  },
+  "intervention": {
+    "selection_source": "online_current",
+    "projection": "sequential",
+    "layers": [16, 18, 19, 20, 21, 22],
+    "k_values": [10, 12, 16, 20, 32, 50],
+    "audit_top_k": 50,
+    "audit_ordering": "exact projected top-k prefix, followed by the highest-scoring remaining eligible directions",
+    "exclude_output_top_k": 10,
+    "strength": 1.0,
+    "matched_random_resampling": "per_example"
+  },
+  "evaluation_conditions": [
+    {"index": 0, "name": "base-k10", "model": "base", "lens": "base_fresh", "k": 10},
+    {"index": 1, "name": "primary-k10", "model": "primary", "lens": "primary_fresh", "k": 10},
+    {"index": 2, "name": "high-k10", "model": "high_dose", "lens": "high_fresh", "k": 10},
+    {"index": 3, "name": "base-k12", "model": "base", "lens": "base_fresh", "k": 12},
+    {"index": 4, "name": "primary-k12", "model": "primary", "lens": "primary_fresh", "k": 12},
+    {"index": 5, "name": "high-k12", "model": "high_dose", "lens": "high_fresh", "k": 12},
+    {"index": 6, "name": "base-k16", "model": "base", "lens": "base_fresh", "k": 16},
+    {"index": 7, "name": "primary-k16", "model": "primary", "lens": "primary_fresh", "k": 16},
+    {"index": 8, "name": "high-k16", "model": "high_dose", "lens": "high_fresh", "k": 16},
+    {"index": 9, "name": "base-k20", "model": "base", "lens": "base_fresh", "k": 20},
+    {"index": 10, "name": "primary-k20", "model": "primary", "lens": "primary_fresh", "k": 20},
+    {"index": 11, "name": "high-k20", "model": "high_dose", "lens": "high_fresh", "k": 20},
+    {"index": 12, "name": "base-k32", "model": "base", "lens": "base_fresh", "k": 32},
+    {"index": 13, "name": "primary-k32", "model": "primary", "lens": "primary_fresh", "k": 32},
+    {"index": 14, "name": "high-k32", "model": "high_dose", "lens": "high_fresh", "k": 32},
+    {"index": 15, "name": "base-k50", "model": "base", "lens": "base_fresh", "k": 50},
+    {"index": 16, "name": "primary-k50", "model": "primary", "lens": "primary_fresh", "k": 50},
+    {"index": 17, "name": "high-k50", "model": "high_dose", "lens": "high_fresh", "k": 50}
+  ],
+  "evaluation": {
+    "training": false,
+    "synthetic": "all 129 triage-clean-correct validation+screen rows",
+    "transfer": "all 49 baseline-clean-correct Anthropic probe-swap rows",
+    "per_condition": "clean, J-space, and prompt-resampled norm-matched-random next-token exact",
+    "rank_audit": "exact projected top-k token ids followed by the highest-scoring remaining eligible directions through rank 50 at the final prompt position in every intervened layer; only the exact projected prefix is removed"
+  },
+  "rank_11_12_gate": {
+    "minimum_primary_k12_accuracy": 0.70,
+    "maximum_primary_k10_to_k12_drop": 0.10,
+    "minimum_primary_k12_random_accuracy": 0.75,
+    "minimum_high_k12_accuracy": 0.70,
+    "maximum_high_k10_to_k12_drop": 0.10
+  },
+  "interpretation": {
+    "not_supported": "Recovery survives removal of ranks 11 and 12 under a model-specific fresh lens; a simple top-10 to rank-11/12 shift is not supported.",
+    "supported": "Recovery collapses specifically when ranks 11 and 12 are removed while the matched-random control remains healthy; simple cutoff evasion is supported.",
+    "mixed": "The k=12 result is inconclusive or confounded by comparable nonspecific damage."
+  },
+  "claim_boundary": {
+    "allowed": [
+      "test of simple rank-11/12 cutoff evasion",
+      "descriptive survival curve through k=50",
+      "known-intermediate rank distribution under the exact k=10 trajectory"
+    ],
+    "not_allowed": [
+      "claim that the recovered model uses no J-space direction at any rank",
+      "claim that higher-k lesions are selective without their matched-random controls",
+      "workspace reconstruction"
+    ]
+  }
+}

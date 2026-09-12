@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jspace-plasticity"
+version = "0.1.0"
+description = "J-space ablation and compensatory-learning experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=5.0",
+    "jlens @ git+https://github.com/anthropics/jacobian-lens.git@581d398613e5602a5af361e1c34d3a92ea82ba8e",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "python-Levenshtein==0.27.3",
+    "sacrebleu==2.5.1",
+    "pyyaml>=6.0",
+    "safetensors>=0.5.2",
+    "torch==2.9.1",
+    "transformers>=5.5,<6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "ruff>=0.9"]
+lens = []
+
+[project.scripts]
+# Ablation / recovery training
+jspace-recovery-sft = "jspace_plasticity.synthetic_recovery_sft:main"
+jspace-expansion-triage = "jspace_plasticity.evals.synthetic_expansion_triage:main"
+jspace-rank-cutoff-sweep = "jspace_plasticity.evals.recovery_rank_cutoff_sweep:main"
+
+# Lens fitting and quality
+jspace-fit-exact-lens-dp = "jspace_plasticity.lens.fit_exact_dp:main"
+jspace-download-published-lens = "jspace_plasticity.lens.download_published:main"
+jspace-benchmark-exact-lens = "jspace_plasticity.lens.benchmark_exact:main"
+jspace-compare-lens-benchmarks = "jspace_plasticity.lens.compare_benchmarks:main"
+jspace-validate-lens-quality = "jspace_plasticity.lens.validate_quality:main"
+jspace-reassess-lens-quality = "jspace_plasticity.lens.reassess_quality:main"
+jspace-issue-lens-quality-receipt = "jspace_plasticity.lens.quality_receipt:main"
+jspace-analyze-lens = "jspace_plasticity.analyze_lens:main"
+jspace-fresh-lens = "jspace_plasticity.evals.final_fresh_lens:main"
+
+# Probes
+jspace-probe-geography = "jspace_plasticity.evals.geography_probe:main"
+jspace-probe-two-hop = "jspace_plasticity.evals.two_hop_probe:main"
+jspace-probe-country-diagnostic = "jspace_plasticity.evals.country_probe_diagnostic:main"
+
+# Figures
+jspace-corrected-figures = "jspace_plasticity.evals.corrected_figures:main"
+jspace-figure-suite = "jspace_plasticity.evals.recovery_figure_suite:main"
+jspace-plot-route-map-cka = "jspace_plasticity.plot_route_map_cka:main"
+jspace-plot = "jspace_plasticity.plotting:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]
+
+[tool.uv]
+package = true
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }

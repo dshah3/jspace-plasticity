@@ -1,0 +1,11 @@
+{
+  "dataset": "anthropics/jacobian-lens probe-swap",
+  "license": "Apache-2.0",
+  "rows": 90,
+  "schema_version": 1,
+  "sha256": "a0edd27ca23f7b4d0fbe90448c2ddcc7457a3d812121bf024ed12a032ff86796",
+  "source_path": "data/experiments/probe-swap.json",
+  "source_repository": "https://github.com/anthropics/jacobian-lens",
+  "source_revision": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+  "source_url": "https://raw.githubusercontent.com/anthropics/jacobian-lens/581d398613e5602a5af361e1c34d3a92ea82ba8e/data/experiments/probe-swap.json"
+}

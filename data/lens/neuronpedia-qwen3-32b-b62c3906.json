@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repo_id": "neuronpedia/jacobian-lens",
+    "revision": "b62c39069a0740aebcc70462231b68612cae367f",
+    "artifact_filename": "qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_jacobian_lens.pt",
+    "artifact_bytes": 6606048498,
+    "artifact_sha256": "305404153debd77522da69f87ae32642c25cb50820f6dcb137bbeaebde78ff4d",
+    "config_filename": "qwen3-32b/jlens/Salesforce-wikitext/config.yaml",
+    "convergence_filename": "qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_convergence.csv"
+  },
+  "fit": {
+    "model_id": "Qwen/Qwen3-32B",
+    "dataset_id": "Salesforce/wikitext",
+    "dataset_config": "wikitext-103-raw-v1",
+    "dataset_split": "train",
+    "max_seq_len": 128,
+    "configured_prompts": 1000,
+    "publisher_claimed_prompts_fitted": 615,
+    "artifact_observed_n_done": 80,
+    "convergence_rows": 80,
+    "prompt_count_discrepancy": true,
+    "final_mean_relative_change": 0.00171022
+  },
+  "checkpoint_compatibility": {
+    "experiment_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+    "qwen_repository_last_modified": "2025-07-26T03:45:22Z",
+    "neuronpedia_file_commit_date": "2026-06-17T19:04:58Z",
+    "exact_revision_recorded_by_publisher": false,
+    "inference": "The Qwen repository's current immutable revision predates the published fit, but the publisher did not record the resolved model revision; tensor and behavioral compatibility remain blocking checks."
+  }
+}

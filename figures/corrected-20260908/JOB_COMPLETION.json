@@ -1,0 +1,47 @@
+{
+  "kind": "Job",
+  "status": {
+    "conditions": [
+      {
+        "lastTransitionTime": "2026-09-08T20:00:54Z",
+        "status": "Pending"
+      },
+      {
+        "lastTransitionTime": "2026-09-08T20:00:55Z",
+        "status": "Pending"
+      },
+      {
+        "lastTransitionTime": "2026-09-08T20:01:32Z",
+        "status": "Running"
+      },
+      {
+        "lastTransitionTime": "2026-09-08T20:09:03Z",
+        "status": "Completed"
+      }
+    ],
+    "minAvailable": 1,
+    "runningDuration": "8m9.942022341s",
+    "state": {
+      "lastTransitionTime": "2026-09-08T20:09:03Z",
+      "phase": "Completed"
+    },
+    "succeeded": 1,
+    "taskStatusCount": {
+      "figures": {
+        "phase": {
+          "Succeeded": 1
+        }
+      }
+    },
+    "version": 1
+  },
+  "metadata": {
+    "name": "devin-q35-corrected-figures-r2",
+    "creationTimestamp": "2026-09-08T20:00:54Z",
+    "labels": {
+      "experiment": "q35-corrected-figures",
+      "owner": "<OWNER>"
+    }
+  },
+  "_note": "Cluster scheduling spec and embedded manifest removed for publication; completion status retained. See docs/EXECUTED_COMMANDS.md for the commands."
+}

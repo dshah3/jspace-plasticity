@@ -1,0 +1,42 @@
+[project]
+name = "graph-trl-runtime"
+version = "0.1.0"
+description = "Minimal locked TRL and vLLM runtime for graph RL experiments"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # 0.19.1 is inside TRL 1.9.2's declared vLLM range (0.17.0--0.25.1),
+    # contains native Qwen3.5 support, and publishes an official CUDA 12.9
+    # Linux wheel. We intentionally do not build vLLM from source.
+    "vllm==0.19.1",
+    # Match vLLM 0.19.1's official CUDA requirements exactly. Direct
+    # declarations make uv's explicit cu129 source authoritative.
+    "torch==2.10.0",
+    "torchaudio==2.10.0",
+    "torchvision==0.25.0",
+    # TRL supplies GRPOTrainer and its vLLM colocate integration. Its own
+    # dependency surface is small: accelerate, datasets, jinja2, packaging and
+    # transformers. There is no Ray, Hydra, TensorDict or flash_attn.
+    "trl==1.9.2",
+    "accelerate>=1.4.0",
+    "datasets>=4.7.0",
+    "matplotlib>=3.9,<4",
+    "pyyaml>=6,<7",
+    "python-Levenshtein==0.27.3",
+    "sacrebleu==2.5.1",
+    # Official reference estimator. The immutable Git revision is also pinned
+    # in the experiment lock and is required by the image preflight.
+    "jlens @ git+https://github.com/anthropics/jacobian-lens.git@581d398613e5602a5af361e1c34d3a92ea82ba8e",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu129" }
+torchaudio = { index = "pytorch-cu129" }
+torchvision = { index = "pytorch-cu129" }

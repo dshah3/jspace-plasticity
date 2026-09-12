@@ -1,0 +1,26 @@
+{
+  "adaptation_disclosure": "Anthropic publishes target for lens readout evaluation; this pilot adapts it as an answer-only SFT label.",
+  "evaluation_only_splits": [
+    "val",
+    "test"
+  ],
+  "external_eval_optimizer_free": true,
+  "external_eval_sha256": "a0edd27ca23f7b4d0fbe90448c2ddcc7457a3d812121bf024ed12a032ff86796",
+  "overlap_exclusion": "exact name OR normalized prompt",
+  "overlapping_rows_excluded": 30,
+  "path": "data/anthropic/anthropic-multihop-sft-s20260825.jsonl",
+  "protocol": "anthropic_closed_book_raw_next_token_answer_only_sft",
+  "rows": 63,
+  "schema_version": 1,
+  "sha256": "50fa5c57aea1d22d02ae954f06430e8cb1bfb3848874bdca742cd27027e339a7",
+  "source_revision": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+  "source_rows": 93,
+  "source_sha256": "50b7e4c9255291c0ca2a8e94615be9f44531fa57bb1a844e4f9616056d987416",
+  "split_rows": {
+    "test": 6,
+    "train": 44,
+    "val": 13
+  },
+  "split_seed": 20260825,
+  "train_split": "train"
+}

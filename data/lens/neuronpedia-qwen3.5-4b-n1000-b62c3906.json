@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repo_id": "neuronpedia/jacobian-lens",
+    "revision": "b62c39069a0740aebcc70462231b68612cae367f",
+    "artifact_filename": "qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+    "artifact_bytes": 406332644,
+    "artifact_sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e",
+    "config_filename": "qwen3.5-4b/jlens/Salesforce-wikitext/config.yaml",
+    "convergence_filename": "qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_convergence.csv"
+  },
+  "fit": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "dataset_id": "Salesforce/wikitext",
+    "dataset_config": "wikitext-103-raw-v1",
+    "dataset_split": "train",
+    "max_seq_len": 128,
+    "artifact_prompts_fitted": 1000,
+    "artifact_credit": "Mateusz Piotrowski (Anthropic Interpretability)",
+    "metadata_caveat": "The sibling config.yaml and convergence CSV describe the earlier 417-prompt artifact, not the separately published _n1000 artifact. The diagnostic therefore verifies n_done=1000 from the artifact itself and does not use the sibling convergence receipt as evidence for the n1000 fit."
+  },
+  "checkpoint_compatibility": {
+    "experiment_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "exact_revision_recorded_by_publisher": false,
+    "inference": "The publisher recorded the model ID but not its resolved revision. The diagnostic pins the current immutable model revision and treats shape plus behavioral checks as compatibility gates."
+  },
+  "diagnostic_role": "Positive-control input for the local lens-quality evaluator. Passing validates the evaluator on a fully fitted published artifact; it does not authorize use of the failed Qwen3-32B lens."
+}

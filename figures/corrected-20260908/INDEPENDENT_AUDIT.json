@@ -1,0 +1,56 @@
+{
+  "base-base_fresh": {
+    "rows": 129,
+    "countries": 32,
+    "clean_correct": 129,
+    "jspace_correct": 27,
+    "saved_token_parity": true,
+    "severity_independent_fp64_recomputation": true,
+    "finite_activations": true
+  },
+  "base-published": {
+    "rows": 129,
+    "countries": 32,
+    "clean_correct": 129,
+    "jspace_correct": 27,
+    "saved_token_parity": true,
+    "severity_independent_fp64_recomputation": true,
+    "finite_activations": true
+  },
+  "primary-primary_fresh": {
+    "rows": 129,
+    "countries": 32,
+    "clean_correct": 127,
+    "jspace_correct": 124,
+    "saved_token_parity": true,
+    "severity_independent_fp64_recomputation": true,
+    "finite_activations": true
+  },
+  "primary-published": {
+    "rows": 129,
+    "countries": 32,
+    "clean_correct": 127,
+    "jspace_correct": 126,
+    "saved_token_parity": true,
+    "severity_independent_fp64_recomputation": true,
+    "finite_activations": true
+  },
+  "replicate-published": {
+    "rows": 129,
+    "countries": 32,
+    "clean_correct": 129,
+    "jspace_correct": 119,
+    "saved_token_parity": true,
+    "severity_independent_fp64_recomputation": true,
+    "finite_activations": true
+  },
+  "replicate-replicate_fresh": {
+    "rows": 129,
+    "countries": 32,
+    "clean_correct": 129,
+    "jspace_correct": 121,
+    "saved_token_parity": true,
+    "severity_independent_fp64_recomputation": true,
+    "finite_activations": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "config": "wikitext-103-raw-v1",
+    "id": "Salesforce/wikitext",
+    "license": "CC-BY-SA-3.0",
+    "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "split": "train"
+  },
+  "partitions": {
+    "heldout_calibration": {
+      "offset": 2000,
+      "rows": 304
+    },
+    "lens_A": {
+      "offset": 0,
+      "rows": 1000
+    },
+    "lens_B": {
+      "offset": 1000,
+      "rows": 500
+    },
+    "lens_C": {
+      "offset": 1500,
+      "rows": 500
+    }
+  },
+  "roundtrip_token_count_max": 128,
+  "roundtrip_token_count_min": 128,
+  "rows": 2304,
+  "schema_version": 1,
+  "sha256": "fff74461945910f775e1f39acd4a6d32f897def51e558e9e211057a7d45d47c7",
+  "source_rows_consumed": 4346,
+  "tokenizer": {
+    "id": "Qwen/Qwen3-32B",
+    "revision": "9216db5781bf21249d130ec9da846c4624c16137"
+  },
+  "tokens_per_source_chunk": 128
+}

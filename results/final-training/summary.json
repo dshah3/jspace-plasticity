@@ -1,0 +1,263 @@
+{
+  "anthropic_transfer_observed": true,
+  "arm_metrics": {
+    "j-full-s100-primary": {
+      "anthropic_terminal_clean_accuracy": 0.8979591836734694,
+      "anthropic_transfer_jspace_change": {
+        "initial_correct": 22,
+        "mcnemar_exact_two_sided_p": 0.01181793212890625,
+        "net_accuracy_gain": 0.24489795918367346,
+        "net_correct": 12,
+        "recovered": 16,
+        "regressed": 4,
+        "rows": 49,
+        "terminal_correct": 34
+      },
+      "arm": {
+        "data_fraction": 1.0,
+        "expected_train_clusters": 45,
+        "expected_train_rows": 189,
+        "index": 0,
+        "max_steps": 100,
+        "name": "j-full-s100-primary",
+        "save_checkpoint": true,
+        "seed": 20260825,
+        "training_condition": "jspace"
+      },
+      "eligible_dataset_passes": 2.1164021164021163,
+      "selected_train_rows": 189,
+      "synthetic_heldout_jspace_change": {
+        "initial_correct": 27,
+        "mcnemar_exact_two_sided_p": 3.1554436208840472e-30,
+        "net_accuracy_gain": 0.7674418604651163,
+        "net_correct": 99,
+        "recovered": 99,
+        "regressed": 0,
+        "rows": 129,
+        "terminal_correct": 126
+      },
+      "synthetic_screen_jspace_change": {
+        "initial_correct": 15,
+        "mcnemar_exact_two_sided_p": 7.105427357601002e-15,
+        "net_accuracy_gain": 0.7384615384615385,
+        "net_correct": 48,
+        "recovered": 48,
+        "regressed": 0,
+        "rows": 65,
+        "terminal_correct": 63
+      },
+      "synthetic_terminal_clean_accuracy": 0.9844961240310077,
+      "synthetic_terminal_random_accuracy": 0.9844961240310077
+    },
+    "j-full-s100-replicate": {
+      "anthropic_terminal_clean_accuracy": 0.9183673469387755,
+      "anthropic_transfer_jspace_change": {
+        "initial_correct": 22,
+        "mcnemar_exact_two_sided_p": 0.012939453125,
+        "net_accuracy_gain": 0.20408163265306123,
+        "net_correct": 10,
+        "recovered": 12,
+        "regressed": 2,
+        "rows": 49,
+        "terminal_correct": 32
+      },
+      "arm": {
+        "data_fraction": 1.0,
+        "expected_train_clusters": 45,
+        "expected_train_rows": 189,
+        "index": 1,
+        "max_steps": 100,
+        "name": "j-full-s100-replicate",
+        "save_checkpoint": true,
+        "seed": 20260826,
+        "training_condition": "jspace"
+      },
+      "eligible_dataset_passes": 2.1164021164021163,
+      "selected_train_rows": 189,
+      "synthetic_heldout_jspace_change": {
+        "initial_correct": 27,
+        "mcnemar_exact_two_sided_p": 4.0389678347315804e-28,
+        "net_accuracy_gain": 0.7131782945736435,
+        "net_correct": 92,
+        "recovered": 92,
+        "regressed": 0,
+        "rows": 129,
+        "terminal_correct": 119
+      },
+      "synthetic_screen_jspace_change": {
+        "initial_correct": 15,
+        "mcnemar_exact_two_sided_p": 5.684341886080802e-14,
+        "net_accuracy_gain": 0.6923076923076923,
+        "net_correct": 45,
+        "recovered": 45,
+        "regressed": 0,
+        "rows": 65,
+        "terminal_correct": 60
+      },
+      "synthetic_terminal_clean_accuracy": 1.0,
+      "synthetic_terminal_random_accuracy": 1.0
+    },
+    "random-full-s100": {
+      "anthropic_terminal_clean_accuracy": 0.8367346938775511,
+      "anthropic_transfer_jspace_change": {
+        "initial_correct": 22,
+        "mcnemar_exact_two_sided_p": 0.0654296875,
+        "net_accuracy_gain": 0.14285714285714285,
+        "net_correct": 7,
+        "recovered": 9,
+        "regressed": 2,
+        "rows": 49,
+        "terminal_correct": 29
+      },
+      "arm": {
+        "data_fraction": 1.0,
+        "expected_train_clusters": 45,
+        "expected_train_rows": 189,
+        "index": 2,
+        "max_steps": 100,
+        "name": "random-full-s100",
+        "save_checkpoint": false,
+        "seed": 20260825,
+        "training_condition": "matched_random"
+      },
+      "eligible_dataset_passes": 2.1164021164021163,
+      "selected_train_rows": 189,
+      "synthetic_heldout_jspace_change": {
+        "initial_correct": 27,
+        "mcnemar_exact_two_sided_p": 2.4300843108615577e-10,
+        "net_accuracy_gain": 0.37209302325581395,
+        "net_correct": 48,
+        "recovered": 55,
+        "regressed": 7,
+        "rows": 129,
+        "terminal_correct": 75
+      },
+      "synthetic_screen_jspace_change": {
+        "initial_correct": 15,
+        "mcnemar_exact_two_sided_p": 6.16488978266716e-06,
+        "net_accuracy_gain": 0.4,
+        "net_correct": 26,
+        "recovered": 30,
+        "regressed": 4,
+        "rows": 65,
+        "terminal_correct": 41
+      },
+      "synthetic_terminal_clean_accuracy": 0.9767441860465116,
+      "synthetic_terminal_random_accuracy": 0.9612403100775194
+    },
+    "sham-full-s100": {
+      "anthropic_terminal_clean_accuracy": 0.8979591836734694,
+      "anthropic_transfer_jspace_change": {
+        "initial_correct": 22,
+        "mcnemar_exact_two_sided_p": 0.266845703125,
+        "net_accuracy_gain": 0.10204081632653061,
+        "net_correct": 5,
+        "recovered": 9,
+        "regressed": 4,
+        "rows": 49,
+        "terminal_correct": 27
+      },
+      "arm": {
+        "data_fraction": 1.0,
+        "expected_train_clusters": 45,
+        "expected_train_rows": 189,
+        "index": 3,
+        "max_steps": 100,
+        "name": "sham-full-s100",
+        "save_checkpoint": false,
+        "seed": 20260825,
+        "training_condition": "sham"
+      },
+      "eligible_dataset_passes": 2.1164021164021163,
+      "selected_train_rows": 189,
+      "synthetic_heldout_jspace_change": {
+        "initial_correct": 27,
+        "mcnemar_exact_two_sided_p": 4.742842403537839e-15,
+        "net_accuracy_gain": 0.4496124031007752,
+        "net_correct": 58,
+        "recovered": 61,
+        "regressed": 3,
+        "rows": 129,
+        "terminal_correct": 85
+      },
+      "synthetic_screen_jspace_change": {
+        "initial_correct": 15,
+        "mcnemar_exact_two_sided_p": 4.628673195838928e-07,
+        "net_accuracy_gain": 0.4153846153846154,
+        "net_correct": 27,
+        "recovered": 29,
+        "regressed": 2,
+        "rows": 65,
+        "terminal_correct": 42
+      },
+      "synthetic_terminal_clean_accuracy": 0.9767441860465116,
+      "synthetic_terminal_random_accuracy": 0.9689922480620154
+    }
+  },
+  "candidate_recovery": true,
+  "candidate_recovery_clauses": {
+    "primary_gain_mcnemar_p_at_most_0_05": true,
+    "primary_jspace_net_gain_at_least_0_10": true,
+    "primary_minus_random_training_terminal_jspace_at_least_0_05": true,
+    "primary_minus_sham_terminal_jspace_at_least_0_05": true,
+    "primary_terminal_clean_accuracy_at_least_0_95": true,
+    "screen_jspace_net_gain_at_least_0_08": true
+  },
+  "claim_boundary": {
+    "allowed_if_gate_passes": [
+      "candidate recovery under effective-gain sequential intervention continuously present during SFT",
+      "replicate and matched-random/sham comparisons with corrected training graph"
+    ],
+    "not_allowed_from_this_sweep": [
+      "confirmatory causal inference",
+      "general workspace reconstruction",
+      "anti-evasion or rerouting claim without fresh-lens evaluation",
+      "untouched-task transfer unless the separately reported Anthropic endpoint improves",
+      "all selected coordinates exactly zero",
+      "fresh-lens robustness without refitting on these newly trained checkpoints",
+      "effect of gain correction isolated from training-graph correction",
+      "novelty or priority established by statistical success",
+      "a claim that sequential projection exactly erases the intended span"
+    ]
+  },
+  "design_sha256": "c5b5a5e89dc4080b4cb2bcf34188d3c272b3499314d00074cedaf1be4b42d973",
+  "direction_convention": "effective_gain",
+  "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:22c5dc01e190174ad0fd59943cdb588f48eb9ad5513c79bc5e5778cf23c9adc7",
+  "further_training_authorized": false,
+  "primary_arm": "j-full-s100-primary",
+  "primary_control_differences": {
+    "random-full-s100": {
+      "left_correct": 126,
+      "left_minus_right": 0.3953488372093023,
+      "left_only_correct": 51,
+      "mcnemar_exact_two_sided_p": 8.881784197001252e-16,
+      "right_correct": 75,
+      "right_only_correct": 0,
+      "rows": 129
+    },
+    "sham-full-s100": {
+      "left_correct": 126,
+      "left_minus_right": 0.3178294573643411,
+      "left_only_correct": 42,
+      "mcnemar_exact_two_sided_p": 1.000444171950221e-11,
+      "right_correct": 85,
+      "right_only_correct": 1,
+      "rows": 129
+    }
+  },
+  "protocol": "synthetic_entity_disjoint_sft_recovery_sweep_graph_v2",
+  "result_sha256": {
+    "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/result.json": "13489cdd920fd4f73b57cb2172937dd718a5f6ca11c9b736f4cdfd0c57beb3a1",
+    "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-01-j-full-s100-replicate/result.json": "7c4854746b9e705ebddc13082220c520bc779fd4cb8b1643a07500c37c7b3294",
+    "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-02-random-full-s100/result.json": "641e60b4eb2ecf60bc4ef3f56306ac2d4e44d166d8e983fd3f7d8930e258d662",
+    "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-03-sham-full-s100/result.json": "507aa9f38f8a9c13c3678e79704ac17f03d29e13b36760b3db9ac86a5c5cd348"
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "tracking_sha256": {
+    "data_scale_curve_sha256": "d319bb65c4e4d9f701a575d01eb0a5cdc629d29c513290fe1adeb5722058761a",
+    "dose_curve_sha256": "fa81523c9a2c31fb1459a02ab1d320df4749d23b61567e6d8cdc02995c434d9b",
+    "sweep_metrics_csv_sha256": "fcf12f3623f45ed2559fb30d6efd3587baa3c0a280a34145541a2f8676bdacb6"
+  },
+  "verdict": "candidate recovery; run fresh-lens anti-evasion and confirmatory seeds"
+}

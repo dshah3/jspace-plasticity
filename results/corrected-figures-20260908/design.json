@@ -1,0 +1,186 @@
+{
+  "bindings": {
+    "base-base_fresh": {
+      "lens": {
+        "bytes": 78646161,
+        "dtype": "float16",
+        "fit_config": {
+          "accumulator_dtype": "float32",
+          "activation_dtype": "bfloat16",
+          "corpus": "/opt/experiment/data/lens/wikitext-qwen3-32b-128tok.jsonl",
+          "corpus_sha256": "fff74461945910f775e1f39acd4a6d32f897def51e558e9e211057a7d45d47c7",
+          "d_model": 2560,
+          "dim_batch": 4,
+          "max_seq_len": 128,
+          "method": "official-exact-coordinate-jacobian-independent-dp",
+          "model": "Qwen/Qwen3.5-4B",
+          "model_manifest": null,
+          "partition_offset": 1000,
+          "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+          "schema_version": 1,
+          "skip_first": 16,
+          "source_layers": [
+            16,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "target_layer": 31,
+          "world_size": 2
+        },
+        "fit_result_sha256": "44e93b6c309b31fbe82a4cda199e449d5420f76ff30cf1eb299d6a5aa62c1231",
+        "n_prompts": 500,
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/base_fresh/stages/0500/lens.pt",
+        "reused": true,
+        "sha256": "89c6549824c9745c37c2180174baac6de78f93ac0f11a4a322526a20499aedc3"
+      },
+      "predictions_sha256": "14ec367cdc01fe263dab43583c1497a07049d1fe4001fe5dec5ad8fa6384b0a8",
+      "result_sha256": "44296fbb305d85db5319abfef056115e32b5ade56a8fab9eccac79527a7f92bb"
+    },
+    "base-published": {
+      "lens": {
+        "n_prompts": 1000,
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000/source/qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+        "sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e"
+      },
+      "predictions_sha256": "b7ffc6aa582c805f37ec97be8505b39a3c5b524847acfd28dab2f221a2cf6400",
+      "result_sha256": "825d52e5b98f877cb9901e4349d8a6aa4b3aacccc25e2292d231815c39a6cb36"
+    },
+    "primary-primary_fresh": {
+      "lens": {
+        "bytes": 78646161,
+        "dtype": "float16",
+        "fit_config": {
+          "accumulator_dtype": "float32",
+          "activation_dtype": "bfloat16",
+          "corpus": "/opt/experiment/data/lens/wikitext-qwen3-32b-128tok.jsonl",
+          "corpus_sha256": "fff74461945910f775e1f39acd4a6d32f897def51e558e9e211057a7d45d47c7",
+          "d_model": 2560,
+          "dim_batch": 4,
+          "max_seq_len": 128,
+          "method": "official-exact-coordinate-jacobian-independent-dp",
+          "model": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+          "model_manifest": {
+            "files": 10,
+            "model_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+            "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-manifest.json",
+            "sha256": "401d0fb207e9fc24a08e022a95bcad609e96883d66b162348d4a9140175be524",
+            "total_bytes": 18177218144
+          },
+          "partition_offset": 1000,
+          "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+          "schema_version": 1,
+          "skip_first": 16,
+          "source_layers": [
+            16,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "target_layer": 31,
+          "world_size": 4
+        },
+        "fit_result_sha256": "9fedd39cfc3678f7d0faeb0a2faebaa5fa0ebfc973fb053f9020706b08c163da",
+        "n_prompts": 500,
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/stages/0500/lens.pt",
+        "reused": false,
+        "sha256": "19154d56442411bc7f3f3a6fb62b86e0cb3ceff420175adcf4bb6031807ce6bb"
+      },
+      "predictions_sha256": "904ecd0f584c619238e50e37b2e66586253fb0d7b98412b7f964f601be367c5c",
+      "result_sha256": "d06246ea40b7765739c084f9c7702a5b0a7633c59edeaddeed5c743e8ba76111"
+    },
+    "primary-published": {
+      "lens": {
+        "n_prompts": 1000,
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000/source/qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+        "sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e"
+      },
+      "predictions_sha256": "d1592137eed55693388b1874cdfd6fe45d8cb56d9906c1da630577ecbbd1dac8",
+      "result_sha256": "a55d361ec1b915d04fc4eb00fc4f63f08e98ee8396df27a711eb35f008760f74"
+    },
+    "replicate-published": {
+      "lens": {
+        "n_prompts": 1000,
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000/source/qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+        "sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e"
+      },
+      "predictions_sha256": "02b99573650bd9a1d416b2db7bb8f90fb9726995f87973aa25c85a2063d96dc7",
+      "result_sha256": "063c37a416687b1bbcf5e278e3c4673bea63811ba34da01b76f3e726920221f1"
+    },
+    "replicate-replicate_fresh": {
+      "lens": {
+        "bytes": 78646161,
+        "dtype": "float16",
+        "fit_config": {
+          "accumulator_dtype": "float32",
+          "activation_dtype": "bfloat16",
+          "corpus": "/opt/experiment/data/lens/wikitext-qwen3-32b-128tok.jsonl",
+          "corpus_sha256": "fff74461945910f775e1f39acd4a6d32f897def51e558e9e211057a7d45d47c7",
+          "d_model": 2560,
+          "dim_batch": 4,
+          "max_seq_len": 128,
+          "method": "official-exact-coordinate-jacobian-independent-dp",
+          "model": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-01-j-full-s100-replicate/checkpoint-terminal",
+          "model_manifest": {
+            "files": 10,
+            "model_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-01-j-full-s100-replicate/checkpoint-terminal",
+            "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-01-j-full-s100-replicate/checkpoint-manifest.json",
+            "sha256": "4680bf1498c3026c67f79e48663e9e652e84f431578310dbee50c31e2641f419",
+            "total_bytes": 18177218144
+          },
+          "partition_offset": 1000,
+          "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+          "schema_version": 1,
+          "skip_first": 16,
+          "source_layers": [
+            16,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "target_layer": 31,
+          "world_size": 4
+        },
+        "fit_result_sha256": "45d8d4faac4654956c0e56d8601a8bf33c36c0bc9469e160acd265a2c98c5e55",
+        "n_prompts": 500,
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/replicate/stages/0500/lens.pt",
+        "reused": false,
+        "sha256": "63aef384c45d8782a5261318f6dfa07f68c6dac2c96f6f3874960c8e156f144b"
+      },
+      "predictions_sha256": "7110adb3972135e8e07d9fb965e0f7a114af8847c05680879a7b40a85e715853",
+      "result_sha256": "202b5f2d73ce38307dc0cb06eb244a3e84483c3e58f5f01796709628173b35e5"
+    }
+  },
+  "measurement": {
+    "aggregation": "prompt median; country-cluster percentile bootstrap",
+    "bootstrap_resamples": 2000,
+    "bootstrap_seed": 20260908,
+    "cka": "centered linear CKA of prompt-by-feature residuals; all decoder block outputs",
+    "kurtosis": "population_fourth_central_moment_over_variance_squared_minus_three; full vocabulary; unembedding(final_norm(h @ J.T)); BF16 readout, FP32 moments",
+    "layers": [
+      16,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "position": "final_prompt_token_post_hook",
+    "rows": 129,
+    "width_sweep": false
+  },
+  "output_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-corrected-figures-20260908-r2",
+  "schema_version": 1,
+  "source_designs": {
+    "data/evals/q35-final-capability-20260905.json": "24f1322092803c3da7c3f2773c7ad6f6f73cef2392ddc8c8dbd1837642f55d03",
+    "data/evals/q35-final-fresh-lens-20260905.json": "0df5c3f8f236e6396c338d3f54b3ee826c9a3be5341c0dfd8550a087815b2a3c"
+  },
+  "source_release_sha256": "42a93dbfb000663f66afa5e23c587cd94e318bb47a7aec68cd7e5d2e9c274064",
+  "training": false
+}

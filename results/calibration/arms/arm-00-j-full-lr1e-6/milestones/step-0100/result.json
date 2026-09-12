@@ -1,0 +1,68 @@
+{
+  "checkpoint": {
+    "files": [
+      {
+        "bytes": 7756,
+        "path": "chat_template.jinja",
+        "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+      },
+      {
+        "bytes": 2849,
+        "path": "config.json",
+        "sha256": "26fc2463b0fa73866ea38fb470449284280b818fa17f7e9e4fc2cab06ff04589"
+      },
+      {
+        "bytes": 116,
+        "path": "generation_config.json",
+        "sha256": "731e41edbcd0336b21c36d03fdf6fc54977dfc28cd9396491999ca8ddb052c42"
+      },
+      {
+        "bytes": 4948096648,
+        "path": "model-00001-of-00004.safetensors",
+        "sha256": "21d01e7124efcab5e4462a5a8cbcc8ec6f9ea2a3ee1d63e46974703adcfae3d1"
+      },
+      {
+        "bytes": 4997769680,
+        "path": "model-00002-of-00004.safetensors",
+        "sha256": "52c7b9b2428fcfa390b6e051138413c4febbad82df0d3aac2ba1f739b747fb0c"
+      },
+      {
+        "bytes": 4997780016,
+        "path": "model-00003-of-00004.safetensors",
+        "sha256": "2a95f4fca513851c0e6f3e2674397248c84e83c405844661c8c3a15005acd5c8"
+      },
+      {
+        "bytes": 3213504392,
+        "path": "model-00004-of-00004.safetensors",
+        "sha256": "a6cbba153756d566ce866db326c60e56cd3e107366ec972b4f9e2ae36c83c58a"
+      },
+      {
+        "bytes": 66237,
+        "path": "model.safetensors.index.json",
+        "sha256": "11bf592d324675fb3bfc209a7600f9b06b6b4684e111b67c714e3091358fec8a"
+      },
+      {
+        "bytes": 19989325,
+        "path": "tokenizer.json",
+        "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+      },
+      {
+        "bytes": 1125,
+        "path": "tokenizer_config.json",
+        "sha256": "9cf04fffe3d8c3b85e439fb35c7acad0761ab51c422a8c4256d9f887c3a0be7d"
+      }
+    ],
+    "manifest_sha256": "c8eb7b3925cbc3d2606f48f86514efd1b235db3e712dafd70c2e18d754085606",
+    "optimizer_saved": false,
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-00-j-full-lr1e-6/milestones/step-0100/checkpoint-terminal",
+    "total_bytes": 18177218144
+  },
+  "counts": {
+    "clean_correct": 63,
+    "jspace_correct": 63,
+    "random_correct": 63,
+    "rows": 64
+  },
+  "predictions_sha256": "0b9b4c7a8176c5a36610112fd25b84f3553fa907854b3cb145ea8a11673df830",
+  "step": 100
+}

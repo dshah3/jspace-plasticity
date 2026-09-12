@@ -1,0 +1,124 @@
+{
+  "candidates": [
+    {
+      "arm": "j-full-lr1e-6",
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-00-j-full-lr1e-6/milestones/step-0010/checkpoint-terminal",
+      "checkpoint_retained": false,
+      "clean_correct": 61,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 49,
+      "learning_rate": 1e-06,
+      "random_correct": 56,
+      "rows": 64,
+      "step": 10
+    },
+    {
+      "arm": "j-full-lr1e-6",
+      "checkpoint": null,
+      "checkpoint_retained": false,
+      "clean_correct": 55,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 58,
+      "learning_rate": 1e-06,
+      "random_correct": 53,
+      "rows": 64,
+      "step": 25
+    },
+    {
+      "arm": "j-full-lr1e-6",
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-00-j-full-lr1e-6/milestones/step-0050/checkpoint-terminal",
+      "checkpoint_retained": false,
+      "clean_correct": 63,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 59,
+      "learning_rate": 1e-06,
+      "random_correct": 62,
+      "rows": 64,
+      "step": 50
+    },
+    {
+      "arm": "j-full-lr1e-6",
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-00-j-full-lr1e-6/milestones/step-0100/checkpoint-terminal",
+      "checkpoint_retained": true,
+      "clean_correct": 63,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 63,
+      "learning_rate": 1e-06,
+      "random_correct": 63,
+      "rows": 64,
+      "step": 100
+    },
+    {
+      "arm": "j-full-lr3e-7",
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-01-j-full-lr3e-7/milestones/step-0010/checkpoint-terminal",
+      "checkpoint_retained": false,
+      "clean_correct": 63,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 17,
+      "learning_rate": 3e-07,
+      "random_correct": 54,
+      "rows": 64,
+      "step": 10
+    },
+    {
+      "arm": "j-full-lr3e-7",
+      "checkpoint": null,
+      "checkpoint_retained": false,
+      "clean_correct": 60,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 43,
+      "learning_rate": 3e-07,
+      "random_correct": 56,
+      "rows": 64,
+      "step": 25
+    },
+    {
+      "arm": "j-full-lr3e-7",
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-01-j-full-lr3e-7/milestones/step-0050/checkpoint-terminal",
+      "checkpoint_retained": true,
+      "clean_correct": 62,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 58,
+      "learning_rate": 3e-07,
+      "random_correct": 55,
+      "rows": 64,
+      "step": 50
+    },
+    {
+      "arm": "j-full-lr3e-7",
+      "checkpoint": null,
+      "checkpoint_retained": false,
+      "clean_correct": 61,
+      "initial_jspace_correct": 12,
+      "jspace_correct": 58,
+      "learning_rate": 3e-07,
+      "random_correct": 60,
+      "rows": 64,
+      "step": 100
+    }
+  ],
+  "claim_boundary": "Exploratory calibration only. No screen/transfer selection or confirmation; no recovery guarantee.",
+  "design_sha256": "a6c14c413ee94ae3961ffe2cb5b3976c0c023f49acfc702b43cbba071530f0dd",
+  "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:f629240c3c8ffff50ca6d5e0a173b6b45205d2e694cc21ffe7e0b10ef7a9fe29",
+  "minimum_clean_accuracy": 0.95,
+  "protocol": "full_decoder_lr_calibration_authorized",
+  "result_sha256": {
+    "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-00-j-full-lr1e-6/result.json": "071a1685295746b6cc19db1c9fe4a417a7975c5a3e050c723fd0d4b437fd6999",
+    "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-01-j-full-lr3e-7/result.json": "7ba8908aa58e4a0727da379f3662f2a3c496f13c787dbf6c15fc3359a0244ebb"
+  },
+  "selected": {
+    "arm": "j-full-lr1e-6",
+    "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-00-j-full-lr1e-6/milestones/step-0100/checkpoint-terminal",
+    "checkpoint_retained": true,
+    "clean_correct": 63,
+    "initial_jspace_correct": 12,
+    "jspace_correct": 63,
+    "learning_rate": 1e-06,
+    "random_correct": 63,
+    "rows": 64,
+    "step": 100
+  },
+  "selection_split": "val",
+  "status": "completed",
+  "verdict": "validation candidate identified; matched controls and another seed required"
+}

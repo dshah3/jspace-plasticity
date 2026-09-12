@@ -1,0 +1,8 @@
+{
+  "lens": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/replicate/stages/0500/lens.pt",
+  "lens_sha256": "63aef384c45d8782a5261318f6dfa07f68c6dac2c96f6f3874960c8e156f144b",
+  "num_prompts": 500,
+  "result": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/replicate/stages/0500/result.json",
+  "schema_version": 1,
+  "stage": "0500"
+}
