@@ -1,5 +1,7 @@
 # Lesion-induced functional compensation in a language model
 
+<img width="1200" height="675" alt="lesion-compensation" src="https://github.com/user-attachments/assets/0142264e-2fdb-47f5-9b76-e5503c54d77d" />
+
 A 4B model was trained on a two-hop geography task while its top-10 eligible
 J-lens directions were continuously suppressed at six middle decoder blocks. The
 lesion stayed active during **every** training forward pass. Accuracy on a
