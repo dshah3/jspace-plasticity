@@ -6,6 +6,8 @@ lesion stayed active during **every** training forward pass. Accuracy on a
 held-out cohort of countries excluded from training rose from 20.9% to 97.7%,
 and the recovery survived lenses refit to the adapted models.
 
+See the blog post at dshah.dev/blog/lesion.
+
 The narrow supported claim is **functional adaptation around this particular
 persistent intervention**. This is not evidence that a global workspace was
 reconstructed, that every J-space representation was avoided, or that the exact
@@ -167,8 +169,7 @@ prediction hashes or any measurement. `SHA256SUMS` was likewise regenerated over
 the files as published, so `scripts/verify_release.py` verifies this repository
 rather than the original internal archive.
 
-The consequence worth stating plainly: you can verify this repository is
-internally consistent and that its predictions are the originals, but you cannot
+You can verify this repository is internally consistent and that its predictions are the originals, but you cannot
 use these hashes to prove the metadata receipts are byte-identical to the
 internal archive. Run `uv run scripts/rebind_redacted_receipts.py` to confirm
 the bindings are stable (it is idempotent and reports no changes on a clean
