@@ -6,7 +6,7 @@ lesion stayed active during **every** training forward pass. Accuracy on a
 held-out cohort of countries excluded from training rose from 20.9% to 97.7%,
 and the recovery survived lenses refit to the adapted models.
 
-See the blog post at dshah.dev/blog/lesion.
+See the blog post [here](dshah.dev/blog/lesion).
 
 The narrow supported claim is **functional adaptation around this particular
 persistent intervention**. This is not evidence that a global workspace was
