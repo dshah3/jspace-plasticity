@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "decision": "probe_swap_five_fold_sft_pilot_authorized",
+  "post_hoc": true,
+  "authorized_by": "devin",
+  "authorized_date": "2026-08-25",
+  "supersedes_training_prohibition_in": {
+    "path": "data/evals/q35-medium-dynamic-candidate-decision-20260825.json",
+    "sha256": "7fc41f5c2f7495dc1beb638d88471bd797c435a155565e1242c9121a7feb7b31"
+  },
+  "evidence": {
+    "dataset": {
+      "path": "data/evals/anthropic-probe-swap.json",
+      "sha256": "a0edd27ca23f7b4d0fbe90448c2ddcc7457a3d812121bf024ed12a032ff86796"
+    },
+    "clean_predictions": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-mh-clean-gate-r2/predictions.csv",
+      "sha256": "11212e6fa195fac696c83167deac88d93ca1f483724090325dc24cc8a5f30117"
+    },
+    "clean_result": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-mh-clean-gate-r2/result.json",
+      "sha256": "7e75b72d72b2e7f172728571dd882b654547237007fdf55a12f4611ac561a3d3"
+    },
+    "lesion_predictions": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-mh-online-audit-r1/ranks/rank-00/sequential-paper-medium-jspace/intervention_predictions.jsonl",
+      "sha256": "f26f5af98cb3ea2d25b2c553a38ed17241cd6bf5a794c9a3a02aa7db70e21038"
+    },
+    "audit_summary": {
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-mh-online-audit-r1/summary.json",
+      "sha256": "6e6a4ea051cab6aaa8ea1b10e91607e1278267a695e88e232e2b952901d9beef"
+    },
+    "fold_manifest": {
+      "path": "data/evals/q35-probe-swap-rehab-folds-s20260825.json",
+      "sha256": "764cda3d5e301f78693b79391e57b6bbf5fc4041bb18df34ab44077e40362e20"
+    }
+  },
+  "checkpoint": {
+    "name": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "lesion": {
+    "selection_source": "online_current",
+    "projection": "sequential",
+    "layers": [16, 18, 19, 20, 21, 22],
+    "k": 10,
+    "exclude_output_top_k": 10,
+    "strength": 1.0
+  },
+  "training": {
+    "kind": "single_token_answer_only_teacher_forced_cross_entropy",
+    "thinking": false,
+    "chat_template": false,
+    "rl": false,
+    "folds": 5,
+    "split_per_fold": "63 train / 9 validation / 18 heldout test",
+    "gradient_rows": "train rows answered exactly by the frozen clean baseline",
+    "test_use": "terminal evaluation only; never early stopping or selection"
+  },
+  "claim_boundary": {
+    "allowed": [
+      "systems feasibility under the lesion",
+      "same-distribution heldout task rehabilitation",
+      "aggregate recovery on baseline-clean-correct and lesion-broken cohorts"
+    ],
+    "not_allowed": [
+      "untouched benchmark transfer",
+      "general workspace reconstruction",
+      "strictly selective lesion",
+      "confirmatory or preregistered analysis"
+    ]
+  }
+}

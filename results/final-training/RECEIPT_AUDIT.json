@@ -1,0 +1,1097 @@
+{
+  "status": "receipt_audit_passed",
+  "summary_sha256": "e7d0e26b4fb3cd92c53c6163a69fc53d871c556a4e403731a3cfd53c85173c00",
+  "checked_prediction_rows": 2180,
+  "arms": {
+    "j-full-s100-primary": {
+      "counts": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "initial": {
+            "clean": 64,
+            "jspace": 12,
+            "random": 51
+          },
+          "terminal": {
+            "clean": 63,
+            "jspace": 63,
+            "random": 63
+          }
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "initial": {
+            "clean": 65,
+            "jspace": 15,
+            "random": 56
+          },
+          "terminal": {
+            "clean": 64,
+            "jspace": 63,
+            "random": 64
+          }
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "initial": {
+            "clean": 129,
+            "jspace": 27,
+            "random": 107
+          },
+          "terminal": {
+            "clean": 127,
+            "jspace": 126,
+            "random": 127
+          }
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "initial": {
+            "clean": 49,
+            "jspace": 22,
+            "random": 46
+          },
+          "terminal": {
+            "clean": 44,
+            "jspace": 34,
+            "random": 45
+          }
+        },
+        "train": {
+          "rows": 189,
+          "terminal": {
+            "clean": 189,
+            "jspace": 189,
+            "random": 189
+          }
+        }
+      },
+      "paired_cluster_changes": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "prompt_weighted_difference": 0.796875,
+          "equal_cluster_difference": 0.8796825396825396,
+          "prompt_weighted_95_percentile": [
+            0.7108433734939759,
+            0.9148936170212766
+          ],
+          "equal_cluster_95_percentile": [
+            0.793968253968254,
+            0.9555833333333329
+          ]
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "prompt_weighted_difference": 0.7384615384615385,
+          "equal_cluster_difference": 0.8125583566760037,
+          "prompt_weighted_95_percentile": [
+            0.6,
+            0.8823529411764706
+          ],
+          "equal_cluster_95_percentile": [
+            0.6823062558356675,
+            0.9281045751633987
+          ]
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "prompt_weighted_difference": 0.7674418604651163,
+          "equal_cluster_difference": 0.8440228174603175,
+          "prompt_weighted_95_percentile": [
+            0.6845637583892618,
+            0.8582693569553805
+          ],
+          "equal_cluster_95_percentile": [
+            0.7643098958333334,
+            0.9162946428571429
+          ]
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "prompt_weighted_difference": 0.24489795918367346,
+          "equal_cluster_difference": 0.24489795918367346,
+          "prompt_weighted_95_percentile": [
+            0.08163265306122448,
+            0.40816326530612246
+          ],
+          "equal_cluster_95_percentile": [
+            0.08163265306122448,
+            0.40816326530612246
+          ]
+        }
+      },
+      "relations": {
+        "pooled": {
+          "capital": {
+            "rows": 50,
+            "clean": 49,
+            "jspace": 49,
+            "random": 50
+          },
+          "currency": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 23,
+            "random": 24
+          },
+          "region": {
+            "rows": 55,
+            "clean": 54,
+            "jspace": 54,
+            "random": 53
+          }
+        },
+        "screen": {
+          "capital": {
+            "rows": 27,
+            "clean": 26,
+            "jspace": 27,
+            "random": 27
+          },
+          "currency": {
+            "rows": 7,
+            "clean": 7,
+            "jspace": 6,
+            "random": 7
+          },
+          "region": {
+            "rows": 31,
+            "clean": 31,
+            "jspace": 30,
+            "random": 30
+          }
+        },
+        "val": {
+          "capital": {
+            "rows": 23,
+            "clean": 23,
+            "jspace": 22,
+            "random": 23
+          },
+          "currency": {
+            "rows": 17,
+            "clean": 17,
+            "jspace": 17,
+            "random": 17
+          },
+          "region": {
+            "rows": 24,
+            "clean": 23,
+            "jspace": 24,
+            "random": 23
+          }
+        }
+      },
+      "runtime": {
+        "compute_dtype": "torch.bfloat16 autocast",
+        "cuda_capability": [
+          8,
+          0
+        ],
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:22c5dc01e190174ad0fd59943cdb588f48eb9ad5513c79bc5e5778cf23c9adc7",
+        "final_norm_class": "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5RMSNorm",
+        "final_norm_trainable": false,
+        "frozen_parameters": 969216000,
+        "gradient_checkpointing": false,
+        "lm_head_trainable": false,
+        "model_parameters": 4539265536,
+        "model_storage_dtype": "torch.float32",
+        "optimizer": "torch.optim.AdamW; FP32 parameters and optimizer states",
+        "packages": {
+          "accelerate": "1.14.0",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.15.0",
+          "trl": "1.9.2",
+          "vllm": "0.19.1"
+        },
+        "python": "3.12.14 (main, Aug 13 2026, 19:42:22) [GCC 12.2.0]",
+        "trainable_parameters": 3570049536,
+        "training_graph_version": "hooks_span_backward_clean_autocast_isolated_v2"
+      },
+      "gradient_tensors": 424,
+      "missing_gradients": 0,
+      "training_order_matches": true,
+      "memory": {
+        "allocated_gib": 43.68125915527344,
+        "peak_allocated_gib": 65.55621385574341,
+        "peak_reserved_gib": 66.6015625,
+        "reserved_gib": 66.6015625
+      },
+      "result_sha256": "db1f0c31f2c467a993e3872801bc59dc31653d1d679005dfb9dceeca1794b257"
+    },
+    "j-full-s100-replicate": {
+      "counts": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "initial": {
+            "clean": 64,
+            "jspace": 12,
+            "random": 51
+          },
+          "terminal": {
+            "clean": 64,
+            "jspace": 59,
+            "random": 64
+          }
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "initial": {
+            "clean": 65,
+            "jspace": 15,
+            "random": 56
+          },
+          "terminal": {
+            "clean": 65,
+            "jspace": 60,
+            "random": 65
+          }
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "initial": {
+            "clean": 129,
+            "jspace": 27,
+            "random": 107
+          },
+          "terminal": {
+            "clean": 129,
+            "jspace": 119,
+            "random": 129
+          }
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "initial": {
+            "clean": 49,
+            "jspace": 22,
+            "random": 46
+          },
+          "terminal": {
+            "clean": 45,
+            "jspace": 32,
+            "random": 45
+          }
+        },
+        "train": {
+          "rows": 189,
+          "terminal": {
+            "clean": 189,
+            "jspace": 189,
+            "random": 188
+          }
+        }
+      },
+      "paired_cluster_changes": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "prompt_weighted_difference": 0.734375,
+          "equal_cluster_difference": 0.7830158730158729,
+          "prompt_weighted_95_percentile": [
+            0.6086956521739131,
+            0.8823529411764706
+          ],
+          "equal_cluster_95_percentile": [
+            0.6222222222222221,
+            0.9182539682539682
+          ]
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "prompt_weighted_difference": 0.6923076923076923,
+          "equal_cluster_difference": 0.7733426704014938,
+          "prompt_weighted_95_percentile": [
+            0.5522259392691714,
+            0.8518518518518519
+          ],
+          "equal_cluster_95_percentile": [
+            0.6365429505135386,
+            0.8970588235294118
+          ]
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "prompt_weighted_difference": 0.7131782945736435,
+          "equal_cluster_difference": 0.7778769841269841,
+          "prompt_weighted_95_percentile": [
+            0.6187050359712231,
+            0.8198198198198198
+          ],
+          "equal_cluster_95_percentile": [
+            0.6764112103174602,
+            0.8705357142857142
+          ]
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "prompt_weighted_difference": 0.20408163265306123,
+          "equal_cluster_difference": 0.20408163265306123,
+          "prompt_weighted_95_percentile": [
+            0.061224489795918366,
+            0.3469387755102041
+          ],
+          "equal_cluster_95_percentile": [
+            0.061224489795918366,
+            0.3469387755102041
+          ]
+        }
+      },
+      "relations": {
+        "pooled": {
+          "capital": {
+            "rows": 50,
+            "clean": 50,
+            "jspace": 47,
+            "random": 50
+          },
+          "currency": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 22,
+            "random": 24
+          },
+          "region": {
+            "rows": 55,
+            "clean": 55,
+            "jspace": 50,
+            "random": 55
+          }
+        },
+        "screen": {
+          "capital": {
+            "rows": 27,
+            "clean": 27,
+            "jspace": 26,
+            "random": 27
+          },
+          "currency": {
+            "rows": 7,
+            "clean": 7,
+            "jspace": 6,
+            "random": 7
+          },
+          "region": {
+            "rows": 31,
+            "clean": 31,
+            "jspace": 28,
+            "random": 31
+          }
+        },
+        "val": {
+          "capital": {
+            "rows": 23,
+            "clean": 23,
+            "jspace": 21,
+            "random": 23
+          },
+          "currency": {
+            "rows": 17,
+            "clean": 17,
+            "jspace": 16,
+            "random": 17
+          },
+          "region": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 22,
+            "random": 24
+          }
+        }
+      },
+      "runtime": {
+        "compute_dtype": "torch.bfloat16 autocast",
+        "cuda_capability": [
+          8,
+          0
+        ],
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:22c5dc01e190174ad0fd59943cdb588f48eb9ad5513c79bc5e5778cf23c9adc7",
+        "final_norm_class": "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5RMSNorm",
+        "final_norm_trainable": false,
+        "frozen_parameters": 969216000,
+        "gradient_checkpointing": false,
+        "lm_head_trainable": false,
+        "model_parameters": 4539265536,
+        "model_storage_dtype": "torch.float32",
+        "optimizer": "torch.optim.AdamW; FP32 parameters and optimizer states",
+        "packages": {
+          "accelerate": "1.14.0",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.15.0",
+          "trl": "1.9.2",
+          "vllm": "0.19.1"
+        },
+        "python": "3.12.14 (main, Aug 13 2026, 19:42:22) [GCC 12.2.0]",
+        "trainable_parameters": 3570049536,
+        "training_graph_version": "hooks_span_backward_clean_autocast_isolated_v2"
+      },
+      "gradient_tensors": 424,
+      "missing_gradients": 0,
+      "training_order_matches": true,
+      "memory": {
+        "allocated_gib": 43.68125915527344,
+        "peak_allocated_gib": 65.55621385574341,
+        "peak_reserved_gib": 66.6015625,
+        "reserved_gib": 66.6015625
+      },
+      "result_sha256": "c8a6fadc9c5c0fb94b2a9ecf3434a3482718d774bdff0bc394d6dcbfd5f5ee6a"
+    },
+    "random-full-s100": {
+      "counts": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "initial": {
+            "clean": 64,
+            "jspace": 12,
+            "random": 51
+          },
+          "terminal": {
+            "clean": 62,
+            "jspace": 34,
+            "random": 61
+          }
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "initial": {
+            "clean": 65,
+            "jspace": 15,
+            "random": 56
+          },
+          "terminal": {
+            "clean": 64,
+            "jspace": 41,
+            "random": 63
+          }
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "initial": {
+            "clean": 129,
+            "jspace": 27,
+            "random": 107
+          },
+          "terminal": {
+            "clean": 126,
+            "jspace": 75,
+            "random": 124
+          }
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "initial": {
+            "clean": 49,
+            "jspace": 22,
+            "random": 46
+          },
+          "terminal": {
+            "clean": 41,
+            "jspace": 29,
+            "random": 40
+          }
+        },
+        "train": {
+          "rows": 189,
+          "terminal": {
+            "clean": 189,
+            "jspace": 135,
+            "random": 189
+          }
+        }
+      },
+      "paired_cluster_changes": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "prompt_weighted_difference": 0.34375,
+          "equal_cluster_difference": 0.39650793650793653,
+          "prompt_weighted_95_percentile": [
+            0.18840579710144928,
+            0.5192307692307693
+          ],
+          "equal_cluster_95_percentile": [
+            0.20522619047619048,
+            0.6003214285714286
+          ]
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "prompt_weighted_difference": 0.4,
+          "equal_cluster_difference": 0.4103641456582633,
+          "prompt_weighted_95_percentile": [
+            0.171875,
+            0.656261660447761
+          ],
+          "equal_cluster_95_percentile": [
+            0.19607843137254902,
+            0.6323529411764706
+          ]
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "prompt_weighted_difference": 0.37209302325581395,
+          "equal_cluster_difference": 0.4038690476190476,
+          "prompt_weighted_95_percentile": [
+            0.2348993288590604,
+            0.5225328539548721
+          ],
+          "equal_cluster_95_percentile": [
+            0.26175223214285714,
+            0.5571428571428572
+          ]
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "prompt_weighted_difference": 0.14285714285714285,
+          "equal_cluster_difference": 0.14285714285714285,
+          "prompt_weighted_95_percentile": [
+            0.02040816326530612,
+            0.2653061224489796
+          ],
+          "equal_cluster_95_percentile": [
+            0.02040816326530612,
+            0.2653061224489796
+          ]
+        }
+      },
+      "relations": {
+        "pooled": {
+          "capital": {
+            "rows": 50,
+            "clean": 47,
+            "jspace": 31,
+            "random": 46
+          },
+          "currency": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 8,
+            "random": 23
+          },
+          "region": {
+            "rows": 55,
+            "clean": 55,
+            "jspace": 36,
+            "random": 55
+          }
+        },
+        "screen": {
+          "capital": {
+            "rows": 27,
+            "clean": 26,
+            "jspace": 16,
+            "random": 26
+          },
+          "currency": {
+            "rows": 7,
+            "clean": 7,
+            "jspace": 1,
+            "random": 6
+          },
+          "region": {
+            "rows": 31,
+            "clean": 31,
+            "jspace": 24,
+            "random": 31
+          }
+        },
+        "val": {
+          "capital": {
+            "rows": 23,
+            "clean": 21,
+            "jspace": 15,
+            "random": 20
+          },
+          "currency": {
+            "rows": 17,
+            "clean": 17,
+            "jspace": 7,
+            "random": 17
+          },
+          "region": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 12,
+            "random": 24
+          }
+        }
+      },
+      "runtime": {
+        "compute_dtype": "torch.bfloat16 autocast",
+        "cuda_capability": [
+          8,
+          0
+        ],
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:22c5dc01e190174ad0fd59943cdb588f48eb9ad5513c79bc5e5778cf23c9adc7",
+        "final_norm_class": "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5RMSNorm",
+        "final_norm_trainable": false,
+        "frozen_parameters": 969216000,
+        "gradient_checkpointing": false,
+        "lm_head_trainable": false,
+        "model_parameters": 4539265536,
+        "model_storage_dtype": "torch.float32",
+        "optimizer": "torch.optim.AdamW; FP32 parameters and optimizer states",
+        "packages": {
+          "accelerate": "1.14.0",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.15.0",
+          "trl": "1.9.2",
+          "vllm": "0.19.1"
+        },
+        "python": "3.12.14 (main, Aug 13 2026, 19:42:22) [GCC 12.2.0]",
+        "trainable_parameters": 3570049536,
+        "training_graph_version": "hooks_span_backward_clean_autocast_isolated_v2"
+      },
+      "gradient_tensors": 424,
+      "missing_gradients": 0,
+      "training_order_matches": true,
+      "memory": {
+        "allocated_gib": 43.68206024169922,
+        "peak_allocated_gib": 65.55884885787964,
+        "peak_reserved_gib": 66.60546875,
+        "reserved_gib": 66.60546875
+      },
+      "result_sha256": "15b00a0672a8f6df7be436db5072b17afda752da5384d689dccfed1cadbacd61"
+    },
+    "sham-full-s100": {
+      "counts": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "initial": {
+            "clean": 64,
+            "jspace": 12,
+            "random": 51
+          },
+          "terminal": {
+            "clean": 63,
+            "jspace": 43,
+            "random": 63
+          }
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "initial": {
+            "clean": 65,
+            "jspace": 15,
+            "random": 56
+          },
+          "terminal": {
+            "clean": 63,
+            "jspace": 42,
+            "random": 62
+          }
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "initial": {
+            "clean": 129,
+            "jspace": 27,
+            "random": 107
+          },
+          "terminal": {
+            "clean": 126,
+            "jspace": 85,
+            "random": 125
+          }
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "initial": {
+            "clean": 49,
+            "jspace": 22,
+            "random": 46
+          },
+          "terminal": {
+            "clean": 44,
+            "jspace": 27,
+            "random": 45
+          }
+        },
+        "train": {
+          "rows": 189,
+          "terminal": {
+            "clean": 189,
+            "jspace": 146,
+            "random": 189
+          }
+        }
+      },
+      "paired_cluster_changes": {
+        "val": {
+          "rows": 64,
+          "clusters": 15,
+          "prompt_weighted_difference": 0.484375,
+          "equal_cluster_difference": 0.5626984126984127,
+          "prompt_weighted_95_percentile": [
+            0.33802341073467834,
+            0.65625
+          ],
+          "equal_cluster_95_percentile": [
+            0.35712301587301587,
+            0.7698412698412699
+          ]
+        },
+        "screen": {
+          "rows": 65,
+          "clusters": 17,
+          "prompt_weighted_difference": 0.4153846153846154,
+          "equal_cluster_difference": 0.363328664799253,
+          "prompt_weighted_95_percentile": [
+            0.2222222222222222,
+            0.59375
+          ],
+          "equal_cluster_95_percentile": [
+            0.18461718020541554,
+            0.5514705882352942
+          ]
+        },
+        "pooled": {
+          "rows": 129,
+          "clusters": 32,
+          "prompt_weighted_difference": 0.4496124031007752,
+          "equal_cluster_difference": 0.45678323412698413,
+          "prompt_weighted_95_percentile": [
+            0.3275862068965517,
+            0.5703164324664429
+          ],
+          "equal_cluster_95_percentile": [
+            0.3190057663690476,
+            0.6010122147817459
+          ]
+        },
+        "transfer": {
+          "rows": 49,
+          "clusters": 49,
+          "prompt_weighted_difference": 0.10204081632653061,
+          "equal_cluster_difference": 0.10204081632653061,
+          "prompt_weighted_95_percentile": [
+            -0.04081632653061224,
+            0.24489795918367346
+          ],
+          "equal_cluster_95_percentile": [
+            -0.04081632653061224,
+            0.24489795918367346
+          ]
+        }
+      },
+      "relations": {
+        "pooled": {
+          "capital": {
+            "rows": 50,
+            "clean": 47,
+            "jspace": 34,
+            "random": 46
+          },
+          "currency": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 19,
+            "random": 24
+          },
+          "region": {
+            "rows": 55,
+            "clean": 55,
+            "jspace": 32,
+            "random": 55
+          }
+        },
+        "screen": {
+          "capital": {
+            "rows": 27,
+            "clean": 25,
+            "jspace": 17,
+            "random": 24
+          },
+          "currency": {
+            "rows": 7,
+            "clean": 7,
+            "jspace": 6,
+            "random": 7
+          },
+          "region": {
+            "rows": 31,
+            "clean": 31,
+            "jspace": 19,
+            "random": 31
+          }
+        },
+        "val": {
+          "capital": {
+            "rows": 23,
+            "clean": 22,
+            "jspace": 17,
+            "random": 22
+          },
+          "currency": {
+            "rows": 17,
+            "clean": 17,
+            "jspace": 13,
+            "random": 17
+          },
+          "region": {
+            "rows": 24,
+            "clean": 24,
+            "jspace": 13,
+            "random": 24
+          }
+        }
+      },
+      "runtime": {
+        "compute_dtype": "torch.bfloat16 autocast",
+        "cuda_capability": [
+          8,
+          0
+        ],
+        "cuda_device": "NVIDIA A100-SXM4-80GB",
+        "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:22c5dc01e190174ad0fd59943cdb588f48eb9ad5513c79bc5e5778cf23c9adc7",
+        "final_norm_class": "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5RMSNorm",
+        "final_norm_trainable": false,
+        "frozen_parameters": 969216000,
+        "gradient_checkpointing": false,
+        "lm_head_trainable": false,
+        "model_parameters": 4539265536,
+        "model_storage_dtype": "torch.float32",
+        "optimizer": "torch.optim.AdamW; FP32 parameters and optimizer states",
+        "packages": {
+          "accelerate": "1.14.0",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.15.0",
+          "trl": "1.9.2",
+          "vllm": "0.19.1"
+        },
+        "python": "3.12.14 (main, Aug 13 2026, 19:42:22) [GCC 12.2.0]",
+        "trainable_parameters": 3570049536,
+        "training_graph_version": "hooks_span_backward_clean_autocast_isolated_v2"
+      },
+      "gradient_tensors": 424,
+      "missing_gradients": 0,
+      "training_order_matches": true,
+      "memory": {
+        "allocated_gib": 43.6743106842041,
+        "peak_allocated_gib": 65.5792760848999,
+        "peak_reserved_gib": 67.4453125,
+        "reserved_gib": 67.4453125
+      },
+      "result_sha256": "adc11fc71eb7bc16f34c349c7604470c2a14aa6828374c8bb57a6b4d30c5afc3"
+    }
+  },
+  "primary_minus_other_arms": {
+    "j-full-s100-replicate": {
+      "val": {
+        "rows": 64,
+        "clusters": 15,
+        "prompt_weighted_difference": 0.0625,
+        "equal_cluster_difference": 0.09666666666666666,
+        "prompt_weighted_95_percentile": [
+          0.0,
+          0.13114754098360656
+        ],
+        "equal_cluster_95_percentile": [
+          0.0,
+          0.24333333333333335
+        ]
+      },
+      "screen": {
+        "rows": 65,
+        "clusters": 17,
+        "prompt_weighted_difference": 0.046153846153846156,
+        "equal_cluster_difference": 0.0392156862745098,
+        "prompt_weighted_95_percentile": [
+          -0.03333333333333333,
+          0.14121848739495738
+        ],
+        "equal_cluster_95_percentile": [
+          -0.0196078431372549,
+          0.11764705882352941
+        ]
+      },
+      "pooled": {
+        "rows": 129,
+        "clusters": 32,
+        "prompt_weighted_difference": 0.05426356589147287,
+        "equal_cluster_difference": 0.06614583333333333,
+        "prompt_weighted_95_percentile": [
+          0.0,
+          0.11450381679389313
+        ],
+        "equal_cluster_95_percentile": [
+          0.00625,
+          0.14791666666666667
+        ]
+      },
+      "transfer": {
+        "rows": 49,
+        "clusters": 49,
+        "prompt_weighted_difference": 0.04081632653061224,
+        "equal_cluster_difference": 0.04081632653061224,
+        "prompt_weighted_95_percentile": [
+          -0.061224489795918366,
+          0.16326530612244897
+        ],
+        "equal_cluster_95_percentile": [
+          -0.061224489795918366,
+          0.16326530612244897
+        ]
+      }
+    },
+    "random-full-s100": {
+      "val": {
+        "rows": 64,
+        "clusters": 15,
+        "prompt_weighted_difference": 0.453125,
+        "equal_cluster_difference": 0.4831746031746032,
+        "prompt_weighted_95_percentile": [
+          0.2835820895522388,
+          0.6415094339622641
+        ],
+        "equal_cluster_95_percentile": [
+          0.2814285714285714,
+          0.6855595238095237
+        ]
+      },
+      "screen": {
+        "rows": 65,
+        "clusters": 17,
+        "prompt_weighted_difference": 0.3384615384615385,
+        "equal_cluster_difference": 0.4021942110177404,
+        "prompt_weighted_95_percentile": [
+          0.14634146341463414,
+          0.539690476190476
+        ],
+        "equal_cluster_95_percentile": [
+          0.20938375350140054,
+          0.6013130252100839
+        ]
+      },
+      "pooled": {
+        "rows": 129,
+        "clusters": 32,
+        "prompt_weighted_difference": 0.3953488372093023,
+        "equal_cluster_difference": 0.44015376984126986,
+        "prompt_weighted_95_percentile": [
+          0.2650576665636907,
+          0.5307743362831858
+        ],
+        "equal_cluster_95_percentile": [
+          0.30006882440476185,
+          0.5803695436507934
+        ]
+      },
+      "transfer": {
+        "rows": 49,
+        "clusters": 49,
+        "prompt_weighted_difference": 0.10204081632653061,
+        "equal_cluster_difference": 0.10204081632653061,
+        "prompt_weighted_95_percentile": [
+          -0.04081632653061224,
+          0.24489795918367346
+        ],
+        "equal_cluster_95_percentile": [
+          -0.04081632653061224,
+          0.24489795918367346
+        ]
+      }
+    },
+    "sham-full-s100": {
+      "val": {
+        "rows": 64,
+        "clusters": 15,
+        "prompt_weighted_difference": 0.3125,
+        "equal_cluster_difference": 0.31698412698412703,
+        "prompt_weighted_95_percentile": [
+          0.16,
+          0.5
+        ],
+        "equal_cluster_95_percentile": [
+          0.12568253968253973,
+          0.523015873015873
+        ]
+      },
+      "screen": {
+        "rows": 65,
+        "clusters": 17,
+        "prompt_weighted_difference": 0.3230769230769231,
+        "equal_cluster_difference": 0.4492296918767507,
+        "prompt_weighted_95_percentile": [
+          0.18181818181818182,
+          0.5
+        ],
+        "equal_cluster_95_percentile": [
+          0.2563025210084034,
+          0.6477941176470583
+        ]
+      },
+      "pooled": {
+        "rows": 129,
+        "clusters": 32,
+        "prompt_weighted_difference": 0.3178294573643411,
+        "equal_cluster_difference": 0.38723958333333336,
+        "prompt_weighted_95_percentile": [
+          0.21323529411764705,
+          0.43902439024390244
+        ],
+        "equal_cluster_95_percentile": [
+          0.24813430059523808,
+          0.5313988095238095
+        ]
+      },
+      "transfer": {
+        "rows": 49,
+        "clusters": 49,
+        "prompt_weighted_difference": 0.14285714285714285,
+        "equal_cluster_difference": 0.14285714285714285,
+        "prompt_weighted_95_percentile": [
+          0.02040816326530612,
+          0.2653061224489796
+        ],
+        "equal_cluster_95_percentile": [
+          0.02040816326530612,
+          0.2653061224489796
+        ]
+      }
+    }
+  },
+  "calibration_vs_rerun_validation_token_mismatches": {
+    "clean": [],
+    "jspace": [],
+    "random": []
+  },
+  "calibration_prediction_sha256": "0b9b4c7a8176c5a36610112fd25b84f3553fa907854b3cb145ea8a11673df830",
+  "bootstrap_seed": 20260905,
+  "bootstrap_replicates": 10000,
+  "limitations": [
+    "Saved-token consistency is not independent GPU re-execution.",
+    "Exploratory country bootstrap; prior screening and LR selection remain.",
+    "Transfer clusters are saved task IDs, not independent-country claims.",
+    "Published base lens only; no fresh-lens or orthogonal-span final results."
+  ]
+}

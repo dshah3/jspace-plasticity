@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.audit-output/
+.env
+*.safetensors
+checkpoints/
+.DS_Store
+*.egg-info/
+build/
+dist/

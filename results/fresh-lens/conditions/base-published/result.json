@@ -1,0 +1,60 @@
+{
+  "condition": {
+    "index": 0,
+    "lens": "published",
+    "model": "base",
+    "name": "base-published"
+  },
+  "design_sha256": "cd80ee02a4a7c47bb746d168ae95f87b115970da66fff162a77cbef06614ccc9",
+  "direction_convention": "effective_gain",
+  "evaluation": {
+    "pooled": {
+      "clean": 129,
+      "jspace": 27,
+      "random": 107,
+      "rows": 129
+    },
+    "screen": {
+      "clean": 65,
+      "jspace": 15,
+      "random": 56,
+      "rows": 65
+    },
+    "transfer": {
+      "clean": 49,
+      "jspace": 22,
+      "random": 46,
+      "rows": 49
+    },
+    "val": {
+      "clean": 64,
+      "jspace": 12,
+      "random": 51,
+      "rows": 64
+    }
+  },
+  "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+  "lens": {
+    "n_prompts": 1000,
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000/source/qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+    "sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e"
+  },
+  "model": {
+    "path": "Qwen/Qwen3.5-4B",
+    "reference_arm": "arm-00-j-full-s100-primary",
+    "reference_phase": "initial"
+  },
+  "predictions_sha256": "b7ffc6aa582c805f37ec97be8505b39a3c5b524847acfd28dab2f221a2cf6400",
+  "published_parity": {
+    "fields": [
+      "expected_token_id",
+      "clean_predicted_token_id",
+      "jspace_predicted_token_id",
+      "random_predicted_token_id"
+    ],
+    "passed": true,
+    "rows": 178
+  },
+  "status": "completed",
+  "training": false
+}

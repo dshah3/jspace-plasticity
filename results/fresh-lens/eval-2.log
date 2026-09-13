@@ -1,0 +1,3 @@
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 11240.16it/s]
+{"event": "evaluation_started", "condition": {"index": 2, "name": "primary-published", "model": "primary", "lens": "published"}}
+{"event": "evaluation_completed", "condition": {"index": 2, "name": "primary-published", "model": "primary", "lens": "published"}, "counts": {"pooled": {"rows": 129, "clean": 127, "jspace": 126, "random": 127}, "val": {"rows": 64, "clean": 63, "jspace": 63, "random": 63}, "screen": {"rows": 65, "clean": 64, "jspace": 63, "random": 64}, "transfer": {"rows": 49, "clean": 44, "jspace": 34, "random": 45}}}

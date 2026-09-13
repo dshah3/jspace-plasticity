@@ -1,0 +1,36 @@
+{
+  "cities_per_country": 4,
+  "countries": 51,
+  "excluded_countries": [
+    {
+      "country": "Equatorial Guinea",
+      "eligible_cities": 2,
+      "iso": "GQ"
+    }
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heldout_country_splits": [
+    "val",
+    "screen"
+  ],
+  "purpose": "city-disjoint supervised decoding of the unspoken country",
+  "relations": [
+    "capital",
+    "currency",
+    "region"
+  ],
+  "rows": 612,
+  "schema_version": 1,
+  "sha256": "36f41d0b607ca48f9ba59b20d6494a02e01f0c9c768eccec0dca0f6c7a20cc97",
+  "source_sha256": {
+    "cities15000.zip": "d5c5cdab8f5bc46cf13a93a64a92d0cdfe48235fe82fac208be8bbbf550e5185",
+    "countryInfo.txt": "93bafc525813f22e4711ff9ed6d626343094ce48c26388dc7c49189b3d7d5512"
+  },
+  "split_rule": "outer leave-one-city-fold-out; no city appears in probe train and test",
+  "task_sha256": "be15a088b4cab6cb9ec7f21664d025c28ead3dd836f2c362b673affe00370084"
+}

@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "bytes": 7756,
+      "path": "chat_template.jinja",
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+    },
+    {
+      "bytes": 2849,
+      "path": "config.json",
+      "sha256": "26fc2463b0fa73866ea38fb470449284280b818fa17f7e9e4fc2cab06ff04589"
+    },
+    {
+      "bytes": 116,
+      "path": "generation_config.json",
+      "sha256": "731e41edbcd0336b21c36d03fdf6fc54977dfc28cd9396491999ca8ddb052c42"
+    },
+    {
+      "bytes": 4948096648,
+      "path": "model-00001-of-00004.safetensors",
+      "sha256": "f690e9494d695e3653e00a7c0d7087f72eaa66ce4830fcb9464c41cddde7737c"
+    },
+    {
+      "bytes": 4997769680,
+      "path": "model-00002-of-00004.safetensors",
+      "sha256": "21c36bde4b719104123e2c6362c12394a645c6c292aa658b0cf375535376b0b8"
+    },
+    {
+      "bytes": 4997780016,
+      "path": "model-00003-of-00004.safetensors",
+      "sha256": "0ee73a2346b5e20931720384f91139ac0f1e9ae3ef256ddba8ed4a3db1967a44"
+    },
+    {
+      "bytes": 3213504392,
+      "path": "model-00004-of-00004.safetensors",
+      "sha256": "60380e56269d1ae220c5d62b0cd07fffdf4d83019e6bd1b8667e7cc47a97b000"
+    },
+    {
+      "bytes": 66237,
+      "path": "model.safetensors.index.json",
+      "sha256": "11bf592d324675fb3bfc209a7600f9b06b6b4684e111b67c714e3091358fec8a"
+    },
+    {
+      "bytes": 19989325,
+      "path": "tokenizer.json",
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+    },
+    {
+      "bytes": 1125,
+      "path": "tokenizer_config.json",
+      "sha256": "9cf04fffe3d8c3b85e439fb35c7acad0761ab51c422a8c4256d9f887c3a0be7d"
+    }
+  ],
+  "optimizer_saved": false,
+  "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-full-lr-calibration-dp2-r1/arms/arm-01-j-full-lr3e-7/milestones/step-0050/checkpoint-terminal",
+  "total_bytes": 18177218144
+}

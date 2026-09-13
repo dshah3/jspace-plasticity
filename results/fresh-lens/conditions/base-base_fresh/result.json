@@ -1,0 +1,81 @@
+{
+  "condition": {
+    "index": 1,
+    "lens": "base_fresh",
+    "model": "base",
+    "name": "base-base_fresh"
+  },
+  "design_sha256": "cd80ee02a4a7c47bb746d168ae95f87b115970da66fff162a77cbef06614ccc9",
+  "direction_convention": "effective_gain",
+  "evaluation": {
+    "pooled": {
+      "clean": 129,
+      "jspace": 27,
+      "random": 110,
+      "rows": 129
+    },
+    "screen": {
+      "clean": 65,
+      "jspace": 17,
+      "random": 56,
+      "rows": 65
+    },
+    "transfer": {
+      "clean": 49,
+      "jspace": 26,
+      "random": 46,
+      "rows": 49
+    },
+    "val": {
+      "clean": 64,
+      "jspace": 10,
+      "random": 54,
+      "rows": 64
+    }
+  },
+  "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+  "lens": {
+    "bytes": 78646161,
+    "dtype": "float16",
+    "fit_config": {
+      "accumulator_dtype": "float32",
+      "activation_dtype": "bfloat16",
+      "corpus": "/opt/experiment/data/lens/wikitext-qwen3-32b-128tok.jsonl",
+      "corpus_sha256": "fff74461945910f775e1f39acd4a6d32f897def51e558e9e211057a7d45d47c7",
+      "d_model": 2560,
+      "dim_batch": 4,
+      "max_seq_len": 128,
+      "method": "official-exact-coordinate-jacobian-independent-dp",
+      "model": "Qwen/Qwen3.5-4B",
+      "model_manifest": null,
+      "partition_offset": 1000,
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "schema_version": 1,
+      "skip_first": 16,
+      "source_layers": [
+        16,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "target_layer": 31,
+      "world_size": 2
+    },
+    "fit_result_sha256": "44e93b6c309b31fbe82a4cda199e449d5420f76ff30cf1eb299d6a5aa62c1231",
+    "n_prompts": 500,
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/recovery-anti-evasion-r1/base_fresh/stages/0500/lens.pt",
+    "reused": true,
+    "sha256": "89c6549824c9745c37c2180174baac6de78f93ac0f11a4a322526a20499aedc3"
+  },
+  "model": {
+    "path": "Qwen/Qwen3.5-4B",
+    "reference_arm": "arm-00-j-full-s100-primary",
+    "reference_phase": "initial"
+  },
+  "predictions_sha256": "14ec367cdc01fe263dab43583c1497a07049d1fe4001fe5dec5ad8fa6384b0a8",
+  "published_parity": null,
+  "status": "completed",
+  "training": false
+}

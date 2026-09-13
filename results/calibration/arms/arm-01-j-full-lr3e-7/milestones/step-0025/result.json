@@ -1,0 +1,11 @@
+{
+  "checkpoint": null,
+  "counts": {
+    "clean_correct": 60,
+    "jspace_correct": 43,
+    "random_correct": 56,
+    "rows": 64
+  },
+  "predictions_sha256": "ee3503804c4af881a697249e261ebf793f67d097fc192ac84e135e0c6be16013",
+  "step": 25
+}

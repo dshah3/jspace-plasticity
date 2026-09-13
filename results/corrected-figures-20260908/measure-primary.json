@@ -1,0 +1,28 @@
+{
+  "conditions": {
+    "primary-primary_fresh": {
+      "fields": [
+        "source_id",
+        "expected_token_id",
+        "clean_predicted_token_id",
+        "jspace_predicted_token_id"
+      ],
+      "passed": true,
+      "rows": 129
+    },
+    "primary-published": {
+      "fields": [
+        "source_id",
+        "expected_token_id",
+        "clean_predicted_token_id",
+        "jspace_predicted_token_id"
+      ],
+      "passed": true,
+      "rows": 129
+    }
+  },
+  "design_sha256": "f288d05130bb28865486d20b098222fe35e5aed0f8bf7a3c6f369030e0017e76",
+  "final_norm_class": "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5RMSNorm",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "passed": true
+}

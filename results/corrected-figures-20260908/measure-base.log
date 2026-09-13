@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:   0%|          | 1/723 [00:00<02:32,  4.73it/s]Loading weights:  20%|██        | 146/723 [00:00<00:01, 574.24it/s]Loading weights:  31%|███▏      | 227/723 [00:00<00:00, 532.26it/s]Loading weights:  41%|████      | 294/723 [00:00<00:00, 532.20it/s]Loading weights:  49%|████▉     | 356/723 [00:00<00:00, 550.46it/s]Loading weights:  58%|█████▊    | 417/723 [00:00<00:00, 486.52it/s]Loading weights:  75%|███████▍  | 542/723 [00:00<00:00, 671.78it/s]Loading weights:  92%|█████████▏| 662/723 [00:01<00:00, 770.98it/s]Loading weights: 100%|██████████| 723/723 [00:01<00:00, 636.24it/s]
+{"model": "base", "lens": "published", "completed": 1, "total": 129}
+{"model": "base", "lens": "published", "completed": 11, "total": 129}
+{"model": "base", "lens": "published", "completed": 21, "total": 129}
+{"model": "base", "lens": "published", "completed": 31, "total": 129}
+{"model": "base", "lens": "published", "completed": 41, "total": 129}
+{"model": "base", "lens": "published", "completed": 51, "total": 129}
+{"model": "base", "lens": "published", "completed": 61, "total": 129}
+{"model": "base", "lens": "published", "completed": 71, "total": 129}
+{"model": "base", "lens": "published", "completed": 81, "total": 129}
+{"model": "base", "lens": "published", "completed": 91, "total": 129}
+{"model": "base", "lens": "published", "completed": 101, "total": 129}
+{"model": "base", "lens": "published", "completed": 111, "total": 129}
+{"model": "base", "lens": "published", "completed": 121, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 1, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 11, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 21, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 31, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 41, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 51, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 61, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 71, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 81, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 91, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 101, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 111, "total": 129}
+{"model": "base", "lens": "base_fresh", "completed": 121, "total": 129}

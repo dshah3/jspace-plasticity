@@ -1,0 +1,14 @@
+{
+  "dataset": "GeoNames geography multi-token confirmation",
+  "entities": 32,
+  "prior_dataset_sha256": "84452211a8e50e10f2b2d427aa6fa47df271956e90b356bd63e498b215488731",
+  "relations": [
+    "capital",
+    "currency"
+  ],
+  "rows": 64,
+  "schema_version": 1,
+  "sha256": "697f8b89ad0050e3072fb242f4d8c143bf28d2932c8564c76c0bb42ad7fc813e",
+  "source": "GeoNames Gazetteer extract, snapshot 2026-08-21",
+  "source_license": "CC-BY-4.0"
+}

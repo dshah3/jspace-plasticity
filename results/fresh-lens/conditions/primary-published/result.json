@@ -1,0 +1,63 @@
+{
+  "condition": {
+    "index": 2,
+    "lens": "published",
+    "model": "primary",
+    "name": "primary-published"
+  },
+  "design_sha256": "cd80ee02a4a7c47bb746d168ae95f87b115970da66fff162a77cbef06614ccc9",
+  "direction_convention": "effective_gain",
+  "evaluation": {
+    "pooled": {
+      "clean": 127,
+      "jspace": 126,
+      "random": 127,
+      "rows": 129
+    },
+    "screen": {
+      "clean": 64,
+      "jspace": 63,
+      "random": 64,
+      "rows": 65
+    },
+    "transfer": {
+      "clean": 44,
+      "jspace": 34,
+      "random": 45,
+      "rows": 49
+    },
+    "val": {
+      "clean": 63,
+      "jspace": 63,
+      "random": 63,
+      "rows": 64
+    }
+  },
+  "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+  "lens": {
+    "n_prompts": 1000,
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000/source/qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+    "sha256": "1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e"
+  },
+  "model": {
+    "manifest_path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-manifest.json",
+    "manifest_sha256": "401d0fb207e9fc24a08e022a95bcad609e96883d66b162348d4a9140175be524",
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+    "reference_arm": "arm-00-j-full-s100-primary",
+    "reference_phase": "terminal",
+    "result_sha256": "db1f0c31f2c467a993e3872801bc59dc31653d1d679005dfb9dceeca1794b257"
+  },
+  "predictions_sha256": "d1592137eed55693388b1874cdfd6fe45d8cb56d9906c1da630577ecbbd1dac8",
+  "published_parity": {
+    "fields": [
+      "expected_token_id",
+      "clean_predicted_token_id",
+      "jspace_predicted_token_id",
+      "random_predicted_token_id"
+    ],
+    "passed": true,
+    "rows": 178
+  },
+  "status": "completed",
+  "training": false
+}

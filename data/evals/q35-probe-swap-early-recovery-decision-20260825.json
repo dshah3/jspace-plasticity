@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "decision": "probe_swap_five_fold_early_recovery_authorized",
+  "post_hoc": true,
+  "authorized_by": "devin",
+  "authorized_date": "2026-08-25",
+  "preflight": {
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-probe-swap-sft-preflight-r2/result.json",
+    "sha256": "6599d672515f5a6493f9f45cca855722ad9faaca8cf8d89d9141215b30684a29",
+    "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:440b3b7478d7d107d6b7358148c8fc88746779557938a3246ed9e8801589a5aa",
+    "peak_allocated_gib": 25.577035903930664,
+    "parameter_update_probe_changed": 255,
+    "passed": true
+  },
+  "parent_authorization": {
+    "path": "data/evals/q35-probe-swap-rehab-amendment-20260825.json",
+    "sha256": "d77d82f2b8d5741b1fbef87061e3cc2a6c00ac6754535c8e97c2d9b080f7689b"
+  },
+  "design": {
+    "folds": 5,
+    "parallelism": "one independent fold per A100; five A100s total",
+    "gradient_rows_per_fold": [35, 34, 34, 35, 33],
+    "optimizer_steps": 20,
+    "gradient_accumulation_steps": 4,
+    "examples_seen_per_fold": 80,
+    "approximate_eligible_dataset_passes": [2.29, 2.35, 2.35, 2.29, 2.42],
+    "learning_rate": 0.00001,
+    "warmup_steps": 5,
+    "max_grad_norm": 1.0,
+    "weight_decay": 0.0,
+    "terminal_checkpoint_saved": false,
+    "reason_no_checkpoint": "This is a bounded directional-signal pilot; a positive result authorizes a separately pinned longer or synthetic-data run."
+  },
+  "evaluation": {
+    "initial_and_terminal": "all 90 prompts per fold, lesion-on and lesion-off",
+    "heldout": "only each fold's 18 test prompts enter pooled primary analysis",
+    "test_used_for_training_or_stopping": false,
+    "primary_baseline_clean_correct_rows": 49,
+    "primary_baseline_lesion_broken_rows": 27
+  },
+  "exploratory_positive_signal": {
+    "minimum_recovered_lesion_broken_rows": 4,
+    "minimum_net_lesion_accuracy_gain_on_49": 0.08,
+    "minimum_terminal_clean_accuracy_on_49": 0.9,
+    "interpretation": "Meeting all clauses is evidence that more training data is worth pursuing, not proof of workspace reconstruction."
+  },
+  "claim_boundary": {
+    "allowed": [
+      "early same-distribution heldout recovery signal",
+      "decision support for synthetic data expansion"
+    ],
+    "not_allowed": [
+      "untouched benchmark transfer",
+      "general workspace reconstruction",
+      "confirmatory inference"
+    ]
+  }
+}

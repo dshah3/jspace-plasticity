@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this experiment release when using the original code or results. Cite upstream models, datasets, and Jacobian-lens work separately."
+title: "J-space recovery under continuously applied Jacobian-lens interventions"
+authors:
+  - family-names: Shah
+    given-names: Devin
+version: "2026.09.08"
+type: software
+license: Apache-2.0
+abstract: "An exploratory supervised recovery experiment with a corrected online Jacobian-lens-derived sequential intervention, matched training controls, a seed replicate, and fresh-lens evaluation."

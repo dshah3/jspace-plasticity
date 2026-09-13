@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "decision": "posthoc_recovery_figure_suite_authorized",
+  "post_hoc": true,
+  "authorized_by": "devin",
+  "authorized_date": "2026-08-26",
+  "question": "How do activation-readout concentration, perturbation severity, and fresh-lens geometry differ between the clean base model and functionally recovered checkpoints under the persistent lesion?",
+  "source_rank_design": {
+    "path": "/opt/experiment/data/evals/q35-recovery-rank-cutoff-sweep-20260826.json",
+    "sha256": "01a0ce8d96756f0e4339d9d3faf1a743e02897dfb68311ffe6b539816c1617c0"
+  },
+  "source_rank_result": {
+    "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-recovery-rank-cutoff-dp8-r2/summary.json",
+    "sha256": "a469bdc89f5c0695bce06c446475ec7f34ca626c1e91b76b15e58d1a021bfeaa",
+    "verdict": "simple_rank_11_12_evasion_not_supported"
+  },
+  "conditions": [
+    {"index": 0, "name": "base", "model": "base", "lens": "base_fresh"},
+    {"index": 1, "name": "primary", "model": "primary", "lens": "primary_fresh"},
+    {"index": 2, "name": "high", "model": "high_dose", "lens": "high_fresh"}
+  ],
+  "measurement": {
+    "cohort": "synthetic_geo",
+    "rows": 129,
+    "layers": [16, 18, 19, 20, 21, 22],
+    "lesion_k": 10,
+    "activation_position": "final_prompt_token",
+    "readout": "unembedding(final_norm(hidden @ J_layer.T))",
+    "statistic": "full_vocabulary_logit_excess_kurtosis",
+    "aggregation": "prompt_median_with_paired_bootstrap_95pct_ci",
+    "residual_diagnostics": ["lesion_to_clean_norm_ratio", "clean_lesion_cosine"]
+  },
+  "geometry": {
+    "token_count": 4096,
+    "sketch_dimension": 256,
+    "seed": 20260826,
+    "metrics": ["linear_cka", "mean_paired_cosine"],
+    "warning": "random-projection estimates; descriptive, not causal"
+  },
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 20260826
+  },
+  "figures": {
+    "dpi": 200,
+    "standalone": [
+      "activation_kurtosis",
+      "activation_perturbation",
+      "accuracy_vs_lesion_width",
+      "fresh_lens_similarity",
+      "intermediate_rank_distribution"
+    ],
+    "headline": "four-panel activation, accuracy, severity, and geometry summary"
+  },
+  "training": false,
+  "interpretation_guardrail": {
+    "allowed": [
+      "descriptive comparison of activation-conditioned J-lens readout kurtosis",
+      "comparison of lesion strength across checkpoints using residual norm and cosine",
+      "comparison of freshly refit lens geometry using a fixed random projection",
+      "visual summary of the already completed rank-cutoff diagnostic"
+    ],
+    "not_allowed": [
+      "claim that kurtosis alone identifies the circuit used for recovery",
+      "claim that similar kurtosis proves workspace reconstruction",
+      "claim that different kurtosis proves a non-J-space mechanism",
+      "claim that random-projection geometry metrics are causal evidence",
+      "new training or checkpoint mutation"
+    ],
+    "headline_test": "If recovered lesion-on accuracy is high while base lesion-on accuracy is low, compare the kurtosis and residual-severity curves. Similar lesion severity with a different or preserved kurtosis profile is descriptive evidence about representation shape, not proof of mechanism."
+  }
+}

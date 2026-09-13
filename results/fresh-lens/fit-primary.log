@@ -1,0 +1,1356 @@
+
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/723 [00:00<09:48,  1.23it/s]
+Loading weights:   0%|          | 1/723 [00:01<15:34,  1.29s/it]
+Loading weights:   0%|          | 1/723 [00:01<15:29,  1.29s/it]
+Loading weights:   0%|          | 1/723 [00:01<14:24,  1.20s/it]
+Loading weights:   6%|▌         | 42/723 [00:01<00:16, 42.52it/s]
+Loading weights:   6%|▌         | 41/723 [00:00<00:12, 56.26it/s]
+Loading weights:   6%|▌         | 42/723 [00:01<00:17, 39.89it/s]
+Loading weights:   6%|▌         | 42/723 [00:01<00:17, 39.41it/s]
+Loading weights:   8%|▊         | 58/723 [00:01<00:12, 51.63it/s]
+Loading weights:   8%|▊         | 59/723 [00:01<00:12, 51.42it/s]
+Loading weights:   8%|▊         | 57/723 [00:01<00:11, 57.55it/s]
+Loading weights:   8%|▊         | 59/723 [00:01<00:14, 47.25it/s]
+Loading weights:  10%|█         | 73/723 [00:01<00:13, 49.65it/s]
+Loading weights:  10%|█         | 73/723 [00:01<00:13, 48.55it/s]
+Loading weights:  10%|▉         | 71/723 [00:01<00:14, 46.54it/s]
+Loading weights:  10%|▉         | 69/723 [00:01<00:13, 48.53it/s]
+Loading weights:  11%|█         | 80/723 [00:02<00:13, 46.74it/s]
+Loading weights:  12%|█▏        | 84/723 [00:02<00:13, 46.96it/s]
+Loading weights:  11%|█         | 80/723 [00:01<00:11, 54.35it/s]
+Loading weights:  12%|█▏        | 84/723 [00:02<00:14, 45.29it/s]
+Loading weights:  13%|█▎        | 92/723 [00:02<00:13, 48.33it/s]
+Loading weights:  13%|█▎        | 92/723 [00:01<00:10, 60.78it/s]
+Loading weights:  13%|█▎        | 92/723 [00:02<00:12, 48.62it/s]
+Loading weights:  13%|█▎        | 91/723 [00:02<00:12, 52.57it/s]
+Loading weights:  14%|█▎        | 99/723 [00:02<00:13, 46.46it/s]
+Loading weights:  14%|█▍        | 101/723 [00:02<00:12, 47.92it/s]
+Loading weights:  14%|█▍        | 100/723 [00:02<00:15, 40.21it/s]
+Loading weights:  14%|█▍        | 100/723 [00:02<00:15, 39.85it/s]
+Loading weights:  15%|█▍        | 106/723 [00:02<00:14, 42.62it/s]
+Loading weights:  15%|█▍        | 107/723 [00:02<00:13, 45.92it/s]
+Loading weights:  15%|█▍        | 106/723 [00:02<00:14, 41.84it/s]
+Loading weights:  15%|█▍        | 108/723 [00:02<00:13, 46.83it/s]
+Loading weights:  16%|█▌        | 114/723 [00:02<00:12, 49.31it/s]
+Loading weights:  16%|█▌        | 115/723 [00:02<00:12, 48.94it/s]
+Loading weights:  16%|█▌        | 114/723 [00:02<00:14, 43.25it/s]
+Loading weights:  16%|█▌        | 114/723 [00:02<00:14, 43.50it/s]
+Loading weights:  17%|█▋        | 120/723 [00:02<00:13, 44.80it/s]
+Loading weights:  17%|█▋        | 120/723 [00:03<00:13, 45.60it/s]
+Loading weights:  17%|█▋        | 121/723 [00:02<00:13, 45.72it/s]
+Loading weights:  17%|█▋        | 120/723 [00:03<00:15, 37.86it/s]
+Loading weights:  18%|█▊        | 129/723 [00:03<00:12, 49.35it/s]
+Loading weights:  18%|█▊        | 128/723 [00:03<00:12, 48.01it/s]
+Loading weights:  18%|█▊        | 132/723 [00:02<00:13, 42.77it/s]
+Loading weights:  19%|█▊        | 135/723 [00:03<00:17, 33.96it/s]
+Loading weights:  19%|█▊        | 134/723 [00:03<00:17, 33.20it/s]
+Loading weights:  19%|█▉        | 137/723 [00:03<00:14, 39.98it/s]
+Loading weights:  18%|█▊        | 133/723 [00:03<00:17, 33.76it/s]
+Loading weights:  20%|██        | 147/723 [00:03<00:12, 46.91it/s]
+Loading weights:  20%|██        | 147/723 [00:03<00:12, 45.38it/s]
+Loading weights:  20%|██        | 147/723 [00:03<00:14, 38.69it/s]
+Loading weights:  20%|██        | 148/723 [00:03<00:12, 44.53it/s]
+Loading weights:  21%|██        | 153/723 [00:03<00:13, 41.41it/s]
+Loading weights:  21%|██        | 153/723 [00:03<00:13, 42.06it/s]
+Loading weights:  22%|██▏       | 159/723 [00:03<00:11, 50.66it/s]
+Loading weights:  22%|██▏       | 159/723 [00:03<00:11, 48.81it/s]
+Loading weights:  23%|██▎       | 167/723 [00:03<00:09, 58.04it/s]
+Loading weights:  23%|██▎       | 167/723 [00:04<00:11, 48.22it/s]
+Loading weights:  23%|██▎       | 167/723 [00:03<00:11, 46.96it/s]
+Loading weights:  23%|██▎       | 168/723 [00:04<00:11, 49.04it/s]
+Loading weights:  24%|██▍       | 173/723 [00:04<00:11, 47.89it/s]
+Loading weights:  24%|██▍       | 174/723 [00:03<00:11, 47.08it/s]
+Loading weights:  24%|██▍       | 173/723 [00:04<00:12, 42.76it/s]
+Loading weights:  25%|██▍       | 180/723 [00:04<00:10, 53.62it/s]
+Loading weights:  25%|██▌       | 181/723 [00:04<00:10, 53.18it/s]
+Loading weights:  25%|██▌       | 182/723 [00:03<00:10, 51.88it/s]
+Loading weights:  26%|██▌       | 185/723 [00:04<00:09, 55.61it/s]
+Loading weights:  26%|██▌       | 188/723 [00:04<00:13, 40.21it/s]
+Loading weights:  26%|██▌       | 186/723 [00:04<00:13, 41.04it/s]
+Loading weights:  26%|██▌       | 187/723 [00:04<00:14, 36.66it/s]
+Loading weights:  27%|██▋       | 195/723 [00:04<00:12, 42.03it/s]
+Loading weights:  27%|██▋       | 197/723 [00:04<00:11, 44.82it/s]
+Loading weights:  27%|██▋       | 192/723 [00:04<00:14, 36.15it/s]
+Loading weights:  27%|██▋       | 195/723 [00:04<00:12, 42.67it/s]
+Loading weights:  28%|██▊       | 200/723 [00:04<00:12, 42.06it/s]
+Loading weights:  28%|██▊       | 203/723 [00:04<00:11, 45.35it/s]
+Loading weights:  28%|██▊       | 200/723 [00:04<00:13, 38.19it/s]
+Loading weights:  28%|██▊       | 201/723 [00:04<00:12, 42.33it/s]
+Loading weights:  28%|██▊       | 205/723 [00:04<00:13, 39.58it/s]
+Loading weights:  28%|██▊       | 205/723 [00:05<00:12, 42.36it/s]
+Loading weights:  29%|██▉       | 209/723 [00:05<00:12, 41.01it/s]
+Loading weights:  29%|██▊       | 207/723 [00:05<00:13, 39.60it/s]
+Loading weights:  29%|██▉       | 212/723 [00:05<00:11, 43.23it/s]
+Loading weights:  29%|██▉       | 212/723 [00:04<00:12, 40.08it/s]
+Loading weights:  30%|██▉       | 214/723 [00:05<00:12, 39.29it/s]
+Loading weights:  30%|███       | 220/723 [00:05<00:10, 47.31it/s]
+Loading weights:  31%|███       | 222/723 [00:05<00:09, 51.50it/s]
+Loading weights:  31%|███       | 221/723 [00:04<00:10, 48.49it/s]
+Loading weights:  31%|███       | 224/723 [00:05<00:12, 41.05it/s]
+Loading weights:  31%|███▏      | 227/723 [00:05<00:11, 41.71it/s]
+Loading weights:  31%|███▏      | 226/723 [00:05<00:12, 41.00it/s]
+Loading weights:  32%|███▏      | 228/723 [00:05<00:11, 43.52it/s]
+Loading weights:  33%|███▎      | 235/723 [00:05<00:11, 42.34it/s]
+Loading weights:  33%|███▎      | 235/723 [00:05<00:12, 40.36it/s]
+Loading weights:  33%|███▎      | 235/723 [00:05<00:12, 40.46it/s]
+Loading weights:  33%|███▎      | 235/723 [00:05<00:11, 41.57it/s]
+Loading weights:  34%|███▍      | 248/723 [00:05<00:08, 56.79it/s]
+Loading weights:  33%|███▎      | 240/723 [00:05<00:12, 39.78it/s]
+Loading weights:  33%|███▎      | 240/723 [00:05<00:11, 40.44it/s]
+Loading weights:  34%|███▍      | 248/723 [00:05<00:09, 50.63it/s]
+Loading weights:  35%|███▍      | 252/723 [00:06<00:11, 40.32it/s]
+Loading weights:  35%|███▍      | 252/723 [00:06<00:12, 38.15it/s]
+Loading weights:  35%|███▌      | 255/723 [00:05<00:12, 38.91it/s]
+Loading weights:  35%|███▌      | 254/723 [00:06<00:11, 39.19it/s]
+Loading weights:  36%|███▌      | 258/723 [00:06<00:10, 42.42it/s]
+Loading weights:  36%|███▌      | 259/723 [00:06<00:12, 37.74it/s]
+Loading weights:  36%|███▌      | 261/723 [00:05<00:12, 36.48it/s]
+Loading weights:  36%|███▌      | 259/723 [00:06<00:13, 35.32it/s]
+Loading weights:  37%|███▋      | 265/723 [00:06<00:09, 46.48it/s]
+Loading weights:  37%|███▋      | 271/723 [00:06<00:09, 46.52it/s]
+Loading weights:  37%|███▋      | 266/723 [00:06<00:11, 40.01it/s]
+Loading weights:  38%|███▊      | 273/723 [00:06<00:09, 49.12it/s]
+Loading weights:  38%|███▊      | 273/723 [00:06<00:09, 46.63it/s]
+Loading weights:  39%|███▊      | 279/723 [00:06<00:09, 44.80it/s]
+Loading weights:  39%|███▊      | 279/723 [00:06<00:10, 40.90it/s]
+Loading weights:  38%|███▊      | 278/723 [00:06<00:10, 43.19it/s]
+Loading weights:  38%|███▊      | 278/723 [00:06<00:11, 38.05it/s]
+Loading weights:  40%|████      | 290/723 [00:06<00:08, 52.83it/s]
+Loading weights:  40%|████      | 290/723 [00:06<00:08, 53.22it/s]
+Loading weights:  40%|████      | 292/723 [00:06<00:08, 51.23it/s]
+Loading weights:  40%|████      | 292/723 [00:07<00:08, 48.86it/s]
+Loading weights:  42%|████▏     | 301/723 [00:06<00:08, 51.83it/s]
+Loading weights:  42%|████▏     | 301/723 [00:07<00:07, 55.52it/s]
+Loading weights:  42%|████▏     | 302/723 [00:07<00:07, 57.31it/s]
+Loading weights:  42%|████▏     | 301/723 [00:06<00:08, 49.21it/s]
+Loading weights:  42%|████▏     | 307/723 [00:06<00:08, 46.98it/s]
+Loading weights:  43%|████▎     | 309/723 [00:07<00:07, 54.57it/s]
+Loading weights:  42%|████▏     | 307/723 [00:07<00:08, 46.40it/s]
+Loading weights:  43%|████▎     | 308/723 [00:07<00:08, 50.65it/s]
+Loading weights:  43%|████▎     | 313/723 [00:06<00:09, 41.06it/s]
+Loading weights:  44%|████▎     | 315/723 [00:07<00:08, 45.80it/s]
+Loading weights:  43%|████▎     | 314/723 [00:07<00:09, 42.60it/s]
+Loading weights:  43%|████▎     | 312/723 [00:07<00:10, 38.05it/s]
+Loading weights:  45%|████▍     | 325/723 [00:07<00:07, 52.23it/s]
+Loading weights:  44%|████▍     | 320/723 [00:07<00:09, 43.37it/s]
+Loading weights:  45%|████▌     | 326/723 [00:07<00:07, 53.24it/s]
+Loading weights:  45%|████▌     | 326/723 [00:07<00:08, 48.57it/s]
+Loading weights:  46%|████▌     | 331/723 [00:07<00:07, 51.77it/s]
+Loading weights:  46%|████▌     | 330/723 [00:07<00:08, 44.73it/s]
+Loading weights:  46%|████▌     | 331/723 [00:07<00:09, 43.48it/s]
+Loading weights:  46%|████▌     | 332/723 [00:07<00:08, 43.62it/s]
+Loading weights:  47%|████▋     | 342/723 [00:07<00:07, 52.84it/s]
+Loading weights:  47%|████▋     | 343/723 [00:07<00:06, 56.46it/s]
+Loading weights:  47%|████▋     | 337/723 [00:07<00:09, 41.59it/s]
+Loading weights:  47%|████▋     | 341/723 [00:07<00:07, 53.28it/s]
+Loading weights:  48%|████▊     | 350/723 [00:08<00:08, 45.08it/s]
+Loading weights:  48%|████▊     | 347/723 [00:08<00:08, 41.86it/s]
+Loading weights:  48%|████▊     | 349/723 [00:08<00:08, 41.82it/s]
+Loading weights:  48%|████▊     | 345/723 [00:07<00:10, 36.27it/s]
+Loading weights:  50%|████▉     | 358/723 [00:08<00:09, 37.08it/s]
+Loading weights:  50%|████▉     | 358/723 [00:08<00:10, 35.42it/s]
+Loading weights:  50%|████▉     | 358/723 [00:08<00:10, 33.74it/s]
+Loading weights:  50%|████▉     | 358/723 [00:08<00:10, 36.43it/s]
+Loading weights:  51%|█████     | 368/723 [00:08<00:07, 46.51it/s]
+Loading weights:  50%|█████     | 365/723 [00:08<00:08, 40.39it/s]
+Loading weights:  51%|█████▏    | 371/723 [00:08<00:07, 44.17it/s]
+Loading weights:  51%|█████▏    | 371/723 [00:08<00:07, 44.58it/s]
+Loading weights:  51%|█████▏    | 371/723 [00:08<00:08, 43.10it/s]
+Loading weights:  52%|█████▏    | 377/723 [00:08<00:06, 52.81it/s]
+Loading weights:  53%|█████▎    | 381/723 [00:08<00:07, 48.11it/s]
+Loading weights:  52%|█████▏    | 379/723 [00:08<00:07, 43.32it/s]
+Loading weights:  53%|█████▎    | 380/723 [00:08<00:07, 45.99it/s]
+Loading weights:  53%|█████▎    | 384/723 [00:08<00:06, 48.74it/s]
+Loading weights:  54%|█████▍    | 391/723 [00:08<00:06, 52.99it/s]
+Loading weights:  53%|█████▎    | 386/723 [00:09<00:07, 45.18it/s]
+Loading weights:  54%|█████▍    | 393/723 [00:09<00:06, 53.82it/s]
+Loading weights:  54%|█████▍    | 390/723 [00:09<00:07, 46.11it/s]
+Loading weights:  54%|█████▍    | 394/723 [00:09<00:06, 47.38it/s]
+Loading weights:  55%|█████▍    | 396/723 [00:09<00:07, 42.35it/s]
+Loading weights:  55%|█████▍    | 397/723 [00:08<00:07, 46.00it/s]
+Loading weights:  55%|█████▌    | 400/723 [00:09<00:07, 43.18it/s]
+Loading weights:  55%|█████▌    | 400/723 [00:09<00:07, 45.56it/s]
+Loading weights:  56%|█████▋    | 407/723 [00:09<00:06, 48.93it/s]
+Loading weights:  56%|█████▋    | 407/723 [00:09<00:06, 46.05it/s]
+Loading weights:  56%|█████▋    | 408/723 [00:09<00:06, 47.71it/s]
+Loading weights:  56%|█████▋    | 408/723 [00:09<00:06, 51.01it/s]
+Loading weights:  57%|█████▋    | 413/723 [00:09<00:06, 44.40it/s]
+Loading weights:  57%|█████▋    | 414/723 [00:09<00:06, 49.73it/s]
+Loading weights:  57%|█████▋    | 412/723 [00:09<00:07, 44.36it/s]
+Loading weights:  57%|█████▋    | 414/723 [00:09<00:06, 46.98it/s]
+Loading weights:  58%|█████▊    | 418/723 [00:09<00:07, 39.86it/s]
+Loading weights:  58%|█████▊    | 418/723 [00:09<00:07, 41.46it/s]
+Loading weights:  58%|█████▊    | 420/723 [00:09<00:06, 44.07it/s]
+Loading weights:  58%|█████▊    | 420/723 [00:09<00:07, 42.43it/s]
+Loading weights:  61%|██████    | 442/723 [00:09<00:03, 79.76it/s]
+Loading weights:  63%|██████▎   | 452/723 [00:09<00:02, 104.20it/s]
+Loading weights:  62%|██████▏   | 446/723 [00:09<00:03, 86.08it/s]
+Loading weights:  63%|██████▎   | 452/723 [00:09<00:02, 96.36it/s]
+Loading weights:  66%|██████▋   | 480/723 [00:10<00:01, 144.02it/s]
+Loading weights:  67%|██████▋   | 482/723 [00:09<00:01, 143.14it/s]
+Loading weights:  66%|██████▌   | 478/723 [00:10<00:01, 136.60it/s]
+Loading weights:  68%|██████▊   | 490/723 [00:09<00:01, 151.92it/s]
+Loading weights:  71%|███████▏  | 516/723 [00:10<00:01, 195.27it/s]
+Loading weights:  73%|███████▎  | 526/723 [00:10<00:00, 214.60it/s]
+Loading weights:  73%|███████▎  | 530/723 [00:09<00:00, 210.99it/s]
+Loading weights:  75%|███████▍  | 542/723 [00:10<00:00, 234.83it/s]
+Loading weights:  78%|███████▊  | 566/723 [00:10<00:00, 254.38it/s]
+Loading weights:  79%|███████▉  | 574/723 [00:10<00:00, 278.10it/s]
+Loading weights:  80%|███████▉  | 576/723 [00:10<00:00, 258.53it/s]
+Loading weights:  79%|███████▉  | 573/723 [00:09<00:00, 254.87it/s]
+Loading weights:  84%|████████▍ | 610/723 [00:10<00:00, 275.72it/s]
+Loading weights:  84%|████████▎ | 605/723 [00:10<00:00, 265.94it/s]
+Loading weights:  85%|████████▍ | 613/723 [00:09<00:00, 275.25it/s]
+Loading weights:  84%|████████▍ | 606/723 [00:10<00:00, 244.40it/s]
+Loading weights:  88%|████████▊ | 634/723 [00:10<00:00, 253.50it/s]
+Loading weights:  89%|████████▉ | 643/723 [00:10<00:00, 264.37it/s]
+Loading weights:  89%|████████▊ | 640/723 [00:10<00:00, 261.97it/s]
+Loading weights:  88%|████████▊ | 637/723 [00:10<00:00, 235.37it/s]
+Loading weights:  93%|█████████▎| 671/723 [00:10<00:00, 279.27it/s]
+Loading weights:  93%|█████████▎| 673/723 [00:10<00:00, 273.49it/s]
+Loading weights:  94%|█████████▍| 681/723 [00:10<00:00, 270.78it/s]
+Loading weights:  93%|█████████▎| 674/723 [00:10<00:00, 244.52it/s]
+Loading weights:  97%|█████████▋| 704/723 [00:10<00:00, 227.83it/s]
+Loading weights:  98%|█████████▊| 710/723 [00:10<00:00, 242.38it/s]
+Loading weights:  97%|█████████▋| 701/723 [00:10<00:00, 226.73it/s]
+Loading weights:  98%|█████████▊| 710/723 [00:10<00:00, 242.33it/s]
+Loading weights: 100%|██████████| 723/723 [00:10<00:00, 69.85it/s] 
+
+Loading weights: 100%|██████████| 723/723 [00:10<00:00, 67.42it/s] 
+
+Loading weights: 100%|██████████| 723/723 [00:10<00:00, 66.74it/s] 
+
+Loading weights: 100%|██████████| 723/723 [00:10<00:00, 66.79it/s] 
+2026-09-05 20:42:15,311 | rank=0 | INFO | __main__ | fitting absolute prompt indices 1000..1496 (125 prompts)
+2026-09-05 20:42:15,311 | rank=0 | INFO | jlens.fitting | fit: n_layers=32 d_model=2560, fitting 6 source layers (target=L31) on 125 prompts
+2026-09-05 20:42:15,633 | rank=2 | INFO | __main__ | fitting absolute prompt indices 1002..1498 (125 prompts)
+2026-09-05 20:42:15,633 | rank=2 | INFO | jlens.fitting | fit: n_layers=32 d_model=2560, fitting 6 source layers (target=L31) on 125 prompts
+2026-09-05 20:42:16,294 | rank=3 | INFO | __main__ | fitting absolute prompt indices 1003..1499 (125 prompts)
+2026-09-05 20:42:16,294 | rank=3 | INFO | jlens.fitting | fit: n_layers=32 d_model=2560, fitting 6 source layers (target=L31) on 125 prompts
+2026-09-05 20:42:16,298 | rank=1 | INFO | __main__ | fitting absolute prompt indices 1001..1497 (125 prompts)
+2026-09-05 20:42:16,298 | rank=1 | INFO | jlens.fitting | fit: n_layers=32 d_model=2560, fitting 6 source layers (target=L31) on 125 prompts
+/opt/experiment-venv/lib/python3.12/site-packages/torch/autograd/graph.py:865: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:330.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+2026-09-05 20:44:21,623 | rank=0 | INFO | jlens.fitting |   prompt 1/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.558  max_d_mean=nan
+2026-09-05 20:44:26,429 | rank=1 | INFO | jlens.fitting |   prompt 1/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.510  max_d_mean=nan
+2026-09-05 20:44:27,286 | rank=3 | INFO | jlens.fitting |   prompt 1/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.361  max_d_mean=nan
+2026-09-05 20:44:29,324 | rank=2 | INFO | jlens.fitting |   prompt 1/125  seq_len=127 n_valid=110  134s  max||J||/sqrt(d)=1.286  max_d_mean=nan
+2026-09-05 20:46:27,499 | rank=0 | INFO | jlens.fitting |   prompt 2/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.355  max_d_mean=3.46e-01
+2026-09-05 20:46:38,254 | rank=1 | INFO | jlens.fitting |   prompt 2/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.419  max_d_mean=3.21e-01
+2026-09-05 20:46:38,928 | rank=3 | INFO | jlens.fitting |   prompt 2/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.383  max_d_mean=3.18e-01
+2026-09-05 20:46:39,360 | rank=2 | INFO | jlens.fitting |   prompt 2/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.358  max_d_mean=3.95e-01
+2026-09-05 20:48:33,598 | rank=0 | INFO | jlens.fitting |   prompt 3/125  seq_len=126 n_valid=109  126s  max||J||/sqrt(d)=1.323  max_d_mean=2.03e-01
+2026-09-05 20:48:49,554 | rank=1 | INFO | jlens.fitting |   prompt 3/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.479  max_d_mean=2.28e-01
+2026-09-05 20:48:49,899 | rank=3 | INFO | jlens.fitting |   prompt 3/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.447  max_d_mean=2.29e-01
+2026-09-05 20:48:51,894 | rank=2 | INFO | jlens.fitting |   prompt 3/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.420  max_d_mean=2.47e-01
+2026-09-05 20:50:43,703 | rank=0 | INFO | jlens.fitting |   prompt 4/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.398  max_d_mean=1.35e-01
+2026-09-05 20:51:01,115 | rank=3 | INFO | jlens.fitting |   prompt 4/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.523  max_d_mean=2.08e-01
+2026-09-05 20:51:04,325 | rank=1 | INFO | jlens.fitting |   prompt 4/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.397  max_d_mean=1.41e-01
+2026-09-05 20:51:08,238 | rank=2 | INFO | jlens.fitting |   prompt 4/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.475  max_d_mean=2.05e-01
+2026-09-05 20:52:50,071 | rank=0 | INFO | jlens.fitting |   prompt 5/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.378  max_d_mean=1.54e-01
+2026-09-05 20:53:11,354 | rank=3 | INFO | jlens.fitting |   prompt 5/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.475  max_d_mean=1.46e-01
+2026-09-05 20:53:13,931 | rank=1 | INFO | jlens.fitting |   prompt 5/125  seq_len=127 n_valid=110  130s  max||J||/sqrt(d)=1.417  max_d_mean=1.77e-01
+2026-09-05 20:53:20,517 | rank=2 | INFO | jlens.fitting |   prompt 5/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.423  max_d_mean=1.47e-01
+2026-09-05 20:55:09,283 | rank=0 | INFO | jlens.fitting |   prompt 6/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=1.303  max_d_mean=1.07e-01
+2026-09-05 20:55:22,371 | rank=3 | INFO | jlens.fitting |   prompt 6/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.567  max_d_mean=1.09e-01
+2026-09-05 20:55:25,514 | rank=1 | INFO | jlens.fitting |   prompt 6/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.437  max_d_mean=1.24e-01
+2026-09-05 20:55:31,442 | rank=2 | INFO | jlens.fitting |   prompt 6/125  seq_len=123 n_valid=106  131s  max||J||/sqrt(d)=1.339  max_d_mean=1.09e-01
+2026-09-05 20:57:27,402 | rank=0 | INFO | jlens.fitting |   prompt 7/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.393  max_d_mean=9.35e-02
+2026-09-05 20:57:34,826 | rank=3 | INFO | jlens.fitting |   prompt 7/125  seq_len=126 n_valid=109  132s  max||J||/sqrt(d)=1.393  max_d_mean=8.03e-02
+2026-09-05 20:57:38,548 | rank=1 | INFO | jlens.fitting |   prompt 7/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.410  max_d_mean=9.23e-02
+2026-09-05 20:57:43,458 | rank=2 | INFO | jlens.fitting |   prompt 7/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.450  max_d_mean=9.09e-02
+2026-09-05 20:59:45,732 | rank=3 | INFO | jlens.fitting |   prompt 8/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.359  max_d_mean=6.75e-02
+2026-09-05 20:59:47,257 | rank=0 | INFO | jlens.fitting |   prompt 8/125  seq_len=126 n_valid=109  140s  max||J||/sqrt(d)=1.394  max_d_mean=8.34e-02
+2026-09-05 20:59:49,266 | rank=1 | INFO | jlens.fitting |   prompt 8/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.640  max_d_mean=1.34e-01
+2026-09-05 20:59:55,805 | rank=2 | INFO | jlens.fitting |   prompt 8/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.487  max_d_mean=9.03e-02
+2026-09-05 21:01:55,846 | rank=3 | INFO | jlens.fitting |   prompt 9/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.533  max_d_mean=6.55e-02
+2026-09-05 21:02:02,744 | rank=1 | INFO | jlens.fitting |   prompt 9/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.348  max_d_mean=6.88e-02
+2026-09-05 21:02:03,636 | rank=0 | INFO | jlens.fitting |   prompt 9/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.433  max_d_mean=7.76e-02
+2026-09-05 21:02:08,320 | rank=2 | INFO | jlens.fitting |   prompt 9/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.371  max_d_mean=7.09e-02
+2026-09-05 21:04:06,214 | rank=3 | INFO | jlens.fitting |   prompt 10/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.613  max_d_mean=6.60e-02
+2026-09-05 21:04:15,792 | rank=1 | INFO | jlens.fitting |   prompt 10/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.383  max_d_mean=5.99e-02
+2026-09-05 21:04:20,894 | rank=0 | INFO | jlens.fitting |   prompt 10/125  seq_len=124 n_valid=107  137s  max||J||/sqrt(d)=1.334  max_d_mean=6.22e-02
+2026-09-05 21:04:24,711 | rank=2 | INFO | jlens.fitting |   prompt 10/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.376  max_d_mean=5.89e-02
+2026-09-05 21:06:10,683 | rank=3 | INFO | jlens.fitting |   prompt 11/125  seq_len=127 n_valid=110  121s  max||J||/sqrt(d)=1.416  max_d_mean=4.53e-02
+2026-09-05 21:06:26,730 | rank=0 | INFO | jlens.fitting |   prompt 11/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.527  max_d_mean=6.92e-02
+2026-09-05 21:06:27,080 | rank=1 | INFO | jlens.fitting |   prompt 11/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.527  max_d_mean=5.79e-02
+2026-09-05 21:06:37,706 | rank=2 | INFO | jlens.fitting |   prompt 11/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=2.783  max_d_mean=1.92e-01
+2026-09-05 21:08:11,759 | rank=3 | INFO | jlens.fitting |   prompt 12/125  seq_len=128 n_valid=111  121s  max||J||/sqrt(d)=1.597  max_d_mean=5.28e-02
+2026-09-05 21:08:31,902 | rank=0 | INFO | jlens.fitting |   prompt 12/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.495  max_d_mean=5.30e-02
+2026-09-05 21:08:38,233 | rank=1 | INFO | jlens.fitting |   prompt 12/125  seq_len=125 n_valid=108  131s  max||J||/sqrt(d)=1.267  max_d_mean=4.93e-02
+2026-09-05 21:08:51,010 | rank=2 | INFO | jlens.fitting |   prompt 12/125  seq_len=121 n_valid=104  133s  max||J||/sqrt(d)=1.223  max_d_mean=4.48e-02
+2026-09-05 21:10:13,078 | rank=3 | INFO | jlens.fitting |   prompt 13/125  seq_len=128 n_valid=111  121s  max||J||/sqrt(d)=1.335  max_d_mean=5.08e-02
+2026-09-05 21:10:39,889 | rank=0 | INFO | jlens.fitting |   prompt 13/125  seq_len=126 n_valid=109  128s  max||J||/sqrt(d)=1.458  max_d_mean=4.36e-02
+2026-09-05 21:10:45,808 | rank=1 | INFO | jlens.fitting |   prompt 13/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.336  max_d_mean=4.11e-02
+2026-09-05 21:11:04,831 | rank=2 | INFO | jlens.fitting |   prompt 13/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.379  max_d_mean=4.28e-02
+2026-09-05 21:12:20,408 | rank=3 | INFO | jlens.fitting |   prompt 14/125  seq_len=126 n_valid=109  127s  max||J||/sqrt(d)=1.304  max_d_mean=3.69e-02
+2026-09-05 21:12:49,503 | rank=0 | INFO | jlens.fitting |   prompt 14/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.417  max_d_mean=3.91e-02
+2026-09-05 21:12:55,082 | rank=1 | INFO | jlens.fitting |   prompt 14/125  seq_len=127 n_valid=110  129s  max||J||/sqrt(d)=1.457  max_d_mean=4.39e-02
+2026-09-05 21:13:18,079 | rank=2 | INFO | jlens.fitting |   prompt 14/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=2.332  max_d_mean=1.16e-01
+2026-09-05 21:14:23,180 | rank=3 | INFO | jlens.fitting |   prompt 15/125  seq_len=121 n_valid=104  123s  max||J||/sqrt(d)=1.431  max_d_mean=8.21e-02
+2026-09-05 21:14:53,846 | rank=0 | INFO | jlens.fitting |   prompt 15/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.475  max_d_mean=3.40e-02
+2026-09-05 21:15:03,486 | rank=1 | INFO | jlens.fitting |   prompt 15/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.506  max_d_mean=3.81e-02
+2026-09-05 21:15:31,568 | rank=2 | INFO | jlens.fitting |   prompt 15/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.681  max_d_mean=5.69e-02
+2026-09-05 21:16:28,938 | rank=3 | INFO | jlens.fitting |   prompt 16/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.591  max_d_mean=4.19e-02
+2026-09-05 21:17:01,614 | rank=0 | INFO | jlens.fitting |   prompt 16/125  seq_len=118 n_valid=101  127s  max||J||/sqrt(d)=1.150  max_d_mean=5.65e-02
+2026-09-05 21:17:11,473 | rank=1 | INFO | jlens.fitting |   prompt 16/125  seq_len=127 n_valid=110  128s  max||J||/sqrt(d)=1.197  max_d_mean=4.06e-02
+2026-09-05 21:17:44,671 | rank=2 | INFO | jlens.fitting |   prompt 16/125  seq_len=125 n_valid=108  133s  max||J||/sqrt(d)=1.379  max_d_mean=4.01e-02
+2026-09-05 21:18:30,353 | rank=3 | INFO | jlens.fitting |   prompt 17/125  seq_len=128 n_valid=111  121s  max||J||/sqrt(d)=1.402  max_d_mean=3.56e-02
+2026-09-05 21:19:07,475 | rank=0 | INFO | jlens.fitting |   prompt 17/125  seq_len=127 n_valid=110  126s  max||J||/sqrt(d)=1.266  max_d_mean=3.09e-02
+2026-09-05 21:19:21,096 | rank=1 | INFO | jlens.fitting |   prompt 17/125  seq_len=126 n_valid=109  130s  max||J||/sqrt(d)=1.365  max_d_mean=3.53e-02
+2026-09-05 21:19:56,690 | rank=2 | INFO | jlens.fitting |   prompt 17/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.401  max_d_mean=4.15e-02
+2026-09-05 21:20:33,421 | rank=3 | INFO | jlens.fitting |   prompt 18/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.483  max_d_mean=3.15e-02
+2026-09-05 21:21:10,997 | rank=0 | INFO | jlens.fitting |   prompt 18/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.430  max_d_mean=3.36e-02
+2026-09-05 21:21:34,027 | rank=1 | INFO | jlens.fitting |   prompt 18/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.520  max_d_mean=4.49e-02
+2026-09-05 21:22:07,055 | rank=2 | INFO | jlens.fitting |   prompt 18/125  seq_len=126 n_valid=109  130s  max||J||/sqrt(d)=1.455  max_d_mean=3.04e-02
+2026-09-05 21:22:45,807 | rank=3 | INFO | jlens.fitting |   prompt 19/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.458  max_d_mean=3.03e-02
+2026-09-05 21:23:16,444 | rank=0 | INFO | jlens.fitting |   prompt 19/125  seq_len=125 n_valid=108  125s  max||J||/sqrt(d)=1.358  max_d_mean=2.85e-02
+2026-09-05 21:23:46,794 | rank=1 | INFO | jlens.fitting |   prompt 19/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.424  max_d_mean=3.23e-02
+2026-09-05 21:24:21,500 | rank=2 | INFO | jlens.fitting |   prompt 19/125  seq_len=122 n_valid=105  134s  max||J||/sqrt(d)=1.322  max_d_mean=3.29e-02
+2026-09-05 21:24:57,809 | rank=3 | INFO | jlens.fitting |   prompt 20/125  seq_len=122 n_valid=105  132s  max||J||/sqrt(d)=1.247  max_d_mean=4.56e-02
+2026-09-05 21:25:22,638 | rank=0 | INFO | jlens.fitting |   prompt 20/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.542  max_d_mean=2.93e-02
+2026-09-05 21:26:00,676 | rank=1 | INFO | jlens.fitting |   prompt 20/125  seq_len=121 n_valid=104  134s  max||J||/sqrt(d)=1.228  max_d_mean=4.38e-02
+2026-09-05 21:26:35,321 | rank=2 | INFO | jlens.fitting |   prompt 20/125  seq_len=127 n_valid=110  134s  max||J||/sqrt(d)=1.191  max_d_mean=3.62e-02
+2026-09-05 21:27:09,597 | rank=3 | INFO | jlens.fitting |   prompt 21/125  seq_len=124 n_valid=107  131s  max||J||/sqrt(d)=1.350  max_d_mean=2.65e-02
+2026-09-05 21:27:29,920 | rank=0 | INFO | jlens.fitting |   prompt 21/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.483  max_d_mean=2.87e-02
+2026-09-05 21:28:12,476 | rank=1 | INFO | jlens.fitting |   prompt 21/125  seq_len=120 n_valid=103  131s  max||J||/sqrt(d)=1.145  max_d_mean=4.13e-02
+2026-09-05 21:28:46,461 | rank=2 | INFO | jlens.fitting |   prompt 21/125  seq_len=124 n_valid=107  131s  max||J||/sqrt(d)=1.175  max_d_mean=3.29e-02
+2026-09-05 21:29:19,457 | rank=3 | INFO | jlens.fitting |   prompt 22/125  seq_len=126 n_valid=109  130s  max||J||/sqrt(d)=1.410  max_d_mean=2.34e-02
+2026-09-05 21:29:35,184 | rank=0 | INFO | jlens.fitting |   prompt 22/125  seq_len=126 n_valid=109  125s  max||J||/sqrt(d)=1.268  max_d_mean=2.46e-02
+2026-09-05 21:30:25,042 | rank=1 | INFO | jlens.fitting |   prompt 22/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.423  max_d_mean=2.85e-02
+2026-09-05 21:30:57,139 | rank=2 | INFO | jlens.fitting |   prompt 22/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.413  max_d_mean=2.60e-02
+2026-09-05 21:31:20,009 | rank=3 | INFO | jlens.fitting |   prompt 23/125  seq_len=128 n_valid=111  121s  max||J||/sqrt(d)=1.418  max_d_mean=2.47e-02
+2026-09-05 21:31:42,632 | rank=0 | INFO | jlens.fitting |   prompt 23/125  seq_len=126 n_valid=109  127s  max||J||/sqrt(d)=1.338  max_d_mean=2.78e-02
+2026-09-05 21:32:37,946 | rank=1 | INFO | jlens.fitting |   prompt 23/125  seq_len=124 n_valid=107  133s  max||J||/sqrt(d)=1.225  max_d_mean=2.56e-02
+2026-09-05 21:33:08,446 | rank=2 | INFO | jlens.fitting |   prompt 23/125  seq_len=124 n_valid=107  131s  max||J||/sqrt(d)=1.236  max_d_mean=2.45e-02
+2026-09-05 21:33:22,221 | rank=3 | INFO | jlens.fitting |   prompt 24/125  seq_len=128 n_valid=111  122s  max||J||/sqrt(d)=1.402  max_d_mean=3.29e-02
+2026-09-05 21:33:49,003 | rank=0 | INFO | jlens.fitting |   prompt 24/125  seq_len=127 n_valid=110  126s  max||J||/sqrt(d)=1.428  max_d_mean=2.46e-02
+2026-09-05 21:34:52,262 | rank=1 | INFO | jlens.fitting |   prompt 24/125  seq_len=126 n_valid=109  134s  max||J||/sqrt(d)=1.227  max_d_mean=2.87e-02
+2026-09-05 21:35:19,995 | rank=2 | INFO | jlens.fitting |   prompt 24/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.435  max_d_mean=2.80e-02
+2026-09-05 21:35:34,797 | rank=3 | INFO | jlens.fitting |   prompt 25/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.377  max_d_mean=3.40e-02
+2026-09-05 21:35:55,988 | rank=0 | INFO | jlens.fitting |   prompt 25/125  seq_len=128 n_valid=111  127s  max||J||/sqrt(d)=1.466  max_d_mean=2.90e-02
+2026-09-05 21:37:03,350 | rank=1 | INFO | jlens.fitting |   prompt 25/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.437  max_d_mean=3.25e-02
+2026-09-05 21:37:30,691 | rank=2 | INFO | jlens.fitting |   prompt 25/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.425  max_d_mean=3.29e-02
+2026-09-05 21:37:46,038 | rank=3 | INFO | jlens.fitting |   prompt 26/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.377  max_d_mean=3.03e-02
+2026-09-05 21:38:06,133 | rank=0 | INFO | jlens.fitting |   prompt 26/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.494  max_d_mean=3.48e-02
+2026-09-05 21:39:12,759 | rank=1 | INFO | jlens.fitting |   prompt 26/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.342  max_d_mean=3.00e-02
+2026-09-05 21:39:42,154 | rank=2 | INFO | jlens.fitting |   prompt 26/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.368  max_d_mean=3.04e-02
+2026-09-05 21:39:57,517 | rank=3 | INFO | jlens.fitting |   prompt 27/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.305  max_d_mean=2.55e-02
+2026-09-05 21:40:10,065 | rank=0 | INFO | jlens.fitting |   prompt 27/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.521  max_d_mean=3.03e-02
+2026-09-05 21:41:23,153 | rank=1 | INFO | jlens.fitting |   prompt 27/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.393  max_d_mean=2.80e-02
+2026-09-05 21:41:54,208 | rank=2 | INFO | jlens.fitting |   prompt 27/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.332  max_d_mean=2.66e-02
+2026-09-05 21:42:07,593 | rank=3 | INFO | jlens.fitting |   prompt 28/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.414  max_d_mean=3.28e-02
+2026-09-05 21:42:18,329 | rank=0 | INFO | jlens.fitting |   prompt 28/125  seq_len=127 n_valid=110  128s  max||J||/sqrt(d)=1.335  max_d_mean=2.44e-02
+2026-09-05 21:43:32,388 | rank=1 | INFO | jlens.fitting |   prompt 28/125  seq_len=125 n_valid=108  129s  max||J||/sqrt(d)=1.304  max_d_mean=2.69e-02
+2026-09-05 21:44:08,837 | rank=2 | INFO | jlens.fitting |   prompt 28/125  seq_len=126 n_valid=109  135s  max||J||/sqrt(d)=1.378  max_d_mean=2.50e-02
+2026-09-05 21:44:17,463 | rank=3 | INFO | jlens.fitting |   prompt 29/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.327  max_d_mean=2.60e-02
+2026-09-05 21:44:23,630 | rank=0 | INFO | jlens.fitting |   prompt 29/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.388  max_d_mean=3.04e-02
+2026-09-05 21:45:42,133 | rank=1 | INFO | jlens.fitting |   prompt 29/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.497  max_d_mean=3.54e-02
+2026-09-05 21:46:19,294 | rank=2 | INFO | jlens.fitting |   prompt 29/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.411  max_d_mean=2.74e-02
+2026-09-05 21:46:29,388 | rank=3 | INFO | jlens.fitting |   prompt 30/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.311  max_d_mean=2.55e-02
+2026-09-05 21:46:39,155 | rank=0 | INFO | jlens.fitting |   prompt 30/125  seq_len=126 n_valid=109  136s  max||J||/sqrt(d)=1.391  max_d_mean=2.41e-02
+2026-09-05 21:47:54,248 | rank=1 | INFO | jlens.fitting |   prompt 30/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.300  max_d_mean=2.19e-02
+2026-09-05 21:48:30,184 | rank=2 | INFO | jlens.fitting |   prompt 30/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.340  max_d_mean=2.45e-02
+2026-09-05 21:48:42,099 | rank=3 | INFO | jlens.fitting |   prompt 31/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.385  max_d_mean=2.46e-02
+2026-09-05 21:48:55,577 | rank=0 | INFO | jlens.fitting |   prompt 31/125  seq_len=127 n_valid=110  136s  max||J||/sqrt(d)=1.324  max_d_mean=2.46e-02
+2026-09-05 21:50:04,319 | rank=1 | INFO | jlens.fitting |   prompt 31/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=2.083  max_d_mean=5.29e-02
+2026-09-05 21:50:43,931 | rank=2 | INFO | jlens.fitting |   prompt 31/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.361  max_d_mean=2.46e-02
+2026-09-05 21:50:56,192 | rank=3 | INFO | jlens.fitting |   prompt 32/125  seq_len=127 n_valid=110  134s  max||J||/sqrt(d)=1.426  max_d_mean=2.35e-02
+2026-09-05 21:51:01,684 | rank=0 | INFO | jlens.fitting |   prompt 32/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.372  max_d_mean=2.33e-02
+2026-09-05 21:52:18,065 | rank=1 | INFO | jlens.fitting |   prompt 32/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.375  max_d_mean=2.48e-02
+2026-09-05 21:52:57,402 | rank=2 | INFO | jlens.fitting |   prompt 32/125  seq_len=124 n_valid=107  133s  max||J||/sqrt(d)=2.614  max_d_mean=6.59e-02
+2026-09-05 21:53:07,887 | rank=0 | INFO | jlens.fitting |   prompt 33/125  seq_len=127 n_valid=110  126s  max||J||/sqrt(d)=1.537  max_d_mean=2.76e-02
+2026-09-05 21:53:09,171 | rank=3 | INFO | jlens.fitting |   prompt 33/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.500  max_d_mean=2.40e-02
+2026-09-05 21:54:27,481 | rank=1 | INFO | jlens.fitting |   prompt 33/125  seq_len=126 n_valid=109  129s  max||J||/sqrt(d)=1.386  max_d_mean=2.17e-02
+2026-09-05 21:55:09,145 | rank=2 | INFO | jlens.fitting |   prompt 33/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.377  max_d_mean=2.25e-02
+2026-09-05 21:55:13,800 | rank=0 | INFO | jlens.fitting |   prompt 34/125  seq_len=127 n_valid=110  126s  max||J||/sqrt(d)=1.377  max_d_mean=2.28e-02
+2026-09-05 21:55:22,940 | rank=3 | INFO | jlens.fitting |   prompt 34/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.357  max_d_mean=1.90e-02
+2026-09-05 21:56:37,975 | rank=1 | INFO | jlens.fitting |   prompt 34/125  seq_len=127 n_valid=110  130s  max||J||/sqrt(d)=1.346  max_d_mean=2.14e-02
+2026-09-05 21:57:22,894 | rank=0 | INFO | jlens.fitting |   prompt 35/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.345  max_d_mean=2.06e-02
+2026-09-05 21:57:23,613 | rank=2 | INFO | jlens.fitting |   prompt 34/125  seq_len=127 n_valid=110  134s  max||J||/sqrt(d)=1.323  max_d_mean=2.07e-02
+2026-09-05 21:57:37,446 | rank=3 | INFO | jlens.fitting |   prompt 35/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.326  max_d_mean=2.05e-02
+2026-09-05 21:58:53,154 | rank=1 | INFO | jlens.fitting |   prompt 35/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.340  max_d_mean=1.84e-02
+2026-09-05 21:59:28,000 | rank=0 | INFO | jlens.fitting |   prompt 36/125  seq_len=127 n_valid=110  125s  max||J||/sqrt(d)=1.315  max_d_mean=1.83e-02
+2026-09-05 21:59:35,594 | rank=2 | INFO | jlens.fitting |   prompt 35/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.322  max_d_mean=1.79e-02
+2026-09-05 21:59:38,901 | rank=3 | INFO | jlens.fitting |   prompt 36/125  seq_len=126 n_valid=109  121s  max||J||/sqrt(d)=1.300  max_d_mean=1.90e-02
+2026-09-05 22:01:04,604 | rank=1 | INFO | jlens.fitting |   prompt 36/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.310  max_d_mean=1.79e-02
+2026-09-05 22:01:32,743 | rank=0 | INFO | jlens.fitting |   prompt 37/125  seq_len=127 n_valid=110  125s  max||J||/sqrt(d)=1.357  max_d_mean=1.78e-02
+2026-09-05 22:01:41,017 | rank=3 | INFO | jlens.fitting |   prompt 37/125  seq_len=126 n_valid=109  122s  max||J||/sqrt(d)=1.397  max_d_mean=1.67e-02
+2026-09-05 22:01:48,130 | rank=2 | INFO | jlens.fitting |   prompt 36/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.384  max_d_mean=2.06e-02
+2026-09-05 22:03:13,590 | rank=1 | INFO | jlens.fitting |   prompt 37/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.346  max_d_mean=1.86e-02
+2026-09-05 22:03:39,139 | rank=0 | INFO | jlens.fitting |   prompt 38/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.352  max_d_mean=1.66e-02
+2026-09-05 22:03:44,392 | rank=3 | INFO | jlens.fitting |   prompt 38/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.379  max_d_mean=2.00e-02
+2026-09-05 22:03:57,534 | rank=2 | INFO | jlens.fitting |   prompt 37/125  seq_len=127 n_valid=110  129s  max||J||/sqrt(d)=1.323  max_d_mean=1.71e-02
+2026-09-05 22:05:29,805 | rank=1 | INFO | jlens.fitting |   prompt 38/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.426  max_d_mean=1.77e-02
+2026-09-05 22:05:47,113 | rank=0 | INFO | jlens.fitting |   prompt 39/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.410  max_d_mean=2.22e-02
+2026-09-05 22:05:52,461 | rank=3 | INFO | jlens.fitting |   prompt 39/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.329  max_d_mean=1.67e-02
+2026-09-05 22:06:06,865 | rank=2 | INFO | jlens.fitting |   prompt 38/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.454  max_d_mean=1.92e-02
+2026-09-05 22:07:42,506 | rank=1 | INFO | jlens.fitting |   prompt 39/125  seq_len=126 n_valid=109  133s  max||J||/sqrt(d)=1.499  max_d_mean=2.21e-02
+2026-09-05 22:07:54,356 | rank=3 | INFO | jlens.fitting |   prompt 40/125  seq_len=128 n_valid=111  122s  max||J||/sqrt(d)=1.399  max_d_mean=1.83e-02
+2026-09-05 22:07:55,045 | rank=0 | INFO | jlens.fitting |   prompt 40/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.326  max_d_mean=1.62e-02
+2026-09-05 22:08:19,340 | rank=2 | INFO | jlens.fitting |   prompt 39/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.394  max_d_mean=1.99e-02
+2026-09-05 22:09:56,274 | rank=1 | INFO | jlens.fitting |   prompt 40/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.479  max_d_mean=2.14e-02
+2026-09-05 22:10:05,031 | rank=3 | INFO | jlens.fitting |   prompt 41/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.605  max_d_mean=2.05e-02
+2026-09-05 22:10:12,407 | rank=0 | INFO | jlens.fitting |   prompt 41/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.568  max_d_mean=2.09e-02
+2026-09-05 22:10:31,488 | rank=2 | INFO | jlens.fitting |   prompt 40/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.559  max_d_mean=2.13e-02
+2026-09-05 22:12:06,076 | rank=3 | INFO | jlens.fitting |   prompt 42/125  seq_len=128 n_valid=111  121s  max||J||/sqrt(d)=1.378  max_d_mean=1.73e-02
+2026-09-05 22:12:09,112 | rank=1 | INFO | jlens.fitting |   prompt 41/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.354  max_d_mean=1.80e-02
+2026-09-05 22:12:29,865 | rank=0 | INFO | jlens.fitting |   prompt 42/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.478  max_d_mean=1.98e-02
+2026-09-05 22:12:46,775 | rank=2 | INFO | jlens.fitting |   prompt 41/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.474  max_d_mean=1.80e-02
+2026-09-05 22:14:06,205 | rank=3 | INFO | jlens.fitting |   prompt 43/125  seq_len=128 n_valid=111  120s  max||J||/sqrt(d)=1.382  max_d_mean=1.76e-02
+2026-09-05 22:14:21,024 | rank=1 | INFO | jlens.fitting |   prompt 42/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.461  max_d_mean=1.91e-02
+2026-09-05 22:14:46,329 | rank=0 | INFO | jlens.fitting |   prompt 43/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.382  max_d_mean=1.70e-02
+2026-09-05 22:15:00,889 | rank=2 | INFO | jlens.fitting |   prompt 42/125  seq_len=126 n_valid=109  134s  max||J||/sqrt(d)=1.322  max_d_mean=1.82e-02
+2026-09-05 22:16:10,033 | rank=3 | INFO | jlens.fitting |   prompt 44/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.377  max_d_mean=1.70e-02
+2026-09-05 22:16:32,288 | rank=1 | INFO | jlens.fitting |   prompt 43/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.483  max_d_mean=1.79e-02
+2026-09-05 22:16:52,033 | rank=0 | INFO | jlens.fitting |   prompt 44/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.397  max_d_mean=1.66e-02
+2026-09-05 22:17:15,729 | rank=2 | INFO | jlens.fitting |   prompt 43/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.434  max_d_mean=1.69e-02
+2026-09-05 22:18:13,145 | rank=3 | INFO | jlens.fitting |   prompt 45/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.554  max_d_mean=1.85e-02
+2026-09-05 22:18:41,746 | rank=1 | INFO | jlens.fitting |   prompt 44/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.671  max_d_mean=2.41e-02
+2026-09-05 22:18:57,154 | rank=0 | INFO | jlens.fitting |   prompt 45/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.580  max_d_mean=2.06e-02
+2026-09-05 22:19:27,001 | rank=2 | INFO | jlens.fitting |   prompt 44/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.517  max_d_mean=1.85e-02
+2026-09-05 22:20:26,724 | rank=3 | INFO | jlens.fitting |   prompt 46/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.470  max_d_mean=1.57e-02
+2026-09-05 22:20:52,879 | rank=1 | INFO | jlens.fitting |   prompt 45/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.618  max_d_mean=2.07e-02
+2026-09-05 22:21:07,413 | rank=0 | INFO | jlens.fitting |   prompt 46/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.529  max_d_mean=1.85e-02
+2026-09-05 22:21:38,290 | rank=2 | INFO | jlens.fitting |   prompt 45/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.384  max_d_mean=1.56e-02
+2026-09-05 22:22:37,601 | rank=3 | INFO | jlens.fitting |   prompt 47/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.419  max_d_mean=1.56e-02
+2026-09-05 22:23:04,249 | rank=1 | INFO | jlens.fitting |   prompt 46/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.439  max_d_mean=1.65e-02
+2026-09-05 22:23:10,663 | rank=0 | INFO | jlens.fitting |   prompt 47/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.528  max_d_mean=1.68e-02
+2026-09-05 22:23:49,953 | rank=2 | INFO | jlens.fitting |   prompt 46/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.355  max_d_mean=1.51e-02
+2026-09-05 22:24:51,538 | rank=3 | INFO | jlens.fitting |   prompt 48/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.458  max_d_mean=1.52e-02
+2026-09-05 22:25:14,740 | rank=0 | INFO | jlens.fitting |   prompt 48/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.388  max_d_mean=1.52e-02
+2026-09-05 22:25:20,756 | rank=1 | INFO | jlens.fitting |   prompt 47/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.514  max_d_mean=1.60e-02
+2026-09-05 22:26:06,583 | rank=2 | INFO | jlens.fitting |   prompt 47/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.407  max_d_mean=1.64e-02
+2026-09-05 22:27:02,360 | rank=3 | INFO | jlens.fitting |   prompt 49/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.349  max_d_mean=1.16e-02
+2026-09-05 22:27:19,261 | rank=0 | INFO | jlens.fitting |   prompt 49/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.384  max_d_mean=1.36e-02
+2026-09-05 22:27:33,463 | rank=1 | INFO | jlens.fitting |   prompt 48/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.488  max_d_mean=1.64e-02
+2026-09-05 22:28:20,894 | rank=2 | INFO | jlens.fitting |   prompt 48/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.300  max_d_mean=1.31e-02
+2026-09-05 22:29:11,939 | rank=3 | INFO | jlens.fitting |   prompt 50/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.342  max_d_mean=1.30e-02
+2026-09-05 22:29:25,889 | rank=0 | INFO | jlens.fitting |   prompt 50/125  seq_len=128 n_valid=111  127s  max||J||/sqrt(d)=1.334  max_d_mean=1.32e-02
+2026-09-05 22:29:47,410 | rank=1 | INFO | jlens.fitting |   prompt 49/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.420  max_d_mean=1.51e-02
+2026-09-05 22:30:34,847 | rank=2 | INFO | jlens.fitting |   prompt 49/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.814  max_d_mean=2.40e-02
+2026-09-05 22:31:24,439 | rank=3 | INFO | jlens.fitting |   prompt 51/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.495  max_d_mean=1.41e-02
+2026-09-05 22:31:41,266 | rank=0 | INFO | jlens.fitting |   prompt 51/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.372  max_d_mean=1.31e-02
+2026-09-05 22:31:56,827 | rank=1 | INFO | jlens.fitting |   prompt 50/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.508  max_d_mean=1.47e-02
+2026-09-05 22:32:45,937 | rank=2 | INFO | jlens.fitting |   prompt 50/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.412  max_d_mean=1.38e-02
+2026-09-05 22:33:33,843 | rank=3 | INFO | jlens.fitting |   prompt 52/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.341  max_d_mean=1.13e-02
+2026-09-05 22:33:58,063 | rank=0 | INFO | jlens.fitting |   prompt 52/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.330  max_d_mean=1.29e-02
+2026-09-05 22:34:10,091 | rank=1 | INFO | jlens.fitting |   prompt 51/125  seq_len=126 n_valid=109  133s  max||J||/sqrt(d)=1.457  max_d_mean=1.44e-02
+2026-09-05 22:34:59,843 | rank=2 | INFO | jlens.fitting |   prompt 51/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.376  max_d_mean=1.33e-02
+2026-09-05 22:35:38,289 | rank=3 | INFO | jlens.fitting |   prompt 53/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.424  max_d_mean=1.24e-02
+2026-09-05 22:36:14,420 | rank=0 | INFO | jlens.fitting |   prompt 53/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.352  max_d_mean=1.16e-02
+2026-09-05 22:36:21,875 | rank=1 | INFO | jlens.fitting |   prompt 52/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.460  max_d_mean=1.40e-02
+2026-09-05 22:37:13,039 | rank=2 | INFO | jlens.fitting |   prompt 52/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.449  max_d_mean=1.45e-02
+2026-09-05 22:37:40,506 | rank=3 | INFO | jlens.fitting |   prompt 54/125  seq_len=127 n_valid=110  122s  max||J||/sqrt(d)=1.349  max_d_mean=1.13e-02
+2026-09-05 22:38:33,812 | rank=0 | INFO | jlens.fitting |   prompt 54/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=1.500  max_d_mean=1.28e-02
+2026-09-05 22:38:34,809 | rank=1 | INFO | jlens.fitting |   prompt 53/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.455  max_d_mean=1.24e-02
+2026-09-05 22:39:27,611 | rank=2 | INFO | jlens.fitting |   prompt 53/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.326  max_d_mean=1.12e-02
+2026-09-05 22:39:45,638 | rank=3 | INFO | jlens.fitting |   prompt 55/125  seq_len=125 n_valid=108  125s  max||J||/sqrt(d)=1.381  max_d_mean=1.28e-02
+2026-09-05 22:40:47,620 | rank=1 | INFO | jlens.fitting |   prompt 54/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.418  max_d_mean=1.16e-02
+2026-09-05 22:40:52,015 | rank=0 | INFO | jlens.fitting |   prompt 55/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.434  max_d_mean=1.21e-02
+2026-09-05 22:41:38,592 | rank=2 | INFO | jlens.fitting |   prompt 54/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.424  max_d_mean=1.18e-02
+2026-09-05 22:41:59,581 | rank=3 | INFO | jlens.fitting |   prompt 56/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.311  max_d_mean=1.05e-02
+2026-09-05 22:42:59,622 | rank=1 | INFO | jlens.fitting |   prompt 55/125  seq_len=121 n_valid=104  132s  max||J||/sqrt(d)=1.298  max_d_mean=1.00e-02
+2026-09-05 22:43:10,250 | rank=0 | INFO | jlens.fitting |   prompt 56/125  seq_len=122 n_valid=105  138s  max||J||/sqrt(d)=1.352  max_d_mean=1.20e-02
+2026-09-05 22:43:50,828 | rank=2 | INFO | jlens.fitting |   prompt 55/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.336  max_d_mean=1.20e-02
+2026-09-05 22:44:14,284 | rank=3 | INFO | jlens.fitting |   prompt 57/125  seq_len=123 n_valid=106  135s  max||J||/sqrt(d)=1.447  max_d_mean=1.38e-02
+2026-09-05 22:45:10,531 | rank=1 | INFO | jlens.fitting |   prompt 56/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.450  max_d_mean=1.47e-02
+2026-09-05 22:45:15,075 | rank=0 | INFO | jlens.fitting |   prompt 57/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.615  max_d_mean=1.80e-02
+2026-09-05 22:46:05,681 | rank=2 | INFO | jlens.fitting |   prompt 56/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.427  max_d_mean=1.48e-02
+2026-09-05 22:46:27,144 | rank=3 | INFO | jlens.fitting |   prompt 58/125  seq_len=120 n_valid=103  133s  max||J||/sqrt(d)=1.504  max_d_mean=1.27e-02
+2026-09-05 22:47:26,605 | rank=0 | INFO | jlens.fitting |   prompt 58/125  seq_len=124 n_valid=107  132s  max||J||/sqrt(d)=1.404  max_d_mean=1.19e-02
+2026-09-05 22:47:27,468 | rank=1 | INFO | jlens.fitting |   prompt 57/125  seq_len=127 n_valid=110  137s  max||J||/sqrt(d)=1.368  max_d_mean=1.30e-02
+2026-09-05 22:48:19,184 | rank=2 | INFO | jlens.fitting |   prompt 57/125  seq_len=122 n_valid=105  134s  max||J||/sqrt(d)=1.333  max_d_mean=1.26e-02
+2026-09-05 22:48:37,210 | rank=3 | INFO | jlens.fitting |   prompt 59/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.429  max_d_mean=1.31e-02
+2026-09-05 22:49:31,316 | rank=0 | INFO | jlens.fitting |   prompt 59/125  seq_len=127 n_valid=110  125s  max||J||/sqrt(d)=1.382  max_d_mean=1.05e-02
+2026-09-05 22:49:42,560 | rank=1 | INFO | jlens.fitting |   prompt 58/125  seq_len=126 n_valid=109  135s  max||J||/sqrt(d)=1.313  max_d_mean=1.16e-02
+2026-09-05 22:50:31,159 | rank=2 | INFO | jlens.fitting |   prompt 58/125  seq_len=123 n_valid=106  132s  max||J||/sqrt(d)=1.361  max_d_mean=1.16e-02
+2026-09-05 22:50:46,574 | rank=3 | INFO | jlens.fitting |   prompt 60/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.414  max_d_mean=1.36e-02
+2026-09-05 22:51:50,288 | rank=0 | INFO | jlens.fitting |   prompt 60/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=1.539  max_d_mean=1.32e-02
+2026-09-05 22:51:57,838 | rank=1 | INFO | jlens.fitting |   prompt 59/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.365  max_d_mean=1.29e-02
+2026-09-05 22:52:44,874 | rank=2 | INFO | jlens.fitting |   prompt 59/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.447  max_d_mean=1.37e-02
+2026-09-05 22:52:59,225 | rank=3 | INFO | jlens.fitting |   prompt 61/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.490  max_d_mean=1.27e-02
+2026-09-05 22:54:02,502 | rank=0 | INFO | jlens.fitting |   prompt 61/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.443  max_d_mean=1.32e-02
+2026-09-05 22:54:14,546 | rank=1 | INFO | jlens.fitting |   prompt 60/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.397  max_d_mean=1.32e-02
+2026-09-05 22:54:59,156 | rank=2 | INFO | jlens.fitting |   prompt 60/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.398  max_d_mean=1.40e-02
+2026-09-05 22:55:12,376 | rank=3 | INFO | jlens.fitting |   prompt 62/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.478  max_d_mean=1.19e-02
+2026-09-05 22:56:06,203 | rank=0 | INFO | jlens.fitting |   prompt 62/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.423  max_d_mean=1.24e-02
+2026-09-05 22:56:27,163 | rank=1 | INFO | jlens.fitting |   prompt 61/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.378  max_d_mean=1.16e-02
+2026-09-05 22:57:11,135 | rank=2 | INFO | jlens.fitting |   prompt 61/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.439  max_d_mean=1.24e-02
+2026-09-05 22:57:20,247 | rank=3 | INFO | jlens.fitting |   prompt 63/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.420  max_d_mean=1.16e-02
+2026-09-05 22:58:09,622 | rank=0 | INFO | jlens.fitting |   prompt 63/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.424  max_d_mean=1.24e-02
+2026-09-05 22:58:37,028 | rank=1 | INFO | jlens.fitting |   prompt 62/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.436  max_d_mean=1.18e-02
+2026-09-05 22:59:23,339 | rank=3 | INFO | jlens.fitting |   prompt 64/125  seq_len=127 n_valid=110  123s  max||J||/sqrt(d)=1.335  max_d_mean=1.20e-02
+2026-09-05 22:59:24,136 | rank=2 | INFO | jlens.fitting |   prompt 62/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.398  max_d_mean=1.19e-02
+2026-09-05 23:00:16,536 | rank=0 | INFO | jlens.fitting |   prompt 64/125  seq_len=128 n_valid=111  127s  max||J||/sqrt(d)=1.374  max_d_mean=1.09e-02
+2026-09-05 23:00:48,588 | rank=1 | INFO | jlens.fitting |   prompt 63/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.463  max_d_mean=1.30e-02
+2026-09-05 23:01:24,880 | rank=3 | INFO | jlens.fitting |   prompt 65/125  seq_len=127 n_valid=110  122s  max||J||/sqrt(d)=1.343  max_d_mean=9.74e-03
+2026-09-05 23:01:34,841 | rank=2 | INFO | jlens.fitting |   prompt 63/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.424  max_d_mean=1.19e-02
+2026-09-05 23:02:21,310 | rank=0 | INFO | jlens.fitting |   prompt 65/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.429  max_d_mean=1.20e-02
+2026-09-05 23:02:59,682 | rank=1 | INFO | jlens.fitting |   prompt 64/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.376  max_d_mean=9.90e-03
+2026-09-05 23:03:37,454 | rank=3 | INFO | jlens.fitting |   prompt 66/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.413  max_d_mean=1.21e-02
+2026-09-05 23:03:46,990 | rank=2 | INFO | jlens.fitting |   prompt 64/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.330  max_d_mean=1.08e-02
+2026-09-05 23:04:37,905 | rank=0 | INFO | jlens.fitting |   prompt 66/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.473  max_d_mean=1.17e-02
+2026-09-05 23:05:13,522 | rank=1 | INFO | jlens.fitting |   prompt 65/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.417  max_d_mean=1.31e-02
+2026-09-05 23:05:47,686 | rank=3 | INFO | jlens.fitting |   prompt 67/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.595  max_d_mean=1.25e-02
+2026-09-05 23:05:57,933 | rank=2 | INFO | jlens.fitting |   prompt 65/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.365  max_d_mean=1.11e-02
+2026-09-05 23:06:53,082 | rank=0 | INFO | jlens.fitting |   prompt 67/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.337  max_d_mean=1.08e-02
+2026-09-05 23:07:25,290 | rank=1 | INFO | jlens.fitting |   prompt 66/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.363  max_d_mean=1.06e-02
+2026-09-05 23:08:03,322 | rank=3 | INFO | jlens.fitting |   prompt 68/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.400  max_d_mean=1.04e-02
+2026-09-05 23:08:09,694 | rank=2 | INFO | jlens.fitting |   prompt 66/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.511  max_d_mean=1.08e-02
+2026-09-05 23:09:11,947 | rank=0 | INFO | jlens.fitting |   prompt 68/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=1.442  max_d_mean=1.09e-02
+2026-09-05 23:09:33,911 | rank=1 | INFO | jlens.fitting |   prompt 67/125  seq_len=127 n_valid=110  129s  max||J||/sqrt(d)=1.349  max_d_mean=1.07e-02
+2026-09-05 23:10:16,705 | rank=3 | INFO | jlens.fitting |   prompt 69/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.431  max_d_mean=1.13e-02
+2026-09-05 23:10:21,375 | rank=2 | INFO | jlens.fitting |   prompt 67/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.502  max_d_mean=1.21e-02
+2026-09-05 23:11:30,308 | rank=0 | INFO | jlens.fitting |   prompt 69/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.386  max_d_mean=1.05e-02
+2026-09-05 23:11:43,503 | rank=1 | INFO | jlens.fitting |   prompt 68/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.320  max_d_mean=9.28e-03
+2026-09-05 23:12:23,425 | rank=3 | INFO | jlens.fitting |   prompt 70/125  seq_len=128 n_valid=111  127s  max||J||/sqrt(d)=1.364  max_d_mean=1.02e-02
+2026-09-05 23:12:32,475 | rank=2 | INFO | jlens.fitting |   prompt 68/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.326  max_d_mean=1.02e-02
+2026-09-05 23:13:47,220 | rank=0 | INFO | jlens.fitting |   prompt 70/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.394  max_d_mean=1.06e-02
+2026-09-05 23:13:51,956 | rank=1 | INFO | jlens.fitting |   prompt 69/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.389  max_d_mean=1.15e-02
+2026-09-05 23:14:36,007 | rank=3 | INFO | jlens.fitting |   prompt 71/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.364  max_d_mean=1.07e-02
+2026-09-05 23:14:44,891 | rank=2 | INFO | jlens.fitting |   prompt 69/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.565  max_d_mean=1.48e-02
+2026-09-05 23:16:02,642 | rank=1 | INFO | jlens.fitting |   prompt 70/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.377  max_d_mean=1.15e-02
+2026-09-05 23:16:07,758 | rank=0 | INFO | jlens.fitting |   prompt 71/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.391  max_d_mean=1.09e-02
+2026-09-05 23:16:46,481 | rank=3 | INFO | jlens.fitting |   prompt 72/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.523  max_d_mean=1.11e-02
+2026-09-05 23:16:57,302 | rank=2 | INFO | jlens.fitting |   prompt 70/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.443  max_d_mean=1.23e-02
+2026-09-05 23:18:16,113 | rank=1 | INFO | jlens.fitting |   prompt 71/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.581  max_d_mean=1.30e-02
+2026-09-05 23:18:22,032 | rank=0 | INFO | jlens.fitting |   prompt 72/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.495  max_d_mean=1.11e-02
+2026-09-05 23:18:56,808 | rank=3 | INFO | jlens.fitting |   prompt 73/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.510  max_d_mean=1.33e-02
+2026-09-05 23:19:11,483 | rank=2 | INFO | jlens.fitting |   prompt 71/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.468  max_d_mean=1.10e-02
+2026-09-05 23:20:29,529 | rank=1 | INFO | jlens.fitting |   prompt 72/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.317  max_d_mean=9.62e-03
+2026-09-05 23:20:39,095 | rank=0 | INFO | jlens.fitting |   prompt 73/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.589  max_d_mean=1.23e-02
+2026-09-05 23:21:08,127 | rank=3 | INFO | jlens.fitting |   prompt 74/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.408  max_d_mean=9.77e-03
+2026-09-05 23:21:24,690 | rank=2 | INFO | jlens.fitting |   prompt 72/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.571  max_d_mean=1.19e-02
+2026-09-05 23:22:41,422 | rank=1 | INFO | jlens.fitting |   prompt 73/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.352  max_d_mean=9.86e-03
+2026-09-05 23:23:00,260 | rank=0 | INFO | jlens.fitting |   prompt 74/125  seq_len=128 n_valid=111  141s  max||J||/sqrt(d)=1.504  max_d_mean=1.09e-02
+2026-09-05 23:23:19,083 | rank=3 | INFO | jlens.fitting |   prompt 75/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.507  max_d_mean=1.04e-02
+2026-09-05 23:23:38,328 | rank=2 | INFO | jlens.fitting |   prompt 73/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.367  max_d_mean=1.03e-02
+2026-09-05 23:24:52,528 | rank=1 | INFO | jlens.fitting |   prompt 74/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.417  max_d_mean=1.03e-02
+2026-09-05 23:25:19,152 | rank=0 | INFO | jlens.fitting |   prompt 75/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=1.515  max_d_mean=1.05e-02
+2026-09-05 23:25:32,285 | rank=3 | INFO | jlens.fitting |   prompt 76/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.426  max_d_mean=8.80e-03
+2026-09-05 23:25:52,528 | rank=2 | INFO | jlens.fitting |   prompt 74/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.382  max_d_mean=9.72e-03
+2026-09-05 23:27:01,565 | rank=1 | INFO | jlens.fitting |   prompt 75/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.309  max_d_mean=9.06e-03
+2026-09-05 23:27:34,079 | rank=3 | INFO | jlens.fitting |   prompt 77/125  seq_len=128 n_valid=111  122s  max||J||/sqrt(d)=1.407  max_d_mean=1.01e-02
+2026-09-05 23:27:37,602 | rank=0 | INFO | jlens.fitting |   prompt 76/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.393  max_d_mean=9.61e-03
+2026-09-05 23:28:03,790 | rank=2 | INFO | jlens.fitting |   prompt 75/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.355  max_d_mean=9.23e-03
+2026-09-05 23:29:16,121 | rank=1 | INFO | jlens.fitting |   prompt 76/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.398  max_d_mean=9.29e-03
+2026-09-05 23:29:37,409 | rank=3 | INFO | jlens.fitting |   prompt 78/125  seq_len=127 n_valid=110  123s  max||J||/sqrt(d)=1.533  max_d_mean=1.11e-02
+2026-09-05 23:29:54,798 | rank=0 | INFO | jlens.fitting |   prompt 77/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.369  max_d_mean=9.69e-03
+2026-09-05 23:30:17,630 | rank=2 | INFO | jlens.fitting |   prompt 76/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.329  max_d_mean=9.06e-03
+2026-09-05 23:31:31,046 | rank=1 | INFO | jlens.fitting |   prompt 77/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.365  max_d_mean=9.76e-03
+2026-09-05 23:31:38,431 | rank=3 | INFO | jlens.fitting |   prompt 79/125  seq_len=128 n_valid=111  121s  max||J||/sqrt(d)=1.357  max_d_mean=9.00e-03
+2026-09-05 23:32:10,575 | rank=0 | INFO | jlens.fitting |   prompt 78/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.402  max_d_mean=9.26e-03
+2026-09-05 23:32:28,431 | rank=2 | INFO | jlens.fitting |   prompt 77/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.304  max_d_mean=8.52e-03
+2026-09-05 23:33:41,756 | rank=3 | INFO | jlens.fitting |   prompt 80/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.442  max_d_mean=9.07e-03
+2026-09-05 23:33:46,439 | rank=1 | INFO | jlens.fitting |   prompt 78/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.464  max_d_mean=1.16e-02
+2026-09-05 23:34:28,980 | rank=0 | INFO | jlens.fitting |   prompt 79/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.395  max_d_mean=9.11e-03
+2026-09-05 23:34:36,048 | rank=2 | INFO | jlens.fitting |   prompt 78/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.521  max_d_mean=1.10e-02
+2026-09-05 23:35:51,406 | rank=3 | INFO | jlens.fitting |   prompt 81/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.487  max_d_mean=9.87e-03
+2026-09-05 23:35:58,925 | rank=1 | INFO | jlens.fitting |   prompt 79/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.364  max_d_mean=8.97e-03
+2026-09-05 23:36:35,284 | rank=0 | INFO | jlens.fitting |   prompt 80/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.398  max_d_mean=8.59e-03
+2026-09-05 23:36:47,167 | rank=2 | INFO | jlens.fitting |   prompt 79/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.322  max_d_mean=8.83e-03
+2026-09-05 23:38:03,412 | rank=3 | INFO | jlens.fitting |   prompt 82/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.385  max_d_mean=9.54e-03
+2026-09-05 23:38:11,378 | rank=1 | INFO | jlens.fitting |   prompt 80/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.448  max_d_mean=1.05e-02
+2026-09-05 23:38:40,592 | rank=0 | INFO | jlens.fitting |   prompt 81/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.458  max_d_mean=9.56e-03
+2026-09-05 23:39:00,502 | rank=2 | INFO | jlens.fitting |   prompt 80/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.431  max_d_mean=9.50e-03
+2026-09-05 23:40:17,754 | rank=3 | INFO | jlens.fitting |   prompt 83/125  seq_len=127 n_valid=110  134s  max||J||/sqrt(d)=3.339  max_d_mean=3.37e-02
+2026-09-05 23:40:22,750 | rank=1 | INFO | jlens.fitting |   prompt 81/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.380  max_d_mean=9.01e-03
+2026-09-05 23:40:45,347 | rank=0 | INFO | jlens.fitting |   prompt 82/125  seq_len=127 n_valid=110  125s  max||J||/sqrt(d)=1.390  max_d_mean=9.72e-03
+2026-09-05 23:41:11,638 | rank=2 | INFO | jlens.fitting |   prompt 81/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.448  max_d_mean=9.81e-03
+2026-09-05 23:42:28,918 | rank=3 | INFO | jlens.fitting |   prompt 84/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.340  max_d_mean=7.63e-03
+2026-09-05 23:42:35,197 | rank=1 | INFO | jlens.fitting |   prompt 82/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.328  max_d_mean=8.13e-03
+2026-09-05 23:42:50,069 | rank=0 | INFO | jlens.fitting |   prompt 83/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.344  max_d_mean=8.61e-03
+2026-09-05 23:43:22,104 | rank=2 | INFO | jlens.fitting |   prompt 82/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.466  max_d_mean=9.69e-03
+2026-09-05 23:44:43,903 | rank=3 | INFO | jlens.fitting |   prompt 85/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.383  max_d_mean=7.52e-03
+2026-09-05 23:44:47,872 | rank=1 | INFO | jlens.fitting |   prompt 83/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.453  max_d_mean=1.07e-02
+2026-09-05 23:44:55,529 | rank=0 | INFO | jlens.fitting |   prompt 84/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.389  max_d_mean=9.40e-03
+2026-09-05 23:45:33,358 | rank=2 | INFO | jlens.fitting |   prompt 83/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.411  max_d_mean=9.92e-03
+2026-09-05 23:46:54,980 | rank=3 | INFO | jlens.fitting |   prompt 86/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.279  max_d_mean=6.92e-03
+2026-09-05 23:47:01,193 | rank=0 | INFO | jlens.fitting |   prompt 85/125  seq_len=128 n_valid=111  126s  max||J||/sqrt(d)=1.351  max_d_mean=7.90e-03
+2026-09-05 23:47:05,155 | rank=1 | INFO | jlens.fitting |   prompt 84/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.445  max_d_mean=9.18e-03
+2026-09-05 23:47:46,420 | rank=2 | INFO | jlens.fitting |   prompt 84/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.353  max_d_mean=8.39e-03
+2026-09-05 23:49:07,221 | rank=3 | INFO | jlens.fitting |   prompt 87/125  seq_len=126 n_valid=109  132s  max||J||/sqrt(d)=1.581  max_d_mean=1.24e-02
+2026-09-05 23:49:17,502 | rank=1 | INFO | jlens.fitting |   prompt 85/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.413  max_d_mean=8.63e-03
+2026-09-05 23:49:20,599 | rank=0 | INFO | jlens.fitting |   prompt 86/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=1.357  max_d_mean=7.60e-03
+2026-09-05 23:50:00,569 | rank=2 | INFO | jlens.fitting |   prompt 85/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.352  max_d_mean=7.91e-03
+2026-09-05 23:51:20,467 | rank=3 | INFO | jlens.fitting |   prompt 88/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.345  max_d_mean=7.88e-03
+2026-09-05 23:51:30,560 | rank=1 | INFO | jlens.fitting |   prompt 86/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.381  max_d_mean=8.42e-03
+2026-09-05 23:51:40,362 | rank=0 | INFO | jlens.fitting |   prompt 87/125  seq_len=128 n_valid=111  140s  max||J||/sqrt(d)=1.388  max_d_mean=8.71e-03
+2026-09-05 23:52:13,298 | rank=2 | INFO | jlens.fitting |   prompt 86/125  seq_len=126 n_valid=109  132s  max||J||/sqrt(d)=1.326  max_d_mean=8.24e-03
+2026-09-05 23:53:33,436 | rank=3 | INFO | jlens.fitting |   prompt 89/125  seq_len=123 n_valid=106  133s  max||J||/sqrt(d)=1.309  max_d_mean=8.12e-03
+2026-09-05 23:53:43,977 | rank=1 | INFO | jlens.fitting |   prompt 87/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.305  max_d_mean=7.03e-03
+2026-09-05 23:53:56,554 | rank=0 | INFO | jlens.fitting |   prompt 88/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.390  max_d_mean=7.59e-03
+2026-09-05 23:54:23,817 | rank=2 | INFO | jlens.fitting |   prompt 87/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.291  max_d_mean=6.74e-03
+2026-09-05 23:55:45,031 | rank=3 | INFO | jlens.fitting |   prompt 90/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.317  max_d_mean=6.91e-03
+2026-09-05 23:55:56,997 | rank=1 | INFO | jlens.fitting |   prompt 88/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.494  max_d_mean=8.96e-03
+2026-09-05 23:56:09,521 | rank=0 | INFO | jlens.fitting |   prompt 89/125  seq_len=126 n_valid=109  133s  max||J||/sqrt(d)=1.451  max_d_mean=8.75e-03
+2026-09-05 23:56:35,329 | rank=2 | INFO | jlens.fitting |   prompt 88/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.312  max_d_mean=6.40e-03
+2026-09-05 23:57:55,904 | rank=3 | INFO | jlens.fitting |   prompt 91/125  seq_len=125 n_valid=108  130s  max||J||/sqrt(d)=1.300  max_d_mean=7.35e-03
+2026-09-05 23:58:11,131 | rank=1 | INFO | jlens.fitting |   prompt 89/125  seq_len=124 n_valid=107  134s  max||J||/sqrt(d)=1.330  max_d_mean=7.85e-03
+2026-09-05 23:58:19,437 | rank=0 | INFO | jlens.fitting |   prompt 90/125  seq_len=124 n_valid=107  130s  max||J||/sqrt(d)=1.270  max_d_mean=8.80e-03
+2026-09-05 23:58:49,309 | rank=2 | INFO | jlens.fitting |   prompt 89/125  seq_len=124 n_valid=107  134s  max||J||/sqrt(d)=1.477  max_d_mean=9.41e-03
+2026-09-06 00:00:05,478 | rank=3 | INFO | jlens.fitting |   prompt 92/125  seq_len=126 n_valid=109  130s  max||J||/sqrt(d)=1.409  max_d_mean=7.30e-03
+2026-09-06 00:00:26,653 | rank=1 | INFO | jlens.fitting |   prompt 90/125  seq_len=125 n_valid=108  136s  max||J||/sqrt(d)=1.291  max_d_mean=8.33e-03
+2026-09-06 00:00:35,112 | rank=0 | INFO | jlens.fitting |   prompt 91/125  seq_len=128 n_valid=111  135s  max||J||/sqrt(d)=1.310  max_d_mean=7.59e-03
+2026-09-06 00:01:02,348 | rank=2 | INFO | jlens.fitting |   prompt 90/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.341  max_d_mean=7.99e-03
+2026-09-06 00:02:10,456 | rank=3 | INFO | jlens.fitting |   prompt 93/125  seq_len=127 n_valid=110  125s  max||J||/sqrt(d)=1.456  max_d_mean=7.71e-03
+2026-09-06 00:02:37,706 | rank=1 | INFO | jlens.fitting |   prompt 91/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.308  max_d_mean=6.55e-03
+2026-09-06 00:02:47,500 | rank=0 | INFO | jlens.fitting |   prompt 92/125  seq_len=125 n_valid=108  132s  max||J||/sqrt(d)=1.394  max_d_mean=8.30e-03
+2026-09-06 00:03:16,491 | rank=2 | INFO | jlens.fitting |   prompt 91/125  seq_len=124 n_valid=107  134s  max||J||/sqrt(d)=1.335  max_d_mean=7.41e-03
+2026-09-06 00:04:14,635 | rank=3 | INFO | jlens.fitting |   prompt 94/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.547  max_d_mean=8.82e-03
+2026-09-06 00:04:47,870 | rank=1 | INFO | jlens.fitting |   prompt 92/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.745  max_d_mean=1.34e-02
+2026-09-06 00:04:52,982 | rank=0 | INFO | jlens.fitting |   prompt 93/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.441  max_d_mean=7.54e-03
+2026-09-06 00:05:29,084 | rank=2 | INFO | jlens.fitting |   prompt 92/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.408  max_d_mean=7.35e-03
+2026-09-06 00:06:14,521 | rank=3 | INFO | jlens.fitting |   prompt 95/125  seq_len=124 n_valid=107  120s  max||J||/sqrt(d)=1.350  max_d_mean=6.86e-03
+2026-09-06 00:06:55,582 | rank=1 | INFO | jlens.fitting |   prompt 93/125  seq_len=127 n_valid=110  128s  max||J||/sqrt(d)=1.394  max_d_mean=8.06e-03
+2026-09-06 00:06:56,825 | rank=0 | INFO | jlens.fitting |   prompt 94/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.416  max_d_mean=7.42e-03
+2026-09-06 00:07:41,132 | rank=2 | INFO | jlens.fitting |   prompt 93/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.494  max_d_mean=8.22e-03
+2026-09-06 00:08:32,297 | rank=3 | INFO | jlens.fitting |   prompt 96/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.362  max_d_mean=7.04e-03
+2026-09-06 00:09:00,999 | rank=0 | INFO | jlens.fitting |   prompt 95/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.584  max_d_mean=8.80e-03
+2026-09-06 00:09:05,577 | rank=1 | INFO | jlens.fitting |   prompt 94/125  seq_len=126 n_valid=109  130s  max||J||/sqrt(d)=1.386  max_d_mean=7.50e-03
+2026-09-06 00:09:54,644 | rank=2 | INFO | jlens.fitting |   prompt 94/125  seq_len=125 n_valid=108  134s  max||J||/sqrt(d)=1.452  max_d_mean=7.88e-03
+2026-09-06 00:10:45,011 | rank=3 | INFO | jlens.fitting |   prompt 97/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.351  max_d_mean=6.40e-03
+2026-09-06 00:11:15,711 | rank=1 | INFO | jlens.fitting |   prompt 95/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.358  max_d_mean=6.73e-03
+2026-09-06 00:11:20,270 | rank=0 | INFO | jlens.fitting |   prompt 96/125  seq_len=126 n_valid=109  139s  max||J||/sqrt(d)=1.316  max_d_mean=6.67e-03
+2026-09-06 00:12:06,779 | rank=2 | INFO | jlens.fitting |   prompt 95/125  seq_len=126 n_valid=109  132s  max||J||/sqrt(d)=1.391  max_d_mean=7.58e-03
+2026-09-06 00:12:47,946 | rank=3 | INFO | jlens.fitting |   prompt 98/125  seq_len=128 n_valid=111  123s  max||J||/sqrt(d)=1.498  max_d_mean=7.62e-03
+2026-09-06 00:13:23,944 | rank=1 | INFO | jlens.fitting |   prompt 96/125  seq_len=127 n_valid=110  128s  max||J||/sqrt(d)=1.260  max_d_mean=6.57e-03
+2026-09-06 00:13:39,429 | rank=0 | INFO | jlens.fitting |   prompt 97/125  seq_len=127 n_valid=110  139s  max||J||/sqrt(d)=1.445  max_d_mean=7.09e-03
+2026-09-06 00:14:19,223 | rank=2 | INFO | jlens.fitting |   prompt 96/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.273  max_d_mean=7.64e-03
+2026-09-06 00:14:51,730 | rank=3 | INFO | jlens.fitting |   prompt 99/125  seq_len=126 n_valid=109  124s  max||J||/sqrt(d)=1.305  max_d_mean=6.80e-03
+2026-09-06 00:15:31,755 | rank=1 | INFO | jlens.fitting |   prompt 97/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.448  max_d_mean=7.30e-03
+2026-09-06 00:15:58,541 | rank=0 | INFO | jlens.fitting |   prompt 98/125  seq_len=128 n_valid=111  139s  max||J||/sqrt(d)=2.130  max_d_mean=1.65e-02
+2026-09-06 00:16:30,183 | rank=2 | INFO | jlens.fitting |   prompt 97/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.465  max_d_mean=7.48e-03
+2026-09-06 00:16:54,517 | rank=3 | INFO | jlens.fitting |   prompt 100/125  seq_len=127 n_valid=110  123s  max||J||/sqrt(d)=1.368  max_d_mean=7.20e-03
+2026-09-06 00:17:41,199 | rank=1 | INFO | jlens.fitting |   prompt 98/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.431  max_d_mean=7.86e-03
+2026-09-06 00:18:16,584 | rank=0 | INFO | jlens.fitting |   prompt 99/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.376  max_d_mean=6.64e-03
+2026-09-06 00:18:42,456 | rank=2 | INFO | jlens.fitting |   prompt 98/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.381  max_d_mean=6.80e-03
+2026-09-06 00:19:07,410 | rank=3 | INFO | jlens.fitting |   prompt 101/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.328  max_d_mean=6.13e-03
+2026-09-06 00:19:54,099 | rank=1 | INFO | jlens.fitting |   prompt 99/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.321  max_d_mean=6.65e-03
+2026-09-06 00:20:33,403 | rank=0 | INFO | jlens.fitting |   prompt 100/125  seq_len=128 n_valid=111  137s  max||J||/sqrt(d)=1.441  max_d_mean=7.86e-03
+2026-09-06 00:20:52,867 | rank=2 | INFO | jlens.fitting |   prompt 99/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.307  max_d_mean=5.79e-03
+2026-09-06 00:21:21,825 | rank=3 | INFO | jlens.fitting |   prompt 102/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.429  max_d_mean=7.40e-03
+2026-09-06 00:22:06,337 | rank=1 | INFO | jlens.fitting |   prompt 100/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.440  max_d_mean=6.84e-03
+2026-09-06 00:22:51,541 | rank=0 | INFO | jlens.fitting |   prompt 101/125  seq_len=126 n_valid=109  137s  max||J||/sqrt(d)=1.350  max_d_mean=6.89e-03
+2026-09-06 00:23:03,190 | rank=2 | INFO | jlens.fitting |   prompt 100/125  seq_len=124 n_valid=107  130s  max||J||/sqrt(d)=1.355  max_d_mean=6.78e-03
+2026-09-06 00:23:25,524 | rank=3 | INFO | jlens.fitting |   prompt 103/125  seq_len=126 n_valid=109  124s  max||J||/sqrt(d)=1.374  max_d_mean=7.56e-03
+2026-09-06 00:24:16,257 | rank=1 | INFO | jlens.fitting |   prompt 101/125  seq_len=127 n_valid=110  129s  max||J||/sqrt(d)=1.322  max_d_mean=6.77e-03
+2026-09-06 00:24:59,490 | rank=0 | INFO | jlens.fitting |   prompt 102/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.437  max_d_mean=6.89e-03
+2026-09-06 00:25:16,578 | rank=2 | INFO | jlens.fitting |   prompt 101/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.345  max_d_mean=6.42e-03
+2026-09-06 00:25:29,121 | rank=3 | INFO | jlens.fitting |   prompt 104/125  seq_len=126 n_valid=109  124s  max||J||/sqrt(d)=1.330  max_d_mean=5.88e-03
+2026-09-06 00:26:28,257 | rank=1 | INFO | jlens.fitting |   prompt 102/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.321  max_d_mean=6.03e-03
+2026-09-06 00:27:05,523 | rank=0 | INFO | jlens.fitting |   prompt 103/125  seq_len=127 n_valid=110  126s  max||J||/sqrt(d)=1.519  max_d_mean=7.52e-03
+2026-09-06 00:27:29,902 | rank=2 | INFO | jlens.fitting |   prompt 102/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.353  max_d_mean=6.94e-03
+2026-09-06 00:27:33,842 | rank=3 | INFO | jlens.fitting |   prompt 105/125  seq_len=127 n_valid=110  125s  max||J||/sqrt(d)=1.368  max_d_mean=7.02e-03
+2026-09-06 00:28:39,082 | rank=1 | INFO | jlens.fitting |   prompt 103/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.366  max_d_mean=6.16e-03
+2026-09-06 00:29:10,765 | rank=0 | INFO | jlens.fitting |   prompt 104/125  seq_len=128 n_valid=111  125s  max||J||/sqrt(d)=1.351  max_d_mean=6.31e-03
+2026-09-06 00:29:42,291 | rank=2 | INFO | jlens.fitting |   prompt 103/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.305  max_d_mean=6.76e-03
+2026-09-06 00:29:46,474 | rank=3 | INFO | jlens.fitting |   prompt 106/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.400  max_d_mean=6.84e-03
+2026-09-06 00:30:47,422 | rank=1 | INFO | jlens.fitting |   prompt 104/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.501  max_d_mean=7.44e-03
+2026-09-06 00:31:16,933 | rank=0 | INFO | jlens.fitting |   prompt 105/125  seq_len=127 n_valid=110  126s  max||J||/sqrt(d)=1.368  max_d_mean=7.22e-03
+2026-09-06 00:31:54,761 | rank=2 | INFO | jlens.fitting |   prompt 104/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.336  max_d_mean=6.70e-03
+2026-09-06 00:31:57,592 | rank=3 | INFO | jlens.fitting |   prompt 107/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.373  max_d_mean=6.11e-03
+2026-09-06 00:32:58,271 | rank=1 | INFO | jlens.fitting |   prompt 105/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.322  max_d_mean=6.71e-03
+2026-09-06 00:33:35,065 | rank=0 | INFO | jlens.fitting |   prompt 106/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.375  max_d_mean=6.52e-03
+2026-09-06 00:34:08,613 | rank=2 | INFO | jlens.fitting |   prompt 105/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.373  max_d_mean=6.71e-03
+2026-09-06 00:34:09,009 | rank=3 | INFO | jlens.fitting |   prompt 108/125  seq_len=124 n_valid=107  131s  max||J||/sqrt(d)=1.366  max_d_mean=6.63e-03
+2026-09-06 00:35:09,785 | rank=1 | INFO | jlens.fitting |   prompt 106/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.395  max_d_mean=7.24e-03
+2026-09-06 00:35:52,711 | rank=0 | INFO | jlens.fitting |   prompt 107/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.316  max_d_mean=6.39e-03
+2026-09-06 00:36:20,334 | rank=2 | INFO | jlens.fitting |   prompt 106/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.415  max_d_mean=7.41e-03
+2026-09-06 00:36:21,752 | rank=3 | INFO | jlens.fitting |   prompt 109/125  seq_len=126 n_valid=109  133s  max||J||/sqrt(d)=1.273  max_d_mean=6.34e-03
+2026-09-06 00:37:23,078 | rank=1 | INFO | jlens.fitting |   prompt 107/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.334  max_d_mean=6.27e-03
+2026-09-06 00:38:10,929 | rank=0 | INFO | jlens.fitting |   prompt 108/125  seq_len=127 n_valid=110  138s  max||J||/sqrt(d)=1.332  max_d_mean=5.71e-03
+2026-09-06 00:38:31,888 | rank=3 | INFO | jlens.fitting |   prompt 110/125  seq_len=127 n_valid=110  130s  max||J||/sqrt(d)=1.299  max_d_mean=5.16e-03
+2026-09-06 00:38:34,037 | rank=2 | INFO | jlens.fitting |   prompt 107/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.336  max_d_mean=5.71e-03
+2026-09-06 00:39:37,588 | rank=1 | INFO | jlens.fitting |   prompt 108/125  seq_len=127 n_valid=110  135s  max||J||/sqrt(d)=1.416  max_d_mean=6.62e-03
+2026-09-06 00:40:27,843 | rank=0 | INFO | jlens.fitting |   prompt 109/125  seq_len=126 n_valid=109  137s  max||J||/sqrt(d)=1.280  max_d_mean=6.22e-03
+2026-09-06 00:40:43,743 | rank=3 | INFO | jlens.fitting |   prompt 111/125  seq_len=127 n_valid=110  131s  max||J||/sqrt(d)=1.311  max_d_mean=5.54e-03
+2026-09-06 00:40:47,802 | rank=2 | INFO | jlens.fitting |   prompt 108/125  seq_len=125 n_valid=108  134s  max||J||/sqrt(d)=1.329  max_d_mean=7.45e-03
+2026-09-06 00:41:51,724 | rank=1 | INFO | jlens.fitting |   prompt 109/125  seq_len=125 n_valid=108  134s  max||J||/sqrt(d)=1.375  max_d_mean=6.32e-03
+2026-09-06 00:42:43,845 | rank=0 | INFO | jlens.fitting |   prompt 110/125  seq_len=128 n_valid=111  136s  max||J||/sqrt(d)=1.313  max_d_mean=5.71e-03
+2026-09-06 00:42:55,334 | rank=3 | INFO | jlens.fitting |   prompt 112/125  seq_len=124 n_valid=107  132s  max||J||/sqrt(d)=1.474  max_d_mean=6.74e-03
+2026-09-06 00:43:01,839 | rank=2 | INFO | jlens.fitting |   prompt 109/125  seq_len=126 n_valid=109  134s  max||J||/sqrt(d)=1.354  max_d_mean=6.20e-03
+2026-09-06 00:44:04,685 | rank=1 | INFO | jlens.fitting |   prompt 110/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.311  max_d_mean=6.28e-03
+2026-09-06 00:45:03,605 | rank=0 | INFO | jlens.fitting |   prompt 111/125  seq_len=125 n_valid=108  139s  max||J||/sqrt(d)=1.324  max_d_mean=5.65e-03
+2026-09-06 00:45:07,032 | rank=3 | INFO | jlens.fitting |   prompt 113/125  seq_len=126 n_valid=109  132s  max||J||/sqrt(d)=1.337  max_d_mean=5.87e-03
+2026-09-06 00:45:13,816 | rank=2 | INFO | jlens.fitting |   prompt 110/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.318  max_d_mean=6.31e-03
+2026-09-06 00:46:16,874 | rank=1 | INFO | jlens.fitting |   prompt 111/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.355  max_d_mean=6.06e-03
+2026-09-06 00:47:07,423 | rank=0 | INFO | jlens.fitting |   prompt 112/125  seq_len=126 n_valid=109  124s  max||J||/sqrt(d)=1.467  max_d_mean=6.45e-03
+2026-09-06 00:47:17,931 | rank=3 | INFO | jlens.fitting |   prompt 114/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.478  max_d_mean=6.46e-03
+2026-09-06 00:47:27,682 | rank=2 | INFO | jlens.fitting |   prompt 111/125  seq_len=126 n_valid=109  133s  max||J||/sqrt(d)=1.492  max_d_mean=6.51e-03
+2026-09-06 00:48:29,905 | rank=1 | INFO | jlens.fitting |   prompt 112/125  seq_len=122 n_valid=105  133s  max||J||/sqrt(d)=1.339  max_d_mean=6.24e-03
+2026-09-06 00:49:12,778 | rank=0 | INFO | jlens.fitting |   prompt 113/125  seq_len=126 n_valid=109  125s  max||J||/sqrt(d)=1.400  max_d_mean=5.77e-03
+2026-09-06 00:49:20,030 | rank=3 | INFO | jlens.fitting |   prompt 115/125  seq_len=128 n_valid=111  122s  max||J||/sqrt(d)=1.376  max_d_mean=5.61e-03
+2026-09-06 00:49:41,633 | rank=2 | INFO | jlens.fitting |   prompt 112/125  seq_len=123 n_valid=106  134s  max||J||/sqrt(d)=1.485  max_d_mean=6.72e-03
+2026-09-06 00:50:43,029 | rank=1 | INFO | jlens.fitting |   prompt 113/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.399  max_d_mean=6.01e-03
+2026-09-06 00:51:19,583 | rank=0 | INFO | jlens.fitting |   prompt 114/125  seq_len=128 n_valid=111  127s  max||J||/sqrt(d)=1.589  max_d_mean=8.67e-03
+2026-09-06 00:51:33,763 | rank=3 | INFO | jlens.fitting |   prompt 116/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.347  max_d_mean=5.41e-03
+2026-09-06 00:51:52,399 | rank=2 | INFO | jlens.fitting |   prompt 113/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.581  max_d_mean=7.44e-03
+2026-09-06 00:52:54,507 | rank=1 | INFO | jlens.fitting |   prompt 114/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.348  max_d_mean=5.94e-03
+2026-09-06 00:53:37,535 | rank=0 | INFO | jlens.fitting |   prompt 115/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.432  max_d_mean=5.53e-03
+2026-09-06 00:53:44,461 | rank=3 | INFO | jlens.fitting |   prompt 117/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.496  max_d_mean=6.31e-03
+2026-09-06 00:54:05,005 | rank=2 | INFO | jlens.fitting |   prompt 114/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.385  max_d_mean=5.72e-03
+2026-09-06 00:55:05,511 | rank=1 | INFO | jlens.fitting |   prompt 115/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.558  max_d_mean=6.88e-03
+2026-09-06 00:55:52,929 | rank=0 | INFO | jlens.fitting |   prompt 116/125  seq_len=123 n_valid=106  135s  max||J||/sqrt(d)=1.445  max_d_mean=5.99e-03
+2026-09-06 00:55:54,765 | rank=3 | INFO | jlens.fitting |   prompt 118/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.301  max_d_mean=5.05e-03
+2026-09-06 00:56:17,045 | rank=2 | INFO | jlens.fitting |   prompt 115/125  seq_len=127 n_valid=110  132s  max||J||/sqrt(d)=1.347  max_d_mean=5.49e-03
+2026-09-06 00:57:18,583 | rank=1 | INFO | jlens.fitting |   prompt 116/125  seq_len=124 n_valid=107  133s  max||J||/sqrt(d)=1.418  max_d_mean=6.03e-03
+2026-09-06 00:57:56,923 | rank=0 | INFO | jlens.fitting |   prompt 117/125  seq_len=128 n_valid=111  124s  max||J||/sqrt(d)=1.326  max_d_mean=4.80e-03
+2026-09-06 00:58:04,587 | rank=3 | INFO | jlens.fitting |   prompt 119/125  seq_len=121 n_valid=104  130s  max||J||/sqrt(d)=1.211  max_d_mean=5.83e-03
+2026-09-06 00:58:30,668 | rank=2 | INFO | jlens.fitting |   prompt 116/125  seq_len=127 n_valid=110  133s  max||J||/sqrt(d)=1.298  max_d_mean=4.75e-03
+2026-09-06 00:59:33,379 | rank=1 | INFO | jlens.fitting |   prompt 117/125  seq_len=125 n_valid=108  135s  max||J||/sqrt(d)=1.296  max_d_mean=5.42e-03
+2026-09-06 01:00:04,922 | rank=0 | INFO | jlens.fitting |   prompt 118/125  seq_len=127 n_valid=110  128s  max||J||/sqrt(d)=1.364  max_d_mean=5.55e-03
+2026-09-06 01:00:18,321 | rank=3 | INFO | jlens.fitting |   prompt 120/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.425  max_d_mean=6.38e-03
+2026-09-06 01:00:47,684 | rank=2 | INFO | jlens.fitting |   prompt 117/125  seq_len=124 n_valid=107  137s  max||J||/sqrt(d)=1.347  max_d_mean=7.24e-03
+2026-09-06 01:01:47,291 | rank=1 | INFO | jlens.fitting |   prompt 118/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.384  max_d_mean=5.79e-03
+2026-09-06 01:02:11,897 | rank=0 | INFO | jlens.fitting |   prompt 119/125  seq_len=128 n_valid=111  127s  max||J||/sqrt(d)=1.399  max_d_mean=5.82e-03
+2026-09-06 01:02:28,233 | rank=3 | INFO | jlens.fitting |   prompt 121/125  seq_len=128 n_valid=111  130s  max||J||/sqrt(d)=1.347  max_d_mean=5.50e-03
+2026-09-06 01:03:00,932 | rank=2 | INFO | jlens.fitting |   prompt 118/125  seq_len=126 n_valid=109  133s  max||J||/sqrt(d)=1.318  max_d_mean=5.31e-03
+2026-09-06 01:04:00,675 | rank=1 | INFO | jlens.fitting |   prompt 119/125  seq_len=128 n_valid=111  133s  max||J||/sqrt(d)=1.289  max_d_mean=5.28e-03
+2026-09-06 01:04:31,654 | rank=0 | INFO | jlens.fitting |   prompt 120/125  seq_len=120 n_valid=103  140s  max||J||/sqrt(d)=1.285  max_d_mean=5.82e-03
+2026-09-06 01:04:35,982 | rank=3 | INFO | jlens.fitting |   prompt 122/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.449  max_d_mean=5.48e-03
+2026-09-06 01:05:12,234 | rank=2 | INFO | jlens.fitting |   prompt 119/125  seq_len=126 n_valid=109  131s  max||J||/sqrt(d)=1.317  max_d_mean=5.04e-03
+2026-09-06 01:06:16,381 | rank=1 | INFO | jlens.fitting |   prompt 120/125  seq_len=125 n_valid=108  136s  max||J||/sqrt(d)=1.396  max_d_mean=6.23e-03
+2026-09-06 01:06:43,722 | rank=3 | INFO | jlens.fitting |   prompt 123/125  seq_len=128 n_valid=111  128s  max||J||/sqrt(d)=1.607  max_d_mean=6.55e-03
+2026-09-06 01:06:49,987 | rank=0 | INFO | jlens.fitting |   prompt 121/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.427  max_d_mean=6.35e-03
+2026-09-06 01:07:25,966 | rank=2 | INFO | jlens.fitting |   prompt 120/125  seq_len=128 n_valid=111  134s  max||J||/sqrt(d)=1.406  max_d_mean=7.01e-03
+2026-09-06 01:08:25,614 | rank=1 | INFO | jlens.fitting |   prompt 121/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.583  max_d_mean=7.48e-03
+2026-09-06 01:08:45,856 | rank=3 | INFO | jlens.fitting |   prompt 124/125  seq_len=128 n_valid=111  122s  max||J||/sqrt(d)=1.410  max_d_mean=5.03e-03
+2026-09-06 01:09:07,784 | rank=0 | INFO | jlens.fitting |   prompt 122/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.333  max_d_mean=5.68e-03
+2026-09-06 01:09:37,422 | rank=2 | INFO | jlens.fitting |   prompt 121/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.374  max_d_mean=5.43e-03
+2026-09-06 01:10:34,479 | rank=1 | INFO | jlens.fitting |   prompt 122/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.320  max_d_mean=5.38e-03
+2026-09-06 01:10:46,092 | rank=3 | INFO | jlens.fitting |   prompt 125/125  seq_len=128 n_valid=111  120s  max||J||/sqrt(d)=1.515  max_d_mean=6.62e-03
+2026-09-06 01:10:46,648 | rank=3 | INFO | jlens.fitting | fit: done, 125 prompts
+2026-09-06 01:11:27,297 | rank=0 | INFO | jlens.fitting |   prompt 123/125  seq_len=128 n_valid=111  140s  max||J||/sqrt(d)=1.962  max_d_mean=1.14e-02
+2026-09-06 01:11:49,257 | rank=2 | INFO | jlens.fitting |   prompt 122/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.513  max_d_mean=6.58e-03
+2026-09-06 01:12:45,126 | rank=1 | INFO | jlens.fitting |   prompt 123/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.483  max_d_mean=5.95e-03
+2026-09-06 01:13:45,511 | rank=0 | INFO | jlens.fitting |   prompt 124/125  seq_len=128 n_valid=111  138s  max||J||/sqrt(d)=1.471  max_d_mean=6.48e-03
+2026-09-06 01:14:01,133 | rank=2 | INFO | jlens.fitting |   prompt 123/125  seq_len=128 n_valid=111  132s  max||J||/sqrt(d)=1.385  max_d_mean=5.08e-03
+2026-09-06 01:14:55,869 | rank=1 | INFO | jlens.fitting |   prompt 124/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.439  max_d_mean=5.26e-03
+2026-09-06 01:16:03,408 | rank=0 | INFO | jlens.fitting |   prompt 125/125  seq_len=127 n_valid=110  138s  max||J||/sqrt(d)=1.469  max_d_mean=5.50e-03
+2026-09-06 01:16:03,926 | rank=0 | INFO | jlens.fitting | fit: done, 125 prompts
+2026-09-06 01:16:11,861 | rank=2 | INFO | jlens.fitting |   prompt 124/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.440  max_d_mean=5.37e-03
+2026-09-06 01:17:06,633 | rank=1 | INFO | jlens.fitting |   prompt 125/125  seq_len=128 n_valid=111  131s  max||J||/sqrt(d)=1.500  max_d_mean=6.53e-03
+2026-09-06 01:17:07,258 | rank=1 | INFO | jlens.fitting | fit: done, 125 prompts
+2026-09-06 01:18:21,145 | rank=2 | INFO | jlens.fitting |   prompt 125/125  seq_len=128 n_valid=111  129s  max||J||/sqrt(d)=1.466  max_d_mean=5.66e-03
+2026-09-06 01:18:21,848 | rank=2 | INFO | jlens.fitting | fit: done, 125 prompts
+{
+  "artifacts": {
+    "layer_files": [],
+    "lens": {
+      "bytes": 78646161,
+      "dtype": "float16",
+      "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/stages/0500/lens.pt",
+      "sha256": "19154d56442411bc7f3f3a6fb62b86e0cb3ceff420175adcf4bb6031807ce6bb"
+    }
+  },
+  "elapsed_seconds_rank_zero": 16585.040676449426,
+  "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+  "fit_config": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/fit_config.json",
+  "fit_config_sha256": "2bdc8d81ee1543a993f1c72e8e589eaeafe5093ac14015b8b882f806ae99098d",
+  "num_prompts": 500,
+  "rank_results": [
+    {
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-000/checkpoint.pt",
+      "elapsed_seconds": 16445.330592280254,
+      "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+      "local_rank": 0,
+      "model_manifest": {
+        "files": 10,
+        "model_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-manifest.json",
+        "sha256": "401d0fb207e9fc24a08e022a95bcad609e96883d66b162348d4a9140175be524",
+        "total_bytes": 18177218144
+      },
+      "num_prompts_global": 500,
+      "num_prompts_local": 125,
+      "peak_reserved_gib": 12.005859375,
+      "prompt_indices": [
+        1000,
+        1004,
+        1008,
+        1012,
+        1016,
+        1020,
+        1024,
+        1028,
+        1032,
+        1036,
+        1040,
+        1044,
+        1048,
+        1052,
+        1056,
+        1060,
+        1064,
+        1068,
+        1072,
+        1076,
+        1080,
+        1084,
+        1088,
+        1092,
+        1096,
+        1100,
+        1104,
+        1108,
+        1112,
+        1116,
+        1120,
+        1124,
+        1128,
+        1132,
+        1136,
+        1140,
+        1144,
+        1148,
+        1152,
+        1156,
+        1160,
+        1164,
+        1168,
+        1172,
+        1176,
+        1180,
+        1184,
+        1188,
+        1192,
+        1196,
+        1200,
+        1204,
+        1208,
+        1212,
+        1216,
+        1220,
+        1224,
+        1228,
+        1232,
+        1236,
+        1240,
+        1244,
+        1248,
+        1252,
+        1256,
+        1260,
+        1264,
+        1268,
+        1272,
+        1276,
+        1280,
+        1284,
+        1288,
+        1292,
+        1296,
+        1300,
+        1304,
+        1308,
+        1312,
+        1316,
+        1320,
+        1324,
+        1328,
+        1332,
+        1336,
+        1340,
+        1344,
+        1348,
+        1352,
+        1356,
+        1360,
+        1364,
+        1368,
+        1372,
+        1376,
+        1380,
+        1384,
+        1388,
+        1392,
+        1396,
+        1400,
+        1404,
+        1408,
+        1412,
+        1416,
+        1420,
+        1424,
+        1428,
+        1432,
+        1436,
+        1440,
+        1444,
+        1448,
+        1452,
+        1456,
+        1460,
+        1464,
+        1468,
+        1472,
+        1476,
+        1480,
+        1484,
+        1488,
+        1492,
+        1496
+      ],
+      "rank": 0,
+      "schema_version": 1,
+      "shard_lens": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-000/lens.pt",
+      "status": "completed",
+      "world_size": 4
+    },
+    {
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-001/checkpoint.pt",
+      "elapsed_seconds": 16508.6324466737,
+      "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+      "local_rank": 1,
+      "model_manifest": {
+        "files": 10,
+        "model_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-manifest.json",
+        "sha256": "401d0fb207e9fc24a08e022a95bcad609e96883d66b162348d4a9140175be524",
+        "total_bytes": 18177218144
+      },
+      "num_prompts_global": 500,
+      "num_prompts_local": 125,
+      "peak_reserved_gib": 12.005859375,
+      "prompt_indices": [
+        1001,
+        1005,
+        1009,
+        1013,
+        1017,
+        1021,
+        1025,
+        1029,
+        1033,
+        1037,
+        1041,
+        1045,
+        1049,
+        1053,
+        1057,
+        1061,
+        1065,
+        1069,
+        1073,
+        1077,
+        1081,
+        1085,
+        1089,
+        1093,
+        1097,
+        1101,
+        1105,
+        1109,
+        1113,
+        1117,
+        1121,
+        1125,
+        1129,
+        1133,
+        1137,
+        1141,
+        1145,
+        1149,
+        1153,
+        1157,
+        1161,
+        1165,
+        1169,
+        1173,
+        1177,
+        1181,
+        1185,
+        1189,
+        1193,
+        1197,
+        1201,
+        1205,
+        1209,
+        1213,
+        1217,
+        1221,
+        1225,
+        1229,
+        1233,
+        1237,
+        1241,
+        1245,
+        1249,
+        1253,
+        1257,
+        1261,
+        1265,
+        1269,
+        1273,
+        1277,
+        1281,
+        1285,
+        1289,
+        1293,
+        1297,
+        1301,
+        1305,
+        1309,
+        1313,
+        1317,
+        1321,
+        1325,
+        1329,
+        1333,
+        1337,
+        1341,
+        1345,
+        1349,
+        1353,
+        1357,
+        1361,
+        1365,
+        1369,
+        1373,
+        1377,
+        1381,
+        1385,
+        1389,
+        1393,
+        1397,
+        1401,
+        1405,
+        1409,
+        1413,
+        1417,
+        1421,
+        1425,
+        1429,
+        1433,
+        1437,
+        1441,
+        1445,
+        1449,
+        1453,
+        1457,
+        1461,
+        1465,
+        1469,
+        1473,
+        1477,
+        1481,
+        1485,
+        1489,
+        1493,
+        1497
+      ],
+      "rank": 1,
+      "schema_version": 1,
+      "shard_lens": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-001/lens.pt",
+      "status": "completed",
+      "world_size": 4
+    },
+    {
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-002/checkpoint.pt",
+      "elapsed_seconds": 16583.28635374643,
+      "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+      "local_rank": 2,
+      "model_manifest": {
+        "files": 10,
+        "model_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-manifest.json",
+        "sha256": "401d0fb207e9fc24a08e022a95bcad609e96883d66b162348d4a9140175be524",
+        "total_bytes": 18177218144
+      },
+      "num_prompts_global": 500,
+      "num_prompts_local": 125,
+      "peak_reserved_gib": 12.005859375,
+      "prompt_indices": [
+        1002,
+        1006,
+        1010,
+        1014,
+        1018,
+        1022,
+        1026,
+        1030,
+        1034,
+        1038,
+        1042,
+        1046,
+        1050,
+        1054,
+        1058,
+        1062,
+        1066,
+        1070,
+        1074,
+        1078,
+        1082,
+        1086,
+        1090,
+        1094,
+        1098,
+        1102,
+        1106,
+        1110,
+        1114,
+        1118,
+        1122,
+        1126,
+        1130,
+        1134,
+        1138,
+        1142,
+        1146,
+        1150,
+        1154,
+        1158,
+        1162,
+        1166,
+        1170,
+        1174,
+        1178,
+        1182,
+        1186,
+        1190,
+        1194,
+        1198,
+        1202,
+        1206,
+        1210,
+        1214,
+        1218,
+        1222,
+        1226,
+        1230,
+        1234,
+        1238,
+        1242,
+        1246,
+        1250,
+        1254,
+        1258,
+        1262,
+        1266,
+        1270,
+        1274,
+        1278,
+        1282,
+        1286,
+        1290,
+        1294,
+        1298,
+        1302,
+        1306,
+        1310,
+        1314,
+        1318,
+        1322,
+        1326,
+        1330,
+        1334,
+        1338,
+        1342,
+        1346,
+        1350,
+        1354,
+        1358,
+        1362,
+        1366,
+        1370,
+        1374,
+        1378,
+        1382,
+        1386,
+        1390,
+        1394,
+        1398,
+        1402,
+        1406,
+        1410,
+        1414,
+        1418,
+        1422,
+        1426,
+        1430,
+        1434,
+        1438,
+        1442,
+        1446,
+        1450,
+        1454,
+        1458,
+        1462,
+        1466,
+        1470,
+        1474,
+        1478,
+        1482,
+        1486,
+        1490,
+        1494,
+        1498
+      ],
+      "rank": 2,
+      "schema_version": 1,
+      "shard_lens": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-002/lens.pt",
+      "status": "completed",
+      "world_size": 4
+    },
+    {
+      "checkpoint": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-003/checkpoint.pt",
+      "elapsed_seconds": 16127.980164397508,
+      "experiment_image": "<CONTAINER_REGISTRY>/pfm/nlp@sha256:eeabe63be70b082da7f164a779b2683d11a7d911ae02d24fff79124be9aa419e",
+      "local_rank": 3,
+      "model_manifest": {
+        "files": 10,
+        "model_dir": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-terminal",
+        "path": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-capability-dp4-r1/arms/arm-00-j-full-s100-primary/checkpoint-manifest.json",
+        "sha256": "401d0fb207e9fc24a08e022a95bcad609e96883d66b162348d4a9140175be524",
+        "total_bytes": 18177218144
+      },
+      "num_prompts_global": 500,
+      "num_prompts_local": 125,
+      "peak_reserved_gib": 12.005859375,
+      "prompt_indices": [
+        1003,
+        1007,
+        1011,
+        1015,
+        1019,
+        1023,
+        1027,
+        1031,
+        1035,
+        1039,
+        1043,
+        1047,
+        1051,
+        1055,
+        1059,
+        1063,
+        1067,
+        1071,
+        1075,
+        1079,
+        1083,
+        1087,
+        1091,
+        1095,
+        1099,
+        1103,
+        1107,
+        1111,
+        1115,
+        1119,
+        1123,
+        1127,
+        1131,
+        1135,
+        1139,
+        1143,
+        1147,
+        1151,
+        1155,
+        1159,
+        1163,
+        1167,
+        1171,
+        1175,
+        1179,
+        1183,
+        1187,
+        1191,
+        1195,
+        1199,
+        1203,
+        1207,
+        1211,
+        1215,
+        1219,
+        1223,
+        1227,
+        1231,
+        1235,
+        1239,
+        1243,
+        1247,
+        1251,
+        1255,
+        1259,
+        1263,
+        1267,
+        1271,
+        1275,
+        1279,
+        1283,
+        1287,
+        1291,
+        1295,
+        1299,
+        1303,
+        1307,
+        1311,
+        1315,
+        1319,
+        1323,
+        1327,
+        1331,
+        1335,
+        1339,
+        1343,
+        1347,
+        1351,
+        1355,
+        1359,
+        1363,
+        1367,
+        1371,
+        1375,
+        1379,
+        1383,
+        1387,
+        1391,
+        1395,
+        1399,
+        1403,
+        1407,
+        1411,
+        1415,
+        1419,
+        1423,
+        1427,
+        1431,
+        1435,
+        1439,
+        1443,
+        1447,
+        1451,
+        1455,
+        1459,
+        1463,
+        1467,
+        1471,
+        1475,
+        1479,
+        1483,
+        1487,
+        1491,
+        1495,
+        1499
+      ],
+      "rank": 3,
+      "schema_version": 1,
+      "shard_lens": "<SHARED_STORAGE>/devin/jspace-plasticity/runs/q35-final-fresh-lens-r1/fits/primary/shards/rank-003/lens.pt",
+      "status": "completed",
+      "world_size": 4
+    }
+  ],
+  "reference_equivalence": null,
+  "requires_section_2_2_validation": true,
+  "schema_version": 1,
+  "scientifically_usable_lens": false,
+  "status": "completed"
+}
