@@ -29,22 +29,31 @@ dependency needs.
 docker build -f runtime/Dockerfile -t jspace-plasticity:local .
 ```
 
-The exact GPU runtime is pinned in `runtime/trl-runtime/pyproject.toml` and
-`runtime/trl-runtime/uv.lock`: Torch 2.10.0+cu129, Transformers 5.15.0,
-TRL 1.9.2, vLLM 0.19.1, and `jlens` at
-`581d398613e5602a5af361e1c34d3a92ea82ba8e`.
+There is one lock for the whole repository: `pyproject.toml` and `uv.lock` pin
+Torch 2.10.0+cu129, Transformers 5.15.0, and `jlens` at
+`581d398613e5602a5af361e1c34d3a92ea82ba8e` — the versions the reported runs
+executed under.
 
-The root `pyproject.toml` / `uv.lock` are the *development* environment (they
-declare Torch 2.9.1). Do not substitute them when claiming exact GPU
-reproduction.
+The training loop is plain PyTorch: `torch.optim.AdamW` with the lesion applied
+through forward hooks. There is no TRL, vLLM, accelerate or RL machinery
+involved, so the image installs released wheels only and needs no CUDA
+toolchain or source build.
 
-If you would rather not use Docker, `runtime/activate_trl_runtime.sh` and
-`runtime/verify_trl_runtime.py` set up and check the same environment directly.
+Everything below runs through [uv](https://docs.astral.sh/uv/). `uv sync`
+installs the project and its pinned dependencies, and `uv run` executes against
+that environment, so no manual `PYTHONPATH` or venv activation is needed:
+
+```bash
+uv sync
+```
+
+Torch is pinned to the CUDA wheel index, so this resolves on Linux with CUDA —
+the same platform the training needs anyway.
 
 ## 2. Fetch the published lens
 
 ```bash
-PYTHONPATH=src python -m jspace_plasticity.lens.download_published \
+uv run jspace-download-published-lens \
   --manifest data/lens/neuronpedia-qwen3.5-4b-n1000-b62c3906.json \
   --output-dir /your/storage/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000
 ```
@@ -70,13 +79,13 @@ To rebuild the cohort against your own model instance instead (eligibility is
 model-dependent, so a different base checkpoint can yield a different set):
 
 ```bash
-PYTHONPATH=src python -m jspace_plasticity.evals.synthetic_expansion_triage --help
+uv run jspace-expansion-triage --help
 ```
 
 ## 4. Launch training
 
 ```bash
-PYTHONPATH=src python -m jspace_plasticity.synthetic_recovery_sft \
+uv run jspace-recovery-sft \
   --design data/evals/q35-final-capability-20260905.json \
   --data data/closedbook/closedbook-geo-s20260825.jsonl \
   --data-sha256 be15a088b4cab6cb9ec7f21664d025c28ead3dd836f2c362b673affe00370084 \
@@ -88,9 +97,9 @@ PYTHONPATH=src python -m jspace_plasticity.synthetic_recovery_sft \
   --output-dir /your/output/final-training
 ```
 
-Run `python -m jspace_plasticity.synthetic_recovery_sft --help` for the full
-flag list. The entrypoint also takes `--design-sha256`, `--data-sha256`,
-`--lens-sha256` and `--eligible-sha256`; the checks **intentionally fail** on
+Run `uv run jspace-recovery-sft --help` for the full flag list. The entrypoint
+also takes `--design-sha256`, `--data-sha256`, `--lens-sha256` and
+`--eligible-sha256`; the checks **intentionally fail** on
 changed or missing source artifacts, which is what keeps the receipts honest. If
 you retrain, create a *new* design file bound to your own storage, output and
 lens hashes rather than editing the historical one — that preserves the original
@@ -148,11 +157,10 @@ Fitting a lens to your own retrained checkpoint is what rules out the
 
 ```bash
 # Fit (torchrun launches independent ranks; this is not collective training)
-PYTHONPATH=src torchrun --nproc-per-node=<N> \
-  -m jspace_plasticity.lens.fit_exact_dp --help
+uv run torchrun --nproc-per-node=<N> -m jspace_plasticity.lens.fit_exact_dp --help
 
 # Evaluate
-PYTHONPATH=src python -m jspace_plasticity.evals.final_fresh_lens --help
+uv run jspace-fresh-lens --help
 ```
 
 Each fresh lens uses 500 fixed WikiText prompts (corpus rows 1000–1499), max

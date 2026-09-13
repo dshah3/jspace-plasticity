@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """CPU-only reproduction of no-grad autocast cache contamination."""
 import hashlib
 import json

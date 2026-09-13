@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "matplotlib==3.11.1",
+#     "numpy==2.5.2",
+# ]
+# ///
 """Generate blog-ready fresh-lens figures and their exact count table."""
 
 import argparse

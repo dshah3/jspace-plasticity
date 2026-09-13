@@ -2,16 +2,23 @@
 
 ## CPU receipt audit (no GPU or model weights)
 
-From the release root, follow README.md to create a Python 3.12+ environment and install requirements-analysis.txt. Run scripts/verify_release.py and scripts/audit_release.py. The latter writes training-audit.json and fresh-lens-audit.json in the requested output directory. It checks 2,180+1,424 saved prediction rows and the numerical/provenance invariants. The code never launches a GPU job.
+From the repository root, with [uv](https://docs.astral.sh/uv/) installed:
+
+```bash
+uv run scripts/verify_release.py
+uv run scripts/audit_release.py --output .audit-output
+```
+
+Each analysis script declares its own dependencies as PEP 723 inline metadata, so uv builds a throwaway environment per script; nothing needs to be installed first and the GPU stack is never pulled in. The audit writes training-audit.json and fresh-lens-audit.json in the requested output directory. It checks 2,180+1,424 saved prediction rows and the numerical/provenance invariants. The code never launches a GPU job.
 
 Training audit checks: exact flags versus predicted/target token IDs, bound hashes/configs/image, identical initial outputs,400 sample IDs per arm and epoch order, country separation,424 first-step gradient-bearing tensors, fixed LR schedule, finite losses/gradients, and the calibration winner's exact token parity. Fresh audit checks: all eight conditions, published output parity, clean preservation across lenses, two 500-prompt fits and their disjoint shard indices, model/lens provenance, and paired country bootstrap intervals. Full activation re-execution is not implied by consistency of saved receipts.
 
 ## Regenerate figures
 
 ```bash
-MPLCONFIGDIR=/tmp/jspace-mpl python scripts/plot_final_capability.py \
+uv run scripts/plot_final_capability.py \
   --audit results/final-training/RECEIPT_AUDIT.json --output .audit-output/figures
-MPLCONFIGDIR=/tmp/jspace-mpl python scripts/plot_final_fresh_lens.py \
+uv run scripts/plot_final_fresh_lens.py \
   --audit results/fresh-lens/RECEIPT_AUDIT.json --output .audit-output/figures
 ```
 
@@ -19,9 +26,9 @@ The PDF/SVG are suitable for editing/export. Plot CSV contains exact counts and 
 
 ## Code tests and environment locks
 
-The included full test suite uses PyTorch, Transformers, jlens, NumPy, Matplotlib, PyYAML and pytest. The experiment workspace ran 373 tests successfully. This release also runs the suite from its copied source/data/config paths. Use `PYTHONPATH=src python -m pytest -q tests` in a compatible development environment. requirements-analysis.txt is intentionally sufficient only for CPU receipt audits/figures, not the model code tests.
+The test suite uses PyTorch, Transformers, jlens, NumPy, Matplotlib, PyYAML and pytest. Run it with `uv sync && uv run pytest -q tests`. Unlike the audit commands above this installs the full stack, and because Torch is pinned to the CUDA wheel index it resolves only on Linux with CUDA; on other platforms `uv sync` fails by design. The scripts' own PEP 723 metadata is intentionally sufficient only for the CPU receipt audits and figures, not for the model code tests.
 
-The root pyproject.toml/uv.lock preserve the project's development environment (including its Torch 2.9.1 declaration). They are NOT the executed GPU runtime lock. The actual CUDA runtime is pinned in runtime/trl-runtime/pyproject.toml and runtime/trl-runtime/uv.lock: Torch 2.10.0+cu129, Transformers 5.15.0, TRL 1.9.2, vLLM 0.19.1 and jlens at 581d398613e5602a5af361e1c34d3a92ea82ba8e. Per-run receipts record runtime details. Do not substitute the root development lock when claiming exact GPU reproduction.
+pyproject.toml and uv.lock are the single environment definition for this repository: Torch 2.10.0+cu129, Transformers 5.15.0, and jlens at 581d398613e5602a5af361e1c34d3a92ea82ba8e, matching the runtime the reported runs executed under. The dependency set is only what the code imports; the training loop is plain PyTorch, so no TRL, vLLM or accelerate is installed. Per-run receipts record the runtime details observed at execution time.
 
 ## Public runtime build
 
@@ -42,7 +49,7 @@ Base model: Qwen/Qwen3.5-4B at revision 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
 Published lens: the pinned public Hugging Face artifact is described in data/lens/neuronpedia-qwen3.5-4b-n1000-b62c3906.json (406332644 bytes, SHA-256 1f9a8f8fd593f0ffec1a9640993257ca4560f8ae3e5602315643d5cc6818534e). Download and verify it using:
 
 ```bash
-PYTHONPATH=src python -m jspace_plasticity.lens.download_published \
+uv run jspace-download-published-lens \
   --manifest data/lens/neuronpedia-qwen3.5-4b-n1000-b62c3906.json \
   --output-dir /your/storage/lenses/Qwen3.5-4B/neuronpedia-b62c3906-n1000
 ```
@@ -51,9 +58,9 @@ The three 500-prompt fresh lenses are not bundled here; request them, or refit t
 
 The source entrypoints are:
 
-- Training/reduction: `python -m jspace_plasticity.synthetic_recovery_sft --help`.
-- Exact lens fitting: `python -m jspace_plasticity.lens.fit_exact_dp --help`, launched with torchrun (independent ranks, no collective training).
-- Fresh evaluation/reduction: `python -m jspace_plasticity.evals.final_fresh_lens --help`.
+- Training/reduction: `uv run jspace-recovery-sft --help`.
+- Exact lens fitting: `uv run torchrun --nproc-per-node=<N> -m jspace_plasticity.lens.fit_exact_dp --help` (independent ranks, no collective training).
+- Fresh evaluation/reduction: `uv run jspace-fresh-lens --help`.
 
 Exact executed shell commands are in docs/EXECUTED_COMMANDS.md. The Kubernetes/Volcano job manifests and registry-bound Dockerfiles used for the original cluster runs are **not** part of this public repository; see TRAINING.md for a cluster-independent path. Paths that appear as `<SHARED_STORAGE>`, `<HOME>`, `<CONTAINER_REGISTRY>` or `<AWS_ACCOUNT_ID>` in receipts and configs are redacted placeholders for the original private environment, and must be replaced with your own storage, registry and output directories.
 

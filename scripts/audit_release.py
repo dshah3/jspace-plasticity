@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "numpy==2.5.2",
+# ]
+# ///
 """Recompute both completed result audits with CPU-only dependencies."""
 
 import argparse

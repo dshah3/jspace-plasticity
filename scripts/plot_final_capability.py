@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "matplotlib==3.11.1",
+#     "numpy==2.5.2",
+# ]
+# ///
 """Plot audited final experiment counts without running any model."""
 
 import argparse

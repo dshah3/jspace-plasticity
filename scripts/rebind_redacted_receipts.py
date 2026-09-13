@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Rebind receipt-to-receipt hashes after the publication redaction pass.
 
 Publishing this experiment required replacing the private container registry,
@@ -32,11 +36,12 @@ def sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def write_json(path: Path, payload: dict) -> None:
-    path.write_text(json.dumps(payload, indent=2) + "\n")
+def write_json(path: Path, payload: dict, dry_run: bool) -> None:
+    if not dry_run:
+        path.write_text(json.dumps(payload, indent=2) + "\n")
 
 
-def rebind_run(run: Path, design: Path, changes: list[str]) -> None:
+def rebind_run(run: Path, design: Path, changes: list[str], dry_run: bool) -> None:
     """Rebind one run directory against its (redacted) design file."""
     design_hash = sha(design)
     summary_path = run / "summary.json"
@@ -57,12 +62,12 @@ def rebind_run(run: Path, design: Path, changes: list[str]) -> None:
             result = json.loads(result_path.read_text())
             if result.get("design_sha256") != design_hash:
                 result["design_sha256"] = design_hash
-                write_json(result_path, result)
+                write_json(result_path, result, dry_run)
                 changes.append(f"{result_path.relative_to(ROOT)}: design_sha256")
 
-    # A fresh-lens condition binds the hash of the 500-prompt fit that produced
-    # its lens. Do this after design_sha256 above, since both live in the same
-    # result.json and the summary's result_sha256 map below covers them.
+    # A fresh-lens condition binds the hash of the 500-prompt fit that
+    # produced its lens. Do this after design_sha256 above, since both live in
+    # the same result.json and the summary's result_sha256 map below covers it.
     for fit_result in sorted(run.glob("fits/*/stages/0500/result.json")):
         model = fit_result.parents[2].name
         condition_path = run / "conditions" / f"{model}-{model}_fresh" / "result.json"
@@ -72,7 +77,7 @@ def rebind_run(run: Path, design: Path, changes: list[str]) -> None:
         stage_hash = sha(fit_result)
         if condition.get("lens", {}).get("fit_result_sha256") != stage_hash:
             condition["lens"]["fit_result_sha256"] = stage_hash
-            write_json(condition_path, condition)
+            write_json(condition_path, condition, dry_run)
             changes.append(
                 f"{condition_path.relative_to(ROOT)}: lens.fit_result_sha256"
             )
@@ -84,13 +89,9 @@ def rebind_run(run: Path, design: Path, changes: list[str]) -> None:
     if isinstance(result_map, dict):
         for key in list(result_map):
             leaf = Path(key).parent.name if key.endswith("result.json") else key
+            options = (run / "arms" / leaf, run / "conditions" / leaf, run / leaf)
             candidate = next(
-                (
-                    c
-                    for c in (run / "arms" / leaf, run / "conditions" / leaf, run / leaf)
-                    if (c / "result.json").exists()
-                ),
-                None,
+                (c for c in options if (c / "result.json").exists()), None
             )
             if candidate is None:
                 continue
@@ -101,14 +102,15 @@ def rebind_run(run: Path, design: Path, changes: list[str]) -> None:
                     f"{summary_path.relative_to(ROOT)}: result_sha256[{leaf}]"
                 )
 
-    write_json(summary_path, summary)
+    write_json(summary_path, summary, dry_run)
 
     # The sidecar must follow the summary it covers.
     sidecar = run / "SUMMARY.sha256"
     if sidecar.exists():
         summary_hash = sha(summary_path)
         if sidecar.read_text().split()[0] != summary_hash:
-            sidecar.write_text(f"{summary_hash}  summary.json\n")
+            if not dry_run:
+                sidecar.write_text(f"{summary_hash}  summary.json\n")
             changes.append(f"{sidecar.relative_to(ROOT)}")
 
 
@@ -121,21 +123,23 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    evals = ROOT / "data/evals"
     runs = [
-        (ROOT / "results/final-training", ROOT / "data/evals/q35-final-capability-20260905.json"),
-        (ROOT / "results/fresh-lens", ROOT / "data/evals/q35-final-fresh-lens-20260905.json"),
+        (ROOT / "results/final-training", evals / "q35-final-capability-20260905.json"),
+        (ROOT / "results/fresh-lens", evals / "q35-final-fresh-lens-20260905.json"),
     ]
 
     changes: list[str] = []
     for run, design in runs:
         if run.exists() and design.exists():
-            rebind_run(run, design, changes)
+            rebind_run(run, design, changes, args.check)
 
     if not changes:
         print("Receipt bindings already consistent; nothing to rebind.")
         return
 
-    print(f"Rebound {len(changes)} binding(s):")
+    verb = "Would rebind" if args.check else "Rebound"
+    print(f"{verb} {len(changes)} binding(s):")
     for change in changes:
         print(f"  {change}")
 

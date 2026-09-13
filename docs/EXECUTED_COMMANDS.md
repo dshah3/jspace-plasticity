@@ -8,6 +8,14 @@ Paths shown as `<SHARED_STORAGE>` and `/opt/experiment` were the cluster's share
 mount and the image's checkout root. Substitute your own. See TRAINING.md for a
 cluster-independent walkthrough.
 
+These commands run inside the original image, which was shared across the wider
+project and therefore carried a TRL/vLLM runtime that this experiment never
+used. The `activate_trl_runtime.sh` / `verify_trl_runtime.py` helpers and the
+`TRL_RUNTIME_*` variables below belong to that shared image and are **not** part
+of this repository: the reported work is plain supervised fine-tuning, and
+`runtime/Dockerfile` builds only what it actually needs. Read the lines below as
+a record of what ran, not as a script to execute.
+
 ## Fresh-lens fit and evaluation
 
 Ran on 8× A100-SXM4-80GB, two concurrent 4-GPU fits followed by 8 single-GPU evaluations.

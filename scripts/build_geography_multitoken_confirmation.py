@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Build the fresh held-out multi-token geography confirmation set."""
 
 from __future__ import annotations

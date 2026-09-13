@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import subprocess
 from itertools import pairwise
 from pathlib import Path
 
@@ -170,65 +169,3 @@ def test_failed_tp_equivalence_is_ineligible() -> None:
     ]
     report = compare(results, prompts=1000)
     assert report["recommendations"]["8"]["label"] == "tp1-db1"
-
-
-def test_crusoe_benchmark_manifest_is_bounded_and_bf16_exact() -> None:
-    manifest = (ROOT / "infra" / "crusoe_exact_lens_benchmark_job.yaml").read_text()
-    assert "Qwen/Qwen3-32B" in manifest
-    assert "9216db5781bf21249d130ec9da846c4624c16137" in manifest
-    assert "--coordinate-blocks 2" in manifest
-    assert "--source-layer-count 25" in manifest
-    assert "jspace_plasticity.lens.benchmark_exact" in manifest
-    assert "fp8" not in manifest.lower()
-    assert "nvidia.com/gpu: ${GPU_COUNT}" in manifest
-    assert "<SHARED_STORAGE>/devin/" in manifest
-    assert "refusing to overwrite non-empty benchmark directory" in manifest
-
-
-def test_experiment_overlay_installs_git_before_locked_jlens_sync() -> None:
-    dockerfile = (ROOT / "infra" / "Dockerfile.experiment-overlay").read_text()
-    git_install = dockerfile.index("apt-get install -y --no-install-recommends git")
-    runtime_lock = dockerfile.index(
-        "COPY infra/trl-runtime/pyproject.toml infra/trl-runtime/uv.lock"
-    )
-    frozen_sync = dockerfile.index("uv sync --frozen --no-dev --no-install-project")
-    assert git_install < runtime_lock < frozen_sync
-    assert "rm -rf /var/lib/apt/lists/*" in dockerfile
-
-
-@pytest.mark.parametrize(
-    ("topology", "gpu_count", "dim_batch"),
-    [("dp1", "1", "1"), ("tp2", "2", "4"), ("tp4", "4", "8")],
-)
-def test_benchmark_renderer_is_guarded_and_parameterized(
-    topology: str, gpu_count: str, dim_batch: str
-) -> None:
-    image = "example.invalid/repo@sha256:" + "a" * 64
-    completed = subprocess.run(
-        ["bash", "scripts/crusoe_exact_lens_benchmark_job.sh", "render", topology],
-        cwd=ROOT,
-        env={"PATH": "/usr/bin:/bin", "EXPERIMENT_IMAGE": image},
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    revision = "r1" if topology == "dp1" else "r2"
-    rendered_path = ROOT / "rendered" / f"devin-jlens-exact-{topology}-{revision}.yaml"
-    rendered = rendered_path.read_text()
-    assert f'nvidia.com/gpu: {gpu_count}' in rendered
-    assert f'--dim-batch "{dim_batch}"' in rendered
-    assert "${GPU_COUNT}" not in rendered
-    assert "rendered:" in completed.stdout
-
-
-def test_benchmark_launcher_requires_immutable_image_digest() -> None:
-    completed = subprocess.run(
-        ["bash", "scripts/crusoe_exact_lens_benchmark_job.sh", "render", "dp1"],
-        cwd=ROOT,
-        env={"PATH": "/usr/bin:/bin", "EXPERIMENT_IMAGE": "mutable:latest"},
-        check=False,
-        capture_output=True,
-        text=True,
-    )
-    assert completed.returncode == 2
-    assert "immutable ECR sha256" in completed.stderr

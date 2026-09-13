@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Verify the top-level relative SHA256SUMS; standard library only."""
 
 import hashlib

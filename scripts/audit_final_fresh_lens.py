@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "numpy==2.5.2",
+# ]
+# ///
 """CPU-only audit of fresh-lens predictions, fitting provenance and paired effects."""
 
 from __future__ import annotations

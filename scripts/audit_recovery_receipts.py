@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "numpy==2.5.2",
+# ]
+# ///
 """CPU-only audit and probe refit; never loads model weights or submits jobs."""
 
 from __future__ import annotations

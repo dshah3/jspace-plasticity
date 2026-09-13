@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import subprocess
 from pathlib import Path
 
 import pytest
@@ -173,60 +172,3 @@ def test_fp32_merge_uses_rank_sums_not_fp16_shards(tmp_path: Path) -> None:
     assert lens.source_layers == [0, 2]
     assert torch.allclose(lens.jacobians[0], torch.full((2, 2), 5 / 3))
     assert torch.allclose(lens.jacobians[2], torch.full((2, 2), 10 / 3))
-
-
-def test_dp8_manifest_has_no_distributed_model_collectives() -> None:
-    manifest = (ROOT / "infra" / "crusoe_exact_lens_fit_dp8_job.yaml").read_text()
-    source = (
-        ROOT / "src" / "jspace_plasticity" / "lens" / "fit_exact_dp.py"
-    ).read_text()
-    assert "nvidia.com/gpu: 8" in manifest
-    assert "nvidia.com/hostdev: 8" in manifest
-    assert "--nproc_per_node=8" in manifest
-    assert "--dim-batch 1" in manifest
-    assert "Qwen/Qwen3-32B" in manifest
-    assert "9216db5781bf21249d130ec9da846c4624c16137" in manifest
-    assert "<SHARED_STORAGE>/devin/" in manifest
-    assert "init_process_group" not in source
-    assert "dist.barrier" not in source
-
-
-@pytest.mark.parametrize(
-    ("stage", "job_name", "stage_number", "num_prompts", "exports"),
-    [
-        ("gate8", "devin-jlens-a-dp8-gate8-r2", "0008", "8", False),
-        ("pilot64", "devin-jlens-a-dp8-pilot64-r1", "0064", "64", True),
-        ("pilot256", "devin-jlens-a-dp8-pilot256-r1", "0256", "256", True),
-        ("full1000", "devin-jlens-a-dp8-full1000-r1", "1000", "1000", True),
-    ],
-)
-def test_dp8_renderer_stages_are_guarded_and_resumable(
-    stage: str,
-    job_name: str,
-    stage_number: str,
-    num_prompts: str,
-    exports: bool,
-) -> None:
-    image = "example.invalid/repo@sha256:" + "b" * 64
-    completed = subprocess.run(
-        ["bash", "scripts/crusoe_exact_lens_fit_dp8_job.sh", "render", stage],
-        cwd=ROOT,
-        env={"PATH": "/usr/bin:/bin", "EXPERIMENT_IMAGE": image},
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    rendered = (ROOT / "rendered" / f"{job_name}.yaml").read_text()
-    assert f"name: {job_name}" in rendered
-    assert f'--num-prompts "{num_prompts}"' in rendered
-    assert f"stages/{stage_number}/result.json" in rendered
-    assert f"launcher-{job_name}.log" in rendered
-    expected_flag = "--export-layer-files" if exports else "--no-export-layer-files"
-    assert f"layer_args=({expected_flag})" in rendered
-    assert "resume:   rank-local fp32 checkpoints" in completed.stdout
-
-
-def test_dp8_launcher_requires_exact_confirmation() -> None:
-    source = (ROOT / "scripts" / "crusoe_exact_lens_fit_dp8_job.sh").read_text()
-    assert "submit {gate8|pilot64|pilot256|full1000} --confirm <job-name>" in source
-    assert "kubectl --context crusoe apply" in source

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Freeze outcome-independent folds plus baseline eligibility for rehab SFT."""
 
 from __future__ import annotations

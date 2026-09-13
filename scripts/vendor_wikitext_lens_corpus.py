@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Freeze Qwen-tokenized WikiText chunks for independent lens fits."""
 
 from __future__ import annotations

@@ -45,17 +45,40 @@ per-example prediction and metric is bundled here.
 
 ## Verify the results without a GPU
 
+This repository uses [uv](https://docs.astral.sh/uv/). Every analysis script
+carries PEP 723 inline metadata, so `uv run` resolves what each one needs on the
+fly — there is no environment to create first, and nothing installs the GPU
+stack.
+
 ```bash
-python3.12 -m venv .venv
-.venv/bin/pip install -r requirements-analysis.txt
-.venv/bin/python scripts/verify_release.py
-.venv/bin/python scripts/audit_release.py --output .audit-output
+uv run scripts/verify_release.py
+uv run scripts/audit_release.py --output .audit-output
 ```
 
 The verifier checks every bundled file hash against `SHA256SUMS`. The audits
 recompute saved-token correctness, training order, baseline parity, lens and
 checkpoint bindings, country-grouped uncertainty, and the fresh-lens comparison —
 all without GPUs and without rerunning the language model.
+
+Regenerate the figures the same way:
+
+```bash
+uv run scripts/plot_final_capability.py \
+  --audit results/final-training/RECEIPT_AUDIT.json --output .audit-output/figures
+uv run scripts/plot_final_fresh_lens.py \
+  --audit results/fresh-lens/RECEIPT_AUDIT.json --output .audit-output/figures
+```
+
+If you would rather have one environment than a per-script one:
+
+```bash
+uv sync --only-group analysis
+```
+
+Working on the model code is a different matter. `uv sync` installs the whole
+project, whose Torch is pinned to the CUDA wheel index, so it resolves only on
+Linux with CUDA — it will fail on macOS. On a suitable machine, `uv sync` then
+`uv run pytest -q tests` runs the test suite.
 
 ## Run the training yourself
 
@@ -68,7 +91,9 @@ intervention and optimizer setting that produced the reported result.
 This repository is scoped to three things: the **ablation**, the **lens
 refitting**, and the **probes**. Code for unrelated task families explored along
 the way (GSM8K, HotpotQA, cipher, silent-arithmetic, graph tasks, the TRL/veRL RL
-stacks) is not included.
+stacks) is not included. The training here is plain supervised fine-tuning — a
+`torch.optim.AdamW` loop with the lesion applied through forward hooks — so the
+dependency set is just Torch, Transformers, `jlens`, NumPy and PyYAML.
 
 | Path | Contents |
 |---|---|
@@ -84,7 +109,7 @@ stacks) is not included.
 | `figures/` | PNG/PDF/SVG exports plus the source CSVs behind every figure. |
 | `data/` | Frozen task source, GeoNames extracts with attribution, WikiText manifest, the eligible training cohort, and the design files. |
 | `docs/` | Experiment review, reproducibility guide, executed commands, related work. |
-| `runtime/` | Public Dockerfile and the exact pinned GPU runtime locks. |
+| `runtime/` | Dockerfile for the GPU training environment. |
 | `scripts/`, `tests/` | Verification/audit/plotting scripts and the test suite. |
 
 Numbers behind the write-up's figures live in
@@ -145,7 +170,7 @@ rather than the original internal archive.
 The consequence worth stating plainly: you can verify this repository is
 internally consistent and that its predictions are the originals, but you cannot
 use these hashes to prove the metadata receipts are byte-identical to the
-internal archive. Run `python3 scripts/rebind_redacted_receipts.py` to confirm
+internal archive. Run `uv run scripts/rebind_redacted_receipts.py` to confirm
 the bindings are stable (it is idempotent and reports no changes on a clean
 tree).
 

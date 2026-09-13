@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Regenerate the top-level SHA256SUMS manifest; standard library only.
 
 Counterpart to scripts/verify_release.py. Run this after any deliberate change

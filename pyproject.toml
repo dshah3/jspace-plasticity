@@ -7,23 +7,26 @@ name = "jspace-plasticity"
 version = "0.1.0"
 description = "J-space ablation and compensatory-learning experiments"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
+# Exactly what the experiment code imports. The training loop is plain
+# PyTorch (torch.optim.AdamW plus forward hooks), so there is no TRL, vLLM,
+# accelerate or datasets dependency. Versions match the runtime the reported
+# runs executed in.
 dependencies = [
-    "datasets>=5.0",
     "jlens @ git+https://github.com/anthropics/jacobian-lens.git@581d398613e5602a5af361e1c34d3a92ea82ba8e",
-    "matplotlib>=3.9",
+    "matplotlib>=3.9,<4",
     "numpy>=2.0",
-    "python-Levenshtein==0.27.3",
-    "sacrebleu==2.5.1",
-    "pyyaml>=6.0",
-    "safetensors>=0.5.2",
-    "torch==2.9.1",
-    "transformers>=5.5,<6",
+    "pyyaml>=6.0,<7",
+    "torch==2.10.0",
+    "transformers>=5.15,<6",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = ["pytest>=8.3", "ruff>=0.9"]
-lens = []
+# Enough to run the CPU receipt audits and regenerate figures, without the
+# GPU stack. The scripts also carry PEP 723 inline metadata, so
+# `uv run scripts/<name>.py` works without syncing the project at all.
+analysis = ["numpy==2.5.2", "matplotlib==3.11.1"]
 
 [project.scripts]
 # Ablation / recovery training
@@ -61,7 +64,7 @@ testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 88
-target-version = "py311"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["B", "E", "F", "I", "UP"]
@@ -70,9 +73,9 @@ select = ["B", "E", "F", "I", "UP"]
 package = true
 
 [[tool.uv.index]]
-name = "pytorch-cu128"
-url = "https://download.pytorch.org/whl/cu128"
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"
 explicit = true
 
 [tool.uv.sources]
-torch = { index = "pytorch-cu128" }
+torch = { index = "pytorch-cu129" }

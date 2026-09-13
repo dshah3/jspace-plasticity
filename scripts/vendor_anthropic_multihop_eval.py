@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Vendor Anthropic's revision-pinned Jacobian-lens multihop evaluation."""
 
 from __future__ import annotations

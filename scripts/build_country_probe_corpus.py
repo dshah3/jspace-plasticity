@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Build city-disjoint country-probe rows from the frozen GeoNames snapshot."""
 
 from __future__ import annotations

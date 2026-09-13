@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Build the frozen GeoNames geography-composition confirmation set."""
 
 from __future__ import annotations

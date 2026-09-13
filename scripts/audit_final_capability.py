@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "numpy==2.5.2",
+# ]
+# ///
 """CPU receipt audit of the final fixed-LR experiment; no model execution."""
 
 from __future__ import annotations
